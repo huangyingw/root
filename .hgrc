@@ -1,0 +1,5 @@
+; User specific Mercurial config file.
+; See the hgrc man page for details.
+
+[ui]
+username = huangyingw@PrimaryStorage <huangyingw@gmail.com>
