@@ -1,10 +1,8 @@
 #! /bin/bash
 
-lv_file= /root/lv.txt
-lvdisplay | grep -o "/dev.*" > $lv_file
+while read -r file; do
+    mp="/media${file#/dev}"
+    echo "$mp"
+    #mkdir -pv "$mp"
+done < <(lvdisplay | grep -o "/dev.*")
 
-cat $lv_file | while read file ; do
-	myval=`echo "$file" | sed 's/dev/media/'`
-	echo $myval
-	#mkdir -p 'echo "$file" | sed 's/dev/media/''
-done
