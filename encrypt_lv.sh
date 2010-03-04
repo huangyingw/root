@@ -2,6 +2,7 @@
 
 while read -r file; do
     mp=$file
+    echo "umount $mp"
     echo "cryptsetup --verbose --verify-passphrase -c aes-cbc-plain luksFormat $mp"
     echo "cryptsetup luksOpen $mp ${file#/dev/volgrp/}"
     myval=`echo "$file" | sed 's/volgrp/mapper/'`
