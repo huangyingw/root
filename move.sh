@@ -7,8 +7,11 @@ then
     echo dir exists
     exit
 else   
- 		rsync -av --recursive --delete -h --times --links --hard-links \
+ 		rsync -av --recursive -h --times --links --hard-links \
 			--stats --progress \
 			"${RSYNCSOURCE}" "${RSYNCTARGET}" \
+		&& rsync -av --recursive -h --times --links --hard-links \
+			 --stats --progress \
+			 "${RSYNCSOURCE}" "${RSYNCTARGET}" \
 		&& rm -frv "${RSYNCSOURCE}"
 fi

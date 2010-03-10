@@ -1,13 +1,4 @@
 #! /bin/bash
-mount /dev/volgrp/av /media/volgrp/av
-mount /dev/volgrp/software /media/volgrp/software
-mount /dev/volgrp/unsafe /media/volgrp/unsafe
-mount /dev/volgrp/xgmm /media/volgrp/xgmm
-mount /dev/volgrp/cartoon /media/volgrp/cartoon
-mount /dev/volgrp/movie /media/volgrp/movie
-mount /dev/volgrp/myproject /media/volgrp/myproject
-mount /dev/volgrp/storage /media/volgrp/storage
-mount /dev/volgrp/vmware /media/volgrp/vmware
 
 source=/media/volgrp/av/
 target=/media/back1/av/
@@ -72,4 +63,4 @@ rsync -av --recursive --delete -h --times --links --hard-links \
 			--stats --progress \
 			"${source}" "${target}"
 
-#shutdown -h now
+shutdown -h now
