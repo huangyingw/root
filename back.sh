@@ -1,21 +1,21 @@
 #! /bin/bash
 
 source=/media/volgrp/av/
-target=/media/back1/av/
+target=/media/archive2/av/
 
 rsync -av --recursive --delete -h --times --links --hard-links \
 			--stats --progress \
 			"${source}" "${target}"
 
 source=/media/volgrp/software/
-target=/media/back1/software/
+target=/media/archive3/software/
 
 rsync -av --recursive --delete -h --times --links --hard-links \
 			--stats --progress \
 			"${source}" "${target}"
 			
 source=/media/volgrp/unsafe/
-target=/media/back1/unsafe/
+target=/media/archive3/unsafe/
 
 rsync -av --recursive --delete -h --times --links --hard-links \
 			--stats --progress \
@@ -58,13 +58,6 @@ rsync -av --recursive --delete -h --times --links --hard-links \
 			
 source=/media/volgrp/vmware/
 target=/media/back2/vmware/
-
-rsync -av --recursive --delete -h --times --links --hard-links \
-			--stats --progress \
-			"${source}" "${target}"
-
-source=/media/volgrp/av/
-target=/media/archive2/av/
 
 rsync -av --recursive --delete -h --times --links --hard-links \
 			--stats --progress \
