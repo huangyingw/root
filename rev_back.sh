@@ -1,70 +1,65 @@
 #! /bin/bash
 
-source=/media/volgrp/av/
-target=/media/back1/av/
+source=/media/back1/av/
+target=/media/volgrp/av/
 
 rsync -av --recursive --delete -h --times --links --hard-links \
 			--stats --progress \
 			"${source}" "${target}"
 
-source=/media/volgrp/software/
-target=/media/back1/software/
+source=/media/back1/software/
+target=/media/volgrp/software/
 
-rsync -av --recursive --delete -h --times --links --hard-links \
-			--stats --progress \
-			"${source}" "${target}"
-			
-source=/media/volgrp/unsafe/
-target=/media/back1/unsafe/
 
 rsync -av --recursive --delete -h --times --links --hard-links \
 			--stats --progress \
 			"${source}" "${target}"
 
-source=/media/volgrp/xgmm/
-target=/media/back2/xgmm/
+source=/media/back1/unsafe/			
+target=/media/volgrp/unsafe/
 
 rsync -av --recursive --delete -h --times --links --hard-links \
 			--stats --progress \
 			"${source}" "${target}"
 
-source=/media/volgrp/cartoon/
-target=/media/back2/cartoon/
+source=/media/back2/xgmm/
+target=/media/volgrp/xgmm/
 
 rsync -av --recursive --delete -h --times --links --hard-links \
 			--stats --progress \
 			"${source}" "${target}"
 
-source=/media/volgrp/movie/
-target=/media/back2/movie/
+source=/media/back2/cartoon/
+target=/media/volgrp/cartoon/
+
 
 rsync -av --recursive --delete -h --times --links --hard-links \
 			--stats --progress \
 			"${source}" "${target}"
 
-source=/media/volgrp/myproject/
-target=/media/back2/myproject/
+source=/media/back2/movie/
+target=/media/volgrp/movie/
 
 rsync -av --recursive --delete -h --times --links --hard-links \
 			--stats --progress \
 			"${source}" "${target}"
 
-source=/media/volgrp/storage/
-target=/media/back2/storage/
-
-rsync -av --recursive --delete -h --times --links --hard-links \
-			--stats --progress \
-			"${source}" "${target}"
-			
-source=/media/volgrp/vmware/
-target=/media/back2/vmware/
+source=/media/back2/myproject/
+target=/media/volgrp/myproject/
 
 rsync -av --recursive --delete -h --times --links --hard-links \
 			--stats --progress \
 			"${source}" "${target}"
 
-source=/media/volgrp/av/
-target=/media/archive2/av/
+source=/media/back2/storage/
+target=/media/volgrp/storage/
+
+rsync -av --recursive --delete -h --times --links --hard-links \
+			--stats --progress \
+			"${source}" "${target}"
+
+source=/media/back2/vmware/			
+target=/media/volgrp/vmware/
 
 rsync -av --recursive --delete -h --times --links --hard-links \
 			--stats --progress \
