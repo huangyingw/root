@@ -10,7 +10,7 @@
 	bi = bisect
 	br = branch
 	ci = commit -am
-	cl = clone
+	cl = clone -v
 	co = checkout
 	ch = cherry
 	chp = cherry-pick
