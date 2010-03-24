@@ -22,7 +22,7 @@
 	me = merge
 	met = mergetool
 	pl = pull
-	ps = push
+	ps = push --all
 	rs = reset
 	rsh = reset --hard
 	rt = remote
@@ -38,3 +38,6 @@
 [branch "dev"]
 	remote = origin
 	merge = refs/heads/dev
+[branch "demo"]
+	remote = origin
+	merge = refs/heads/demo
