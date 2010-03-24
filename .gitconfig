@@ -41,3 +41,5 @@
 [branch "demo"]
 	remote = origin
 	merge = refs/heads/demo
+[core]
+	excludesfile = .gitignore
