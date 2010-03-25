@@ -42,4 +42,4 @@
 	remote = origin
 	merge = refs/heads/demo
 [core]
-	excludesfile = .gitignore
+	excludesfile = /root/.gitignore
