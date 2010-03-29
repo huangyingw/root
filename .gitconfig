@@ -23,6 +23,7 @@
 	met = mergetool
 	pl = pull
 	ps = push --all
+	pst = push --tags
 	rs = reset
 	rsh = reset --hard
 	rt = remote
