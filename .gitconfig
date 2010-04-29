@@ -8,9 +8,15 @@
 [alias]
 	ad = add
 	bi = bisect
+	bib = bisect bad
+	big = bisect good
+	bir = bisect reset
+	bis = bisect start
 	br = branch
+	bra = branch -a
+	brc = branch --contains
 	ci = commit -am
-	cl = clone -v
+	cl = clone
 	co = checkout
 	ch = cherry
 	chp = cherry-pick
@@ -19,6 +25,7 @@
 	in = init
 	lf = ls-files
 	lg = log --pretty=oneline 
+	lga = log --all
 	me = merge
 	met = mergetool
 	pl = pull
@@ -28,7 +35,10 @@
 	rs = reset
 	rsh = reset --hard
 	rt = remote
+	rtu = remote update
+	rtv = remote -v
 	rv = revert
+	sh = show
 	sm = submodule
   st = status
   sta = stash
@@ -43,5 +53,8 @@
 [branch "demo"]
 	remote = origin
 	merge = refs/heads/demo
+[branch "fix"]
+	remote = origin
+	merge = refs/heads/fix
 [core]
 	excludesfile = /root/.gitignore
