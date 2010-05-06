@@ -8,7 +8,7 @@ rsync -av --recursive --delete -h --times --links --hard-links \
 			"${source}" "${target}"
 
 source=/media/volgrp/software/
-target=/media/back1/software/
+target=/media/archive1/software/
 
 rsync -av --recursive --delete -h --times --links --hard-links \
 			--stats --progress \
