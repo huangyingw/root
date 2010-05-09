@@ -3,8 +3,9 @@
 source=$1
 target=$2
 
+umount /media/cdrom
 mount "${source}" /media/cdrom -o loop
-target="${target}/`echo "${source}" |egrep -o '[^/]+[.](ISO|iso)'`"
+target="${target}`echo "${source}" |egrep -o '[^/]+[.](ISO|iso)'`"
 
 if [ -d "${target}" ];
 then   
