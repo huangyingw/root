@@ -63,6 +63,34 @@ rsync -av --recursive --delete -h --times --links --hard-links \
 			--stats --progress \
 			"${source}" "${target}"
 
+source=/media/back2/myproject/
+target=/media/back1/myproject/
+
+rsync -av --recursive --delete -h --times --links --hard-links \
+			--stats --progress \
+			"${source}" "${target}"
+
+source=/media/back2/myproject/
+target=/media/archive1/myproject/
+
+rsync -av --recursive --delete -h --times --links --hard-links \
+			--stats --progress \
+			"${source}" "${target}"
+
+source=/media/back2/myproject/
+target=/media/archive2/myproject/
+
+rsync -av --recursive --delete -h --times --links --hard-links \
+			--stats --progress \
+			"${source}" "${target}"
+
+source=/media/back2/myproject/
+target=/media/archive3/myproject/
+
+rsync -av --recursive --delete -h --times --links --hard-links \
+			--stats --progress \
+			"${source}" "${target}"
+
 case "$1" in
 	s)
 		shutdown -h now
