@@ -93,6 +93,7 @@ alias	gcb='git clone --bare'
 alias	gcl='git clone'
 #alias	gcm='git commit -am "n" && git push --all && git push --tags'
 
+
 alias	gcm='git commit -am "n"'
 alias	gco='git checkout'
 alias	gcob='git checkout -b'
