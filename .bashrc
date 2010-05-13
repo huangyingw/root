@@ -77,13 +77,15 @@ fi
 #}
 
 #alias for Linux
+alias apf='aptitude full-upgrade'
+alias api='apt-get install'
+alias d='/root/debug.sh'
 alias ll='ls -l'
 alias la='ls -A'
 alias l='ls -CF'
 alias r='./run'
 alias m='make'
-alias apf='aptitude full-upgrade'
-alias api='apt-get install'
+
 
 #alias for git
 alias	g='git commit -am "n" && git push --all && git push --tags'
