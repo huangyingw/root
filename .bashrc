@@ -86,6 +86,7 @@ alias apf='aptitude full-upgrade'
 alias api='apt-get install'
 
 #alias for git
+alias	g='git commit -am "n" && git push --all && git push --tags'
 alias	gad='git add'
 alias	gbi='git bisect'
 alias	gbib='git bisect bad'
