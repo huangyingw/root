@@ -82,6 +82,7 @@ alias la='ls -A'
 alias l='ls -CF'
 alias r='./run'
 alias m='make'
+alias d='./debug.sh'
 alias apf='aptitude full-upgrade'
 alias api='apt-get install'
 
