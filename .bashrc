@@ -71,11 +71,6 @@ fi
 #    . /etc/bash_completion
 #fi
 
-#function gcb
-#{
-#	git clone --bare "." "$1" && git remote add origin "$1"
-#}
-
 #alias for Linux
 alias ll='ls -l'
 alias la='ls -A'
