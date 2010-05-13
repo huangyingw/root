@@ -71,6 +71,11 @@ fi
 #    . /etc/bash_completion
 #fi
 
+#function gcb
+#{
+#	git clone --bare "." "$1" && git remote add origin "$1"
+#}
+
 #alias for Linux
 alias ll='ls -l'
 alias la='ls -A'
@@ -91,9 +96,10 @@ alias	gbr='git branch'
 alias	gbra='git branch -a'
 alias	gbrc='git branch --contains'
 alias	gci='git commit -am'
+#alias	gcb='git clone --bare "." "$1" && git remote add origin "$1"'
 alias	gcb='/root/gcb.sh'
 alias	gcl='git clone'
-alias	g='git commit -am "n" && git push --all && git push --tags'
+alias	gcm='git commit -am "n" && git push --all && git push --tags'
 alias	gco='git checkout'
 alias	gcob='git checkout -b'
 alias	gch='git cherry'
@@ -122,8 +128,8 @@ alias	grtv='git remote -v'
 alias	grv='git revert'
 alias	gsh='git show'
 alias	gsm='git submodule'
-alias gs='git status'
+alias gst='git status'
 alias gsta='git stash'
-alias gtag='/root/gtag.sh'
+alias gtag='git tag'
 alias gtg='git tag -l -n1'
 alias gvd='git difftool'
