@@ -1,9 +1,4 @@
 #!/bin/bash
 
-if [ ! -d "$2" ];
-then
-    git clone --bare "$1" "$2"
-fi
-
-git remote rm origin
-git remote add origin "$2"
+git tag "$1" -m "$2"
+git push --all && git push --tags
