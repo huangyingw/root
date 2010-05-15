@@ -79,6 +79,7 @@ fi
 #alias for Linux
 alias apf='aptitude full-upgrade'
 alias api='apt-get install'
+alias chmoda='/root/chmoda.sh'
 alias d='/root/debug.sh'
 alias ll='ls -l'
 alias la='ls -A'
