@@ -79,13 +79,16 @@ fi
 #alias for Linux
 alias apf='aptitude full-upgrade'
 alias api='apt-get install'
+alias apu='apt-get update'
 alias chmoda='/root/chmoda.sh'
-alias d='/root/debug.sh'
+alias d='make && /root/debug.sh'
 alias ll='ls -l'
 alias la='ls -A'
 alias l='ls -CF'
 alias r='./run'
 alias m='make'
+alias mov='/root/move.sh'
+alias rsc='/root/rsync.sh'
 
 #alias for git
 alias	g='git commit -am "n" && git push --all && git push --tags'
