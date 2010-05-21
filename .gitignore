@@ -1,9 +1,7 @@
 *.bak
 .aptitude/
 .bash_history
-.bashrc
 .cache/
-.globalgitignore
 .htoprc
 .profile
 .pulse-cookie
