@@ -90,7 +90,6 @@ alias m='make'
 alias mov='/root/move.sh'
 alias rsc='/root/rsync.sh'
 
-
 #alias for git
 alias	g='git commit -am "n" && git push --all && git push --tags'
 alias	gad='git add'
@@ -106,6 +105,7 @@ alias	gci='git commit -am'
 alias	gcb='/root/gcb.sh'
 alias	gcl='git clone'
 alias	gclb='git clone --bare'
+alias	gctb='/root/gctb.sh'
 alias	g='git commit -am "n" && git push --all && git push --tags'
 alias	gco='git checkout'
 alias	gcob='git checkout -b'
