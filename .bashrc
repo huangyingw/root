@@ -83,6 +83,7 @@ alias r='./run'
 alias m='make'
 alias mov='/root/move.sh'
 alias rsc='/root/rsync.sh'
+alias rt='/root/reboot.sh'
 
 
 #alias for git
