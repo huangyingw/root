@@ -71,9 +71,9 @@ fi
 #    . /etc/bash_completion
 #fi
 
-#function gcb
+#function try
 #{
-#	git clone --bare "." "$1" && git remote add origin "$1"
+#	git clone --bare "$1" "$2" rm -frv "$1" mv "$2" "$1"
 #}
 
 #alias for Linux
