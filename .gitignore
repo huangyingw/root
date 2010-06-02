@@ -8,3 +8,5 @@
 .pulse/
 .ssh/
 .viminfo
+.selected_editor
+android.csv
