@@ -1,2 +1,2 @@
 #! /bin/bash
-df -Th|grep /dev/sd
+df -Th|grep /media
