@@ -12,13 +12,8 @@ function check_disk
 	done
 	echo ${result}
 }
-temp=`check_disk`
-echo $temp
-
-
-#check_disk | read temp
-
-
+check_bool=`check_disk`
+echo $check_bool
 
 #source=/media/volgrp/av/
 #target=/media/back1/av/
