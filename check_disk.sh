@@ -1,7 +1,8 @@
 #! /bin/bash
 check_file=/root/disk_list.txt
 result=1
-cat $check_file | while read file ; do
+for file in `cat $check_file`
+do
 		if ! (df -Th|grep -q ${file})
 		then   
 			echo hehe
