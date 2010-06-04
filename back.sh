@@ -15,7 +15,7 @@ function check_disk
 check_bool=`check_disk`
 echo $check_bool
 
-if [ ${result}="1" ];   
+if [ ${check_bool}=1 ];   
 then
 	echo the disks ready!!!
 else
