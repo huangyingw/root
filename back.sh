@@ -13,7 +13,6 @@ function check_disk
 	echo ${result}
 }
 check_bool=`check_disk`
-echo $check_bool
 
 if [ ${check_bool} -eq 1 ];   
 then
