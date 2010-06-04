@@ -14,7 +14,7 @@ function check_disk
 }
 
 check_disk | read temp
-echo ${temp}
+echo $temp
 #source=/media/volgrp/av/
 #target=/media/back1/av/
 #
