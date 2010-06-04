@@ -1,7 +1,0 @@
-/media/volgrp
-/media/back1
-/media/back2
-/media/archive1
-/media/archive3
-/media/archive2
-abc
