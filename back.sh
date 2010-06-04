@@ -10,9 +10,11 @@ function check_disk
     	result=0
 	 	fi
 	done
-	return ${result}
+	return 1
 }
 
+check_disk | read temp
+echo ${temp}
 #source=/media/volgrp/av/
 #target=/media/back1/av/
 #
