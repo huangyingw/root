@@ -13,9 +13,14 @@ function check_disk
 	#return 1
 	echo ${return}
 }
-
-check_disk | read temp
+temp=`check_disk`
 echo $temp
+
+
+#check_disk | read temp
+
+
+
 #source=/media/volgrp/av/
 #target=/media/back1/av/
 #
