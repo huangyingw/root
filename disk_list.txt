@@ -4,4 +4,3 @@
 /media/archive1
 /media/archive3
 /media/archive2
-abc
