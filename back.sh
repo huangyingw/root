@@ -15,6 +15,8 @@ function check_disk
 check_bool=`check_disk`
 echo $check_bool
 
+[ ${result}="1" ];echo succ
+
 #source=/media/volgrp/av/
 #target=/media/back1/av/
 #
