@@ -2,7 +2,7 @@
 check_file=/root/disk_list.txt
 result=1
 cat $check_file | while read file ; do
-		if [ df -Th|grep ${file} ]
+		if ! (df -Th|grep -q ${file})
 		then   
     	result=0
 	 	fi
