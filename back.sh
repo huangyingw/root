@@ -10,7 +10,8 @@ function check_disk
     	result=0
 	 	fi
 	done
-	return 1
+	#return 1
+	echo ${return}
 }
 
 check_disk | read temp
