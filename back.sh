@@ -10,8 +10,7 @@ function check_disk
     	result=0
 	 	fi
 	done
-	#return 1
-	echo ${return}
+	echo ${result}
 }
 temp=`check_disk`
 echo $temp
