@@ -15,13 +15,11 @@ function check_disk
 check_bool=`check_disk`
 echo $check_bool
 
-[ ${result}="1" ];echo succ
-
-if [ -d $dir ];   
-then   
-    echo dir exists
-else   
- echo dir does not exist
+if [ ${result}="1" ];   
+then
+	echo the disks ready!!!
+else
+ 	echo the disks not ready!!!
 fi
 
 #source=/media/volgrp/av/
