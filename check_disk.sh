@@ -11,5 +11,3 @@ cat $check_file | while read file ; do
 	 	fi
 done
 echo ${result}
-
-#(grep -c SOME_STRING $PATH/$LOGFILE) -ne 0
