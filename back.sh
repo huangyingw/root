@@ -17,6 +17,13 @@ echo $check_bool
 
 [ ${result}="1" ];echo succ
 
+if [ -d $dir ];   
+then   
+    echo dir exists
+else   
+ echo dir does not exist
+fi
+
 #source=/media/volgrp/av/
 #target=/media/back1/av/
 #
