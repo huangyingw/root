@@ -1,0 +1,10 @@
+.aptitude/
+.bash_history
+.cache/
+.config/
+.kde/
+.profile
+.pulse-cookie
+.pulse/
+.ssh/
+.viminfo
