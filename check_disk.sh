@@ -6,6 +6,7 @@ do
 		if ! (df -Th|grep -q ${file})
 		then   
     	result=0
+    	echo ${file}>> check_disk.log
 	 	fi
 done
 echo ${result}
