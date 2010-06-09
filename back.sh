@@ -103,11 +103,10 @@ then
 				--stats --progress \
 				"${source}" "${target}"
 	
-	case "$1" in
-		s)
+	if [ "$1" != s ];
+	then
 			shutdown -h now
-			;;
-	esac
+	fi
 else
  	echo the disks not ready!!!
 fi
