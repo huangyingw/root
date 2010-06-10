@@ -18,7 +18,7 @@ check_bool=`check_disk`
 if [ ${check_bool} -eq 1 ];   
 then
 	source=/media/volgrp/av/
-	target=/media/back1/av/
+	target=/media/back2/av/
 	
 	rsync -av --log-file=/root/rlog --recursive --delete -h --times --links --hard-links \
 				--stats --progress \
@@ -32,7 +32,7 @@ then
 				"${source}" "${target}"
 				
 	source=/media/volgrp/unsafe/
-	target=/media/back1/unsafe/
+	target=/media/back2/unsafe/
 	
 	rsync -av --log-file=/root/rlog --recursive --delete -h --times --links --hard-links \
 				--stats --progress \
@@ -60,7 +60,7 @@ then
 				"${source}" "${target}"
 	
 	source=/media/volgrp/myproject/
-	target=/media/back1/myproject/
+	target=/media/back2/myproject/
 	
 	rsync -av --log-file=/root/rlog --recursive --delete -h --times --links --hard-links \
 				--stats --progress \
@@ -82,21 +82,21 @@ then
 	
 	
 	
-	source=/media/back1/myproject/
+	source=/media/back2/myproject/
 	target=/media/archive1/myproject/
 	
 	rsync -av --log-file=/root/rlog --recursive --delete -h --times --links --hard-links \
 				--stats --progress \
 				"${source}" "${target}"
 	
-	source=/media/back1/myproject/
+	source=/media/back2/myproject/
 	target=/media/archive2/myproject/
 	
 	rsync -av --log-file=/root/rlog --recursive --delete -h --times --links --hard-links \
 				--stats --progress \
 				"${source}" "${target}"
 	
-	source=/media/back1/myproject/
+	source=/media/back2/myproject/
 	target=/media/archive3/myproject/
 	
 	rsync -av --log-file=/root/rlog --recursive --delete -h --times --links --hard-links \
