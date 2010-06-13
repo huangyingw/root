@@ -3,8 +3,8 @@
 .cache/
 .config/
 .kde/
-.profile
 .pulse-cookie
 .pulse/
 .ssh/
 .viminfo
+myproject
