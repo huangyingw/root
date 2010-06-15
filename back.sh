@@ -30,6 +30,13 @@ then
 	rsync -av --log-file=/root/rlog --recursive --delete -h --times --links --hard-links \
 				--stats --progress \
 				"${source}" "${target}"
+	
+	source=/media/volgrp/software/
+	target=/media/archive3/software/
+	
+	rsync -av --log-file=/root/rlog --recursive --delete -h --times --links --hard-links \
+				--stats --progress \
+				"${source}" "${target}"
 				
 	source=/media/volgrp/unsafe/
 	target=/media/back2/unsafe/
@@ -46,14 +53,21 @@ then
 				"${source}" "${target}"
 	
 	source=/media/volgrp/cartoon/
-	target=/media/back1/cartoon/
+	target=/media/back2/cartoon/
 	
 	rsync -av --log-file=/root/rlog --recursive --delete -h --times --links --hard-links \
 				--stats --progress \
 				"${source}" "${target}"
 	
+	source=/media/volgrp/cartoon/
+	target=/media/archive1/cartoon/
+	
+	rsync -av --log-file=/root/rlog --recursive --delete -h --times --links --hard-links \
+				--stats --progress \
+				"${source}" "${target}"
+				
 	source=/media/volgrp/movie/
-	target=/media/archive3/movie/
+	target=/media/archive1/movie/
 	
 	rsync -av --log-file=/root/rlog --recursive --delete -h --times --links --hard-links \
 				--stats --progress \
@@ -61,6 +75,13 @@ then
 	
 	source=/media/volgrp/myproject/
 	target=/media/back2/myproject/
+	
+	rsync -av --log-file=/root/rlog --recursive --delete -h --times --links --hard-links \
+				--stats --progress \
+				"${source}" "${target}"
+				
+	source=/media/volgrp/myproject/
+	target=/media/archive3/myproject/
 	
 	rsync -av --log-file=/root/rlog --recursive --delete -h --times --links --hard-links \
 				--stats --progress \
@@ -74,23 +95,14 @@ then
 				"${source}" "${target}"
 				
 	source=/media/volgrp/vmware/
-	target=/media/archive3/vmware/
+	target=/media/archive2/vmware/
 	
 	rsync -av --log-file=/root/rlog --recursive --delete -h --times --links --hard-links \
 				--stats --progress \
 				"${source}" "${target}"
 	
-	
-	
-	source=/media/back2/myproject/
-	target=/media/back1/myproject/
-	
-	rsync -av --log-file=/root/rlog --recursive --delete -h --times --links --hard-links \
-				--stats --progress \
-				"${source}" "${target}"
-	
-	source=/media/back2/myproject/
-	target=/media/back1/myproject/
+	source=/media/volgrp/vmware/
+	target=/media/archive1/vmware/
 	
 	rsync -av --log-file=/root/rlog --recursive --delete -h --times --links --hard-links \
 				--stats --progress \
