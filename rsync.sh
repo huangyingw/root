@@ -2,7 +2,6 @@
 RSYNCSOURCE=$1
 BASEDIR=$2
 
-rsync -av --log-file=/root/rlog --recursive --delete -h --times --links --hard-links \
-			--stats --progress \
+rsync -av --recursive --delete -h --times --links --hard-links \
 			"${RSYNCSOURCE}" "${BASEDIR}"
 
