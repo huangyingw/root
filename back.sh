@@ -31,13 +31,6 @@ then
 				--stats --progress \
 				"${source}" "${target}"
 	
-	source=/media/volgrp/software/
-	target=/media/archive3/software/
-	
-	rsync -av --log-file=/root/rlog --recursive --delete -h --times --links --hard-links \
-				--stats --progress \
-				"${source}" "${target}"
-				
 	source=/media/volgrp/unsafe/
 	target=/media/back2/unsafe/
 	
@@ -59,13 +52,6 @@ then
 				--stats --progress \
 				"${source}" "${target}"
 	
-	source=/media/volgrp/cartoon/
-	target=/media/archive1/cartoon/
-	
-	rsync -av --log-file=/root/rlog --recursive --delete -h --times --links --hard-links \
-				--stats --progress \
-				"${source}" "${target}"
-				
 	source=/media/volgrp/movie/
 	target=/media/archive1/movie/
 	
@@ -96,13 +82,6 @@ then
 				
 	source=/media/volgrp/vmware/
 	target=/media/archive2/vmware/
-	
-	rsync -av --log-file=/root/rlog --recursive --delete -h --times --links --hard-links \
-				--stats --progress \
-				"${source}" "${target}"
-	
-	source=/media/volgrp/vmware/
-	target=/media/archive1/vmware/
 	
 	rsync -av --log-file=/root/rlog --recursive --delete -h --times --links --hard-links \
 				--stats --progress \
