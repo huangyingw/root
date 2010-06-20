@@ -1,3 +1,13 @@
 *.bak
 *.o
 run
+.aptitude/
+.bash_history
+.cache/
+.config/
+.kde/
+.pulse-cookie
+.pulse/
+.ssh/
+.viminfo
+myproject
