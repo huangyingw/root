@@ -20,9 +20,7 @@ then
 	source=/media/volgrp/
 	target=/media/volgrp_bak/
 	
-	rsync -av --log-file=/root/rlog --recursive --delete -h --times --links --hard-links \
-				"${source}" "${target}"
-	
+	./rsync.sh	"${source}" "${target}"
 	
 	if [ "$1" != s ];
 	then

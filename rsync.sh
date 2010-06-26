@@ -8,6 +8,5 @@ then
 fi
 
 rsync -av --log-file=/root/rlog --recursive --delete -h --times --links --hard-links \
-			--stats --progress \
 			"${SOURCE}" "${TARGET}"
 
