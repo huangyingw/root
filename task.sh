@@ -17,18 +17,11 @@ check_bool=`check_disk`
 
 if [ ${check_bool} -eq 1 ];   
 then
-	source=/media/volgrp/
-	target=/media/volgrp_bak/
-	
-	rsync -av --log-file=/root/rlog --recursive --delete -h --times --links --hard-links \
-				"${source}" "${target}"
-	
-	
+	./back.sh s
 	if [ "$1" != s ];
-	then
+		then
 			shutdown -h now
 	fi
 else
  	echo the disks not ready!!!
 fi
-
