@@ -3,8 +3,10 @@ check_bool=`./check_disk.sh`
 
 if [ ${check_bool} -eq 1 ];   
 then
+	echo > rlog
+	./move.sh	
+	./move.sh	/media/volgrp/unsafe/move/ /media/archive1/av_archive/
 	./back.sh s
-	./move.sh /media/volgrp/av/move/ /media/archive1/av_archive/
 	if [ "$1" != s ];
 		then
 			shutdown -h now
