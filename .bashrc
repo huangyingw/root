@@ -104,7 +104,7 @@ fi
 #}
 
 #alias for Linux
-alias apf='aptitude full-upgrade'
+alias apf='apt-get update && aptitude full-upgrade'
 alias api='apt-get install'
 alias apu='apt-get update'
 alias chmoda='/root/chmoda.sh'
