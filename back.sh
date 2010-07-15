@@ -4,7 +4,7 @@ check_bool=`./check_disk.sh`
 if [ ${check_bool} -eq 1 ];   
 then
 	source=/media/volgrp/
-	target=/media/volgrp_bak/
+	target=/media/volbakgrp/
 	./rsync.sh	"${source}" "${target}"
 	
 	source=/media/volgrp/myproject/
@@ -12,7 +12,7 @@ then
 	./rsync.sh	"${source}" "${target}"
 	
 	source=/media/archive1/
-	target=/media/archive1_bak/
+	target=/media/arbakchive1/
 	./rsync.sh	"${source}" "${target}"
 	
 	source=/media/volgrp/myproject/
@@ -20,7 +20,7 @@ then
 	./rsync.sh	"${source}" "${target}"
 	
 	source=/media/archive2/
-	target=/media/archive2_bak/
+	target=/media/arbakchive2/
 	./rsync.sh	"${source}" "${target}"
 	
 	if [ "$1" != s ];
