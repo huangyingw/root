@@ -16,5 +16,5 @@ then
  		echo git exist!!!
 	fi
 else
- 	echo the disks not ready!!!
+ 	echo the temp exist!!!
 fi
