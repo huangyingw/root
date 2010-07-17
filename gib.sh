@@ -1,19 +1,25 @@
 #!/bin/bash
-if [ ! -d "temp" ];
+if [ -z "$1" ];
 then
-	if [ ! -d "$1/.git" ];
-	then
-		cd "$1"
-		git init
-		git add .
-		git commit -am "n"
-		cd ..
-    git clone --bare "$1" "temp"
-		rm -frv "$1"
-		mv -fv "temp" "$1"
-	else
- 		echo git exist!!!
-	fi
+	echo "Please provide parameter"
 else
- 	echo the temp exist!!!
+	if [ ! -d "temp" ];
+	then
+		if [ ! -d "$1/.git" ];
+		then
+			cd "$1"
+			git init
+			git add .
+			git commit -am "n"
+			cd ..
+	    git clone --bare "$1" "temp"
+			rm -frv "$1"
+			mv -fv "temp" "$1"
+		else
+	 		echo git exist!!!
+		fi
+	else
+	 	echo the temp exist!!!
+	fi
 fi
+	
