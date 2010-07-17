@@ -1,10 +1,8 @@
 #!/bin/bash
 if [ ! -d "temp" ];
 then
-	echo begin to do work!!!
 	if [ ! -d "$1/.git" ];
 	then
-		echo begin git init!!!
 		cd "$1"
 		git init
 		git add .
