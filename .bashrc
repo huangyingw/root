@@ -118,7 +118,7 @@ alias mov='/root/myproject/git/linux/bashrc/move.sh'
 alias rsc='/root/myproject/git/linux/bashrc/rsync.sh'
 
 #alias for git
-alias	g='git commit -am "n" && git push --all && git push --tags'
+alias	g='/root/myproject/git/linux/bashrc/g.sh'
 alias	gad='git add'
 alias	gbi='git bisect'
 alias	gbib='git bisect bad'
