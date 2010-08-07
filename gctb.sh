@@ -12,6 +12,7 @@ else
 	 		git clone --bare "$1" "temp"
 			rm -frv "$1"
 			mv -fv "temp" "$1"
+			chmod -R 777 "$1"
 		fi
 	else
 	 	echo the temp exist!!!
