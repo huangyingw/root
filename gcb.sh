@@ -1,8 +1,10 @@
 #!/bin/bash
-if [ ! -d "$2" ];
+if [ ! -d ".git" ];
 then
-    git clone --bare "$1" "$2"
+	echo not a git repo!!!
+else
+	git clone --bare . /media/smb/
+	git remote rm origin
+	git remote add origin "$2"
 fi
 
-git remote rm origin
-git remote add origin "$2"
