@@ -1,10 +1,10 @@
 #!/bin/bash
 
-x=$(dirname "$0")
-#echo ${x}
-x=`echo ${x} | sed -e 's/\/root\///'`
+x=`pwd`
+echo ${x}
+x=`echo ${x} | sed -e 's/\/root\///;s/\/media\/volgrp\///'`
 x=/media/smb/${x}
-#echo ${x}
+echo ${x}
 
 if [ ! -d ".git" ];
 then
@@ -19,4 +19,3 @@ else
 		git remote add origin ${x}
 	fi
 fi
-
