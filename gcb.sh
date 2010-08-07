@@ -10,8 +10,13 @@ if [ ! -d ".git" ];
 then
 	echo not a git repo!!!
 else
-	git clone --bare . ${x}
-	git remote rm origin
-	git remote add origin ${x}
+	if [ -d ${x} ];
+	then
+		echo remote exist!!!
+	else
+		git clone --bare . ${x}
+		git remote rm origin
+		git remote add origin ${x}
+	fi
 fi
 
