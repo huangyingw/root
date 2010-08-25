@@ -7,16 +7,8 @@ then
 	target=/media/bak_volgrp/
 	./rsync.sh	"${source}" "${target}"
 	
-	source=/media/volgrp/myproject/
-	target=/media/archive1/myproject/
-	./rsync.sh	"${source}" "${target}"
-	
 	source=/media/archive1/
 	target=/media/bak_archive1/
-	./rsync.sh	"${source}" "${target}"
-	
-	source=/media/volgrp/myproject/
-	target=/media/archive2/myproject/
 	./rsync.sh	"${source}" "${target}"
 	
 	source=/media/archive2/
