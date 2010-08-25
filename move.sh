@@ -13,4 +13,7 @@ rsync -av --log-file=/root/rlog --recursive -h --times --links --hard-links \
 && rsync -av --log-file=/root/rlog --recursive -h --times --links --hard-links \
 	--stats --progress \
 	"${SOURCE}" "${TARGET}" \
+&& rsync -av --log-file=/root/rlog --recursive -h --times --links --hard-links \
+	--stats --progress \
+	"${SOURCE}" "${TARGET}" \
 && rm -fr "${SOURCE}"
