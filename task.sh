@@ -4,8 +4,8 @@ check_bool=`./check_disk.sh`
 if [ ${check_bool} -eq 1 ];   
 then
 	echo > rlog
-	./move.sh /media/mldonkey/ /media/archive1/av_archive/unsafe/
-	./back.sh s
+	./move.sh /media/archive1/ /media/volgrp/
+	./move.sh /media/bak_archive2/ /media/volgrp/
 	if [ "$1" != s ];
 		then
 			shutdown -h now

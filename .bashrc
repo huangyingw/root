@@ -91,6 +91,7 @@ if [ -f "${SSH_ENV}" ]; then
 else
   start_agent;
 fi
+
 alias apf='apt-get update && aptitude full-upgrade'
 alias api='apt-get install'
 alias apu='apt-get update'
@@ -153,3 +154,5 @@ alias gsta='git stash'
 alias gtag='/root/gtag.sh'
 alias gtg='git tag -l -n1'
 alias gvd='git difftool'
+
+mdadm /dev/md0 -a /dev/sdb && mdadm -G /dev/md0 -n4
