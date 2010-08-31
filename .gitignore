@@ -4,4 +4,9 @@
 .cache/
 .profile
 .viminfo
-myproject/
+myproject
+.dbus/
+.gconfd/
+.ssh/
+.synaptic/
+gcb.sh
