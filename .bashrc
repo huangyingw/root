@@ -154,5 +154,3 @@ alias gsta='git stash'
 alias gtag='/root/gtag.sh'
 alias gtg='git tag -l -n1'
 alias gvd='git difftool'
-
-mdadm /dev/md0 -a /dev/sdb && mdadm -G /dev/md0 -n4
