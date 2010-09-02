@@ -29,3 +29,7 @@ myproject
 disk_list.txt
 check_disk.log
 rlog
+.usbcreator.log
+df.txt
+dmidecode.txt
+fdisk.txt
