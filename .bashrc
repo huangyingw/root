@@ -107,7 +107,7 @@ fi
 alias apf='apt-get update && aptitude full-upgrade'
 alias api='apt-get install'
 alias apu='apt-get update'
-alias chmoda='/root/myproject/git/linux/bashrc/chmoda.sh'
+alias ca='/root/myproject/git/linux/bashrc/ca.sh'
 alias d='make && /root/myproject/git/linux/bashrc/debug.sh'
 alias ll='ls -l'
 alias la='ls -A'
