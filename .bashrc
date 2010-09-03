@@ -154,3 +154,5 @@ alias gsta='git stash'
 alias gtag='/root/gtag.sh'
 alias gtg='git tag -l -n1'
 alias gvd='git difftool'
+
+/root/check_raid.sh
