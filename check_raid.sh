@@ -1,5 +1,5 @@
 #!/bin/bash
-if  (mdadm -D /dev/md0 |grep -q "active sync")
+if  (mdadm -D -q /dev/md0 |grep -q "removed")
 then   
 	echo dangerous
 fi
