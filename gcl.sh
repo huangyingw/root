@@ -4,8 +4,8 @@ if [ -z "$1" ];
 then
 	echo "Please provide parameter"
 else
-	x=`echo $1 | sed -e 's/\/root\///;s/\/media\/smb\///'`
-	x=/root/${x}
+	x=`echo $1 | sed -e 's/\/root\///;s/media\/smb/root/'`
+	#x=/root/${x}
 	echo ${x}
 fi
 
