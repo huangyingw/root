@@ -10,10 +10,10 @@ fi
 
 
 
-#if [ -d ${x} ];
-#then
-#	echo local repository exist!!!
-#else
-#	#echo "git clone -v "$1" ${x}"
-#	git clone -v "$1" ${x}
-#fi
+if [ -d ${x} ];
+then
+	echo local repository exist!!!
+else
+	#echo "git clone -v "$1" ${x}"
+	git clone -v "$1" ${x}
+fi
