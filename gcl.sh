@@ -14,8 +14,6 @@ if [ -d ${x} ];
 then
 	echo local repository exist!!!
 else
-	echo do nothing
-	#git clone --bare . ${x}
-	#git remote rm origin
-	#git remote add origin ${x}
+	echo "git clone -v "$1" ${x}"
+	
 fi
