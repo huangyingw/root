@@ -4,8 +4,7 @@ check_bool=`./check_disk.sh`
 if [ ${check_bool} -eq 1 ];   
 then
 	echo > rlog
-	./move.sh /media/archive1/ /media/volgrp/
-	./move.sh /media/bak_archive2/ /media/volgrp/
+	./rsync.sh /media/volgrp/myproject/ /media/500G/myproject/
 	if [ "$1" != s ];
 		then
 			shutdown -h now
