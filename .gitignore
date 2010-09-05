@@ -10,3 +10,8 @@
 .viminfo
 .selected_editor
 android.csv
+.repoconfig/
+.repopickle_.gitconfig
+bin/
+myproject
+task.sh
