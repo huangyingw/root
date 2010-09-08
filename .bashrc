@@ -81,6 +81,7 @@ alias la='ls -A'
 alias l='ls -CF'
 alias r='make && ./run'
 alias m='make'
+alias rt='/root/reboot.sh'
 alias mov='/root/myproject/git/linux/bashrc/move.sh'
 alias rsc='/root/myproject/git/linux/bashrc/rsync.sh'
 
@@ -118,7 +119,7 @@ alias	gps='git push --all && git push --tags'
 alias	grc='git rm --cached'
 alias	grcr='git rm --cached -r'
 alias	grs='git reset'
-alias	grsh='/root/grsh.sh'
+alias	grsh='/root/myproject/git/linux/bashrc/grsh.sh'
 alias	grsm='git reset --mixed'
 alias	grss='git reset --soft'
 alias	grt='git remote'
@@ -137,3 +138,8 @@ alias gvd='git difftool'
 
 #PATH=/root/bin
 #export PATH
+HERITRIX_HOME=/root/myproject/git/java/heritrix-1.14.4/
+JAVA_OPTS=-Xmx1024M
+JAVA_HOME=/usr/lib/jvm/java-6-openjdk/jre/bin/java
+CLASSPATH=/media/volgrp/myproject/git/java/lucene/lucene-3.0.1/lucene-core-3.0.1.jar:/media/volgrp/myproject/git/java/lucene/lucene-3.0.1/lucene-demos-3.0.1.jar:/media/volgrp/myproject/git/webapps/luceneweb/WEB-INF/lib/lucene-core-3.0.1.jar:/media/volgrp/myproject/git/webapps/luceneweb/WEB-INF/lib/lucene-demos-3.0.1.jar
+export CLASSPATH
