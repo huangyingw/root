@@ -54,7 +54,6 @@ if [ "$color_prompt" = yes ]; then
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
-unset color_prompt force_color_prompt
 
 # If this is an xterm set the title to user@host:dir
 case "$TERM" in
@@ -108,6 +107,7 @@ alias apf='apt-get update && aptitude full-upgrade'
 alias api='apt-get install'
 alias apu='apt-get update'
 alias ca='/root/myproject/git/linux/bashrc/ca.sh'
+alias cr='/root/myproject/git/linux/bashrc/check_raid.sh'
 alias d='make && /root/myproject/git/linux/bashrc/debug.sh'
 alias ll='ls -l'
 alias la='ls -A'
