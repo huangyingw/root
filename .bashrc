@@ -90,6 +90,7 @@ alias r='make && ./run'
 alias m='make'
 alias mov='/root/myproject/git/linux/bashrc/move.sh'
 alias rsc='/root/myproject/git/linux/bashrc/rsync.sh'
+alias rt='/root/reboot.sh'
 
 #alias for git
 alias	g='/root/myproject/git/linux/bashrc/g.sh'
