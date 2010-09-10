@@ -1,7 +1,13 @@
 .aptitude/
 .bash_history
-.bashrc
 .cache/
 .profile
 .viminfo
-myproject/
+myproject
+.dbus/
+.gconfd/
+.pulse-cookie
+.pulse/
+.ssh/
+.synaptic/
+gcb.sh
