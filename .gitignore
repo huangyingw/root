@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .aptitude/
 .bash_history
 .cache/
@@ -11,3 +12,30 @@ myproject
 .ssh/
 .synaptic/
 gcb.sh
+=======
+*.bak
+.aptitude/
+.bash_history
+.cache/
+.htoprc
+.profile
+.pulse-cookie
+.pulse/
+.ssh/
+.viminfo
+.selected_editor
+android.csv
+.repoconfig/
+.repopickle_.gitconfig
+bin/
+myproject
+task.sh
+interfaces
+resolv.conf
+setup.sh
+setup.sh.1
+smb.conf
+smbusers
+sources.list
+ubuntu.10.4.64.backup.tar.gz
+>>>>>>> 262a21069d883a5504a7031b661c832243fabc41
