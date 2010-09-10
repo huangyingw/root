@@ -38,3 +38,13 @@ gcc-defaults_1.82ubuntu2.tar.gz
 index/
 variables.txt
 workspace/
+.aptitude/
+.bash_history
+.cache/
+.profile
+.viminfo
+.dbus/
+.gconfd/
+.ssh/
+.synaptic/
+gcb.sh
