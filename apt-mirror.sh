@@ -1,6 +1,6 @@
 #! /bin/bash
 RSYNCSOURCE=rsync://mirrors.sohu.com/ubuntu/
-BASEDIR=/home/UbuntuMirror/
+BASEDIR=/media/volgrp/UbuntuMirror/
 
 rsync --recursive --times --links --hard-links \
       --stats \
