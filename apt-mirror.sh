@@ -4,8 +4,8 @@ BASEDIR=/media/volgrp/UbuntuMirror/
 
 rsync --recursive --times --links --hard-links \
       --stats \
-      --exclude "Packages*" --exclude "Sources*" \
-      --exclude "Release*" \
+      --exclude "Sources*" \
+      --exclude "dapper*" --exclude "hardy*" --exclude "intrepid*" --exclude "jaunty*" --exclude "maverick*"\
       ${RSYNCSOURCE} ${BASEDIR}
 
 rsync --recursive --times --links --hard-links \
