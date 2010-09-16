@@ -8,7 +8,6 @@ then
 fi
 
 rsync -av --recursive --delete -h --times --links --hard-links \
-			--stats --progress \
 			--exclude .svn \
 			"${SOURCE}" "${TARGET}"
 
