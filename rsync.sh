@@ -7,7 +7,7 @@ then
     mkdir -p "${TARGET}"
 fi
 
-rsync -av --recursive --delete -h --times --links --hard-links \
+rsync -a --recursive --delete-after -H \
 			--exclude .svn \
 			"${SOURCE}" "${TARGET}"
 
