@@ -1,6 +1,6 @@
 #! /bin/bash
-#RSYNCSOURCE=rsync://mirrors.sohu.com/ubuntu/
-RSYNCSOURCE=rsync://debian.nctu.edu.tw/ubuntu/
+RSYNCSOURCE=rsync://mirrors.sohu.com/ubuntu/
+#RSYNCSOURCE=rsync://debian.nctu.edu.tw/ubuntu/
 #RSYNCSOURCE=rsync://ubuntu.dormforce.net/ubuntu/
 #RSYNCSOURCE=rsync://mirror.anl.gov/ubuntu/
 
