@@ -1,3 +1,4 @@
+
 #!/bin/bash 
 SOURCE=$1
 TARGET=$2
@@ -7,7 +8,7 @@ then
     mkdir -p "${TARGET}"
 fi
 
-rsync -a --recursive --delete-after -H \
+rsync -ainv --recursive --delete-after -H \
 			--exclude .svn \
 			"${SOURCE}" "${TARGET}"
 
