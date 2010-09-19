@@ -1,10 +1,12 @@
 #! /bin/bash
-check_bool=`./check_disk.sh`
+check_bool=`/home/yinghuang/myproject/git/linux/bashrc/check_disk.sh`
+
 
 if [ ${check_bool} -eq 1 ];   
 then
 	echo > rlog
-	./rsync.sh /media/volgrp/myproject/ /media/500G/myproject/
+	/home/yinghuang/myproject/git/linux/bashrc/rsync.sh /media/volgrp/myproject/ /media/160g/work_myproject/
+	/home/yinghuang/myproject/git/linux/bashrc/rsync.sh /media/160g/home_myproject/ /media/volgrp/home_myproject/
 	if [ "$1" != s ];
 		then
 			shutdown -h now
