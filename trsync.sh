@@ -8,7 +8,6 @@ then
     mkdir -p "${TARGET}"
 fi
 
-rsync -ainv --recursive --delete-after -H \
-			--exclude .svn \
-			"${SOURCE}" "${TARGET}"
+rsync -aHinv --delete-after \
+"${SOURCE}" "${TARGET}"
 

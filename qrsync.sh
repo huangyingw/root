@@ -7,6 +7,6 @@ then
     mkdir -p "${TARGET}"
 fi
 
-rsync -a --recursive --delete -h --times --links --hard-links \
-			"${SOURCE}" "${TARGET}"
+rsync -aH --delete-after \
+"${SOURCE}" "${TARGET}"
 
