@@ -1,0 +1,10 @@
+*.bak
+.svn
+run
+error
+~$*
+*.swp
+*.swo
+*.swn
+*.hg
+*.swm
