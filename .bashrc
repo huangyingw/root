@@ -71,10 +71,6 @@ if [ -x /usr/bin/dircolors ]; then
     alias ls='ls --color=auto'
     #alias dir='dir --color=auto'
     #alias vdir='vdir --color=auto'
-
-    alias grep='grep --color=auto'
-    alias fgrep='fgrep --color=auto'
-    alias egrep='egrep --color=auto'
 fi
 
 # some more ls aliases
@@ -98,11 +94,6 @@ fi
 #    . /etc/bash_completion
 #fi
 
-#function try
-#{
-#	git clone --bare "$1" "$2" rm -frv "$1" mv "$2" "$1"
-#}
-
 #alias for Linux
 alias apf='apt-get update && aptitude full-upgrade'
 alias api='apt-get install'
@@ -117,6 +108,10 @@ alias r='make && ./run'
 alias m='make'
 alias mov='/root/myproject/git/linux/bashrc/move.sh'
 alias rsc='/root/myproject/git/linux/bashrc/rsync.sh'
+alias qrsc='/root/myproject/git/linux/bashrc/qrsync.sh'
+alias trsc='/root/myproject/git/linux/bashrc/trsync.sh'
+alias dof='/root/myproject/git/linux/bashrc/dof.sh'
+alias fc='/root/myproject/git/linux/bashrc/fc.sh'
 alias fd='/root/myproject/git/linux/bashrc/fd.sh'
 alias ff='/root/myproject/git/linux/bashrc/ff.sh'
 alias fw='/root/myproject/git/linux/bashrc/fw.sh'
@@ -132,6 +127,7 @@ alias	gbis='git bisect start'
 alias	gbr='git branch'
 alias	gbra='git branch -a'
 alias	gbrc='git branch --contains'
+alias	gbrD='/root/myproject/git/linux/bashrc/gbrD.sh'
 alias	gci='git commit -am'
 alias	gcb='/root/myproject/git/linux/bashrc/gcb.sh'
 alias	gcl='/root/myproject/git/linux/bashrc/gcl.sh'
@@ -143,6 +139,7 @@ alias	gch='git cherry'
 alias	gchp='git cherry-pick'
 alias	gdi='git diff'
 alias	gfe='git fetch'
+alias	gfix='/root/myproject/git/linux/bashrc/gfix.sh'
 alias	gi='/root/myproject/git/linux/bashrc/gi.sh'
 alias	gib='/root/myproject/git/linux/bashrc/gib.sh'
 alias	gicb='/root/myproject/git/linux/bashrc/gicb.sh'
@@ -156,7 +153,7 @@ alias	gps='git push --all && git push --tags'
 alias	grc='git rm --cached'
 alias	grcr='git rm --cached -r'
 alias	grs='git reset'
-alias	grsh='/root/myproject/git/linux/bashrc/grsh.sh'
+alias	grsh='git reset --hard'
 alias	grsm='git reset --mixed'
 alias	grss='git reset --soft'
 alias	grt='git remote'
@@ -178,3 +175,6 @@ JAVA_OPTS=-Xmx1024M
 JAVA_HOME=/usr/lib/jvm/java-6-openjdk/jre/bin/java
 CLASSPATH=/media/volgrp/myproject/git/java/lucene/lucene-3.0.1/lucene-core-3.0.1.jar:/media/volgrp/myproject/git/java/lucene/lucene-3.0.1/lucene-demos-3.0.1.jar:/media/volgrp/myproject/git/webapps/luceneweb/WEB-INF/lib/lucene-core-3.0.1.jar:/media/volgrp/myproject/git/webapps/luceneweb/WEB-INF/lib/lucene-demos-3.0.1.jar
 export CLASSPATH
+
+export GREP_OPTIONS='--color=auto'
+export GREP_COLOR='1;31'

@@ -1,6 +1,11 @@
 *.bak
-*.swp
 *.bak
-run
+*.hg
+*.swm
+*.swn
+*.swo
+*.swp
+.svn
 error
+run
 ~$*
