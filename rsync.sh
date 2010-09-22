@@ -8,5 +8,5 @@ then
 fi
 
 rsync -aH --delete-after \
-"${SOURCE}" "${TARGET}"
+	"${SOURCE}" "${TARGET}"
 

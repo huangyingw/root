@@ -1,2 +1,2 @@
 #!/bin/bash
-find "$1" \( -path .svn \) -prune -type f -o -name "$2"
+find "$1" \( -name \.git -o -name \.svn -o -name \.hg \) -prune -type f -o -name "$2"
