@@ -8,3 +8,12 @@
 .pulse/
 .ssh/
 .viminfo
+.dbus/
+.gconfd/
+.htoprc
+.synaptic/
+.vim/
+myproject
+sharutils_4.6.3-4.diff.gz
+sharutils_4.6.3-4.dsc
+sharutils_4.6.3.orig.tar.gz
