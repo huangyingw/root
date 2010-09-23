@@ -7,6 +7,6 @@ then
     mkdir -p "${TARGET}"
 fi
 
-rsync -aH --delete-after \
+rsync -aHv --delete-after \
 "${SOURCE}" "${TARGET}"
 

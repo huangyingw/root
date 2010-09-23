@@ -6,8 +6,6 @@ RSYNCSOURCE=rsync://mirrors.sohu.com/ubuntu/
 
 BASEDIR=/media/volgrp/UbuntuMirror/
 
-rsync -av --log-file=/root/rlog --recursive -h --times --links --hard-links \
-			--delete --delete-after \
-      --exclude "Sources*" \
+rsync -ahHv --log-file=/root/rlog --delete-after \
       --exclude "dapper*" --exclude "hardy*" --exclude "intrepid*" --exclude "jaunty*" --exclude "maverick*"\
       ${RSYNCSOURCE} ${BASEDIR}
