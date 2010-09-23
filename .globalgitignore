@@ -1,2 +1,12 @@
 *.bak
 *.swp
+*.bak
+*.hg
+*.swm
+*.swn
+*.swo
+*.swp
+.svn
+error
+run
+~$*
