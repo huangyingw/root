@@ -1,3 +1,9 @@
 *.bak
 *.ncb
 *.suo
+*.o
+run
+error
+~$*
+*.swo
+*.swp

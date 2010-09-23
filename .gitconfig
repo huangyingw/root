@@ -1,5 +1,5 @@
 [user]
-	name = huangyingw@PrimaryStorage
+	name = huangyingw@linux_programming
 	email = huangyingw@gmail.com
 [merge]
 	tool = kdiff3
@@ -8,9 +8,16 @@
 [alias]
 	ad = add
 	bi = bisect
+	bib = bisect bad
+	big = bisect good
+	bir = bisect reset
+	bis = bisect start
 	br = branch
+	bra = branch -a
+	brc = branch --contains
 	ci = commit -am
 	cl = clone -v
+	cm = commit -am "n"
 	co = checkout
 	ch = cherry
 	chp = cherry-pick
@@ -19,14 +26,23 @@
 	in = init
 	lf = ls-files
 	lg = log --pretty=oneline 
+	lga = log --all
 	me = merge
 	met = mergetool
 	pl = pull
 	ps = push --all
+	pst = push --tags
+	rc = rm --cached
+	rmcr = rm --cached -r
 	rs = reset
 	rsh = reset --hard
+	rsm = reset --mixed
+	rss = reset --soft
 	rt = remote
+	rtu = remote update
+	rtv = remote -v
 	rv = revert
+	sh = show
 	sm = submodule
   st = status
   sta = stash
@@ -41,5 +57,8 @@
 [branch "demo"]
 	remote = origin
 	merge = refs/heads/demo
+[branch "fix"]
+	remote = origin
+	merge = refs/heads/fix
 [core]
 	excludesfile = /root/.globalgitignore
