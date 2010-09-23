@@ -94,7 +94,7 @@ alias rt='/root/reboot.sh'
 
 #alias for git
 alias	g='/root/myproject/git/linux/bashrc/g.sh'
-alias	gad='git add'
+alias	ga='git add'
 alias	gbi='git bisect'
 alias	gbib='git bisect bad'
 alias	gbig='git bisect good'
