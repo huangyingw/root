@@ -21,6 +21,7 @@ HISTFILESIZE=2000
 shopt -s checkwinsize
 
 # make less more friendly for non-text input files, see lesspipe(1)
+
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
 # set variable identifying the chroot you work in (used in the prompt below)
@@ -58,6 +59,7 @@ fi
 # If this is an xterm set the title to user@host:dir
 case "$TERM" in
 xterm*|rxvt*)
+    PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME}: ${PWD/$HOME/~}\007"'
     PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"
     ;;
 *)
@@ -86,6 +88,51 @@ alias l='ls -CF'
 # ~/.bash_aliases, instead of adding them here directly.
 # See /usr/share/doc/bash-doc/examples in the bash-doc package.
 
+#if [ -f ~/.bash_aliases ]; then
+#    . ~/.bash_aliases
+#fi
+
+# enable color support of ls and also add handy aliases
+if [ "$TERM" != "dumb" ]; then
+    eval "`dircolors -b`"
+    alias ls='ls --color=auto'
+    #alias dir='ls --color=auto --format=vertical'
+    #alias vdir='ls --color=auto --format=long'
+fi
+
+# some more ls aliases
+#alias ll='ls -l'
+#alias la='ls -A'
+#alias l='ls -CF'
+
+# enable programmable completion features (you don't need to enable
+# this, if it's already enabled in /etc/bash.bashrc and /etc/profile
+# sources /etc/bash.bashrc).
+#if [ -f /etc/bash_completion ]; then
+#    . /etc/bash_completion
+#fi
+SSH_ENV="$HOME/.ssh/environment"
+
+function start_agent {
+  echo "Initializing new SSH agent..."
+  /usr/bin/ssh-agent | sed 's/^echo/#echo/' > "${SSH_ENV}"
+  echo succeeded
+  chmod 600 "${SSH_ENV}"
+  . "${SSH_ENV}" > /dev/null
+  /usr/bin/ssh-add;
+}
+
+# Source SSH settings, if applicable
+if [ -f "${SSH_ENV}" ]; then
+  . "${SSH_ENV}" > /dev/null
+  #ps ${SSH_AGENT_PID} doesn't work under cywgin
+  ps -ef | grep ${SSH_AGENT_PID} | grep ssh-agent$ > /dev/null || {
+    start_agent;
+  }
+else
+  start_agent;
+fi
+
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
@@ -97,12 +144,6 @@ fi
 #    . /etc/bash_completion
 #fi
 
-#function try
-#{
-#	git clone --bare "$1" "$2" rm -frv "$1" mv "$2" "$1"
-#}
-
-#alias for Linux
 alias apf='apt-get update && aptitude full-upgrade'
 alias api='apt-get install'
 alias apu='apt-get update'
@@ -115,7 +156,9 @@ alias l='ls -CF'
 alias r='make && ./run'
 alias m='make'
 alias mov='/root/myproject/git/linux/bashrc/move.sh'
+alias qrsc='/root/myproject/git/linux/bashrc/qrsync.sh'
 alias rsc='/root/myproject/git/linux/bashrc/rsync.sh'
+alias trsc='/root/myproject/git/linux/bashrc/trsync.sh'
 
 #alias for git
 alias	g='/root/myproject/git/linux/bashrc/g.sh'
@@ -148,7 +191,7 @@ alias	glga='git log --all'
 alias	gme='git merge'
 alias	gmet='git mergetool'
 alias	gpl='git pull'
-alias	gps='git push --all && git push --tags'
+alias	gps='/root/myproject/git/linux/bashrc/gps.sh'
 alias	grc='git rm --cached'
 alias	grcr='git rm --cached -r'
 alias	grs='git reset'
@@ -169,6 +212,7 @@ alias gtag='/root/myproject/git/linux/bashrc/gtag.sh'
 alias gtg='git tag -l -n1'
 alias gvd='git difftool'
 
+/root/myproject/git/linux/bashrc/check_raid.sh
 HERITRIX_HOME=/root/myproject/git/java/heritrix-1.14.4/
 JAVA_OPTS=-Xmx1024M
 JAVA_HOME=/usr/lib/jvm/java-6-openjdk/jre/bin/java

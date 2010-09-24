@@ -1,7 +1,10 @@
 *.bak
+*.ncb
+*.suo
 *.o
 run
 error
 ~$*
 .svn
+*.swo
 *.swp

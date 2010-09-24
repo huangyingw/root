@@ -16,7 +16,7 @@
 	bra = branch -a
 	brc = branch --contains
 	ci = commit -am
-	cl = clone
+	cl = clone -v
 	cm = commit -am "n"
 	co = checkout
 	ch = cherry
