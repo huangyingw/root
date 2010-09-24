@@ -3,3 +3,5 @@
 run
 error
 ~$*
+.svn
+*.swp

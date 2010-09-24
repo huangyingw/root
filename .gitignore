@@ -38,3 +38,6 @@ gcc-defaults_1.82ubuntu2.tar.gz
 index/
 variables.txt
 workspace/
+.lesshst
+bin/
+rlog
