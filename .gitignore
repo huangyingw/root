@@ -85,3 +85,6 @@ re2/
 rlog
 root/
 si/
+.viminfo.tmp
+.viminfz.tmp
+.vimperator/

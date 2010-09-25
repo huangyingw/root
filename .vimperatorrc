@@ -1,0 +1,21 @@
+"2.3.1 (created: 2010/04/07 18:25:13)
+
+set guioptions=mT
+set runtimepath=/home/yinghuang/.vimperator
+source! /home/yinghuang/.vimperatorrc.local
+
+" vim: set ft=vimperator:
+javascript. <<EOF
+    function set_gui( ){
+        if ( options["guioptions"]=="rb" ) {
+            options["guioptions"]+="mTB";
+        }else{
+            options["guioptions"]="rb";
+        }
+    }
+EOF
+map ,s <Esc>:js set_gui(); <CR>
+
+
+
+
