@@ -175,3 +175,5 @@ re2/
 root/
 si/
 task.sh
+index.sh
+qrsync.sh
