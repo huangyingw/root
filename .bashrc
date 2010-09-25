@@ -21,6 +21,10 @@ HISTFILESIZE=2000
 shopt -s checkwinsize
 
 # make less more friendly for non-text input files, see lesspipe(1)
+
+# set variable identifying the chroot you work in (used in the prompt below)
+
+# set variable identifying the chroot you work in (used in the prompt below)
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
 # set variable identifying the chroot you work in (used in the prompt below)
@@ -59,6 +63,7 @@ unset color_prompt force_color_prompt
 # If this is an xterm set the title to user@host:dir
 case "$TERM" in
 xterm*|rxvt*)
+    PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME}: ${PWD/$HOME/~}\007"'
     PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"
     ;;
 *)
@@ -71,33 +76,62 @@ if [ -x /usr/bin/dircolors ]; then
     alias ls='ls --color=auto'
     #alias dir='dir --color=auto'
     #alias vdir='vdir --color=auto'
-
-    #alias grep='grep --color=auto'
-    #alias fgrep='fgrep --color=auto'
-    #alias egrep='egrep --color=auto'
 fi
 
-# some more ls aliases
-alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
 # ~/.bash_aliases, instead of adding them here directly.
 # See /usr/share/doc/bash-doc/examples in the bash-doc package.
 
-if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
+# enable color support of ls and also add handy aliases
+if [ "$TERM" != "dumb" ]; then
+    eval "`dircolors -b`"
+    alias ls='ls --color=auto'
+    #alias dir='ls --color=auto --format=vertical'
+    #alias vdir='ls --color=auto --format=long'
 fi
-
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
-if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
-    . /etc/bash_completion
+#if [ -f /etc/bash_completion ]; then
+#    . /etc/bash_completion
+#fi
+SSH_ENV="$HOME/.ssh/environment"
+
+function start_agent {
+  echo "Initializing new SSH agent..."
+  /usr/bin/ssh-agent | sed 's/^echo/#echo/' > "${SSH_ENV}"
+  echo succeeded
+  chmod 600 "${SSH_ENV}"
+  . "${SSH_ENV}" > /dev/null
+  /usr/bin/ssh-add;
+}
+
+# Source SSH settings, if applicable
+if [ -f "${SSH_ENV}" ]; then
+  . "${SSH_ENV}" > /dev/null
+  #ps ${SSH_AGENT_PID} doesn't work under cywgin
+  ps -ef | grep ${SSH_AGENT_PID} | grep ssh-agent$ > /dev/null || {
+    start_agent;
+  }
+else
+  start_agent;
 fi
+
+
+#alias for git
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
+
+# enable programmable completion features (you don't need to enable
+# this, if it's already enabled in /etc/bash.bashrc and /etc/profile
+# sources /etc/bash.bashrc).
+#if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
+#    . /etc/bash_completion
+#fi
 
 SSH_ENV="$HOME/.ssh/environment"
 
@@ -121,28 +155,31 @@ else
   start_agent;
 fi
 
+#alias for Linux
 alias apf='apt-get update && aptitude full-upgrade'
 alias api='apt-get install'
 alias apu='apt-get update'
-alias ca='/home/yinghuang/myproject/git/linux/bashrc/ca.sh'
-alias d='make && /home/yinghuang/myproject/git/linux/bashrc/debug.sh'
-alias ll='ls -l'
+alias ca='/root/myproject/git/linux/bashrc/ca.sh'
+alias cr='/root/myproject/git/linux/bashrc/check_raid.sh'
+alias d='make && /root/myproject/git/linux/bashrc/debug.sh'
 alias la='ls -A'
 alias l='ls -CF'
+alias ll='ls -alF'
 alias r='make && ./run'
 alias m='make'
-alias mov='/home/yinghuang/myproject/git/linux/bashrc/move.sh'
-alias rsc='/home/yinghuang/myproject/git/linux/bashrc/rsync.sh'
-alias qrsc='/home/yinghuang/myproject/git/linux/bashrc/qrsync.sh'
-alias trsc='/home/yinghuang/myproject/git/linux/bashrc/trsync.sh'
-alias dof='/home/yinghuang/myproject/git/linux/bashrc/dof.sh'
-alias fc='/home/yinghuang/myproject/git/linux/bashrc/fc.sh'
-alias fd='/home/yinghuang/myproject/git/linux/bashrc/fd.sh'
-alias ff='/home/yinghuang/myproject/git/linux/bashrc/ff.sh'
-alias fw='/home/yinghuang/myproject/git/linux/bashrc/fw.sh'
+alias mov='/root/myproject/git/linux/bashrc/move.sh'
+alias rsc='/root/myproject/git/linux/bashrc/rsync.sh'
+alias rt='/root/reboot.sh'
+alias qrsc='/root/myproject/git/linux/bashrc/qrsync.sh'
+alias trsc='/root/myproject/git/linux/bashrc/trsync.sh'
+alias dof='/root/myproject/git/linux/bashrc/dof.sh'
+alias fc='/root/myproject/git/linux/bashrc/fc.sh'
+alias fd='/root/myproject/git/linux/bashrc/fd.sh'
+alias ff='/root/myproject/git/linux/bashrc/ff.sh'
+alias fw='/root/myproject/git/linux/bashrc/fw.sh'
 
 #alias for git
-alias	g='/home/yinghuang/myproject/git/linux/bashrc/g.sh'
+alias	g='$HOME/myproject/git/linux/bashrc/g.sh'
 alias	ga='git add'
 alias	gbi='git bisect'
 alias	gbib='git bisect bad'
@@ -152,21 +189,21 @@ alias	gbis='git bisect start'
 alias	gbr='git branch'
 alias	gbra='git branch -a'
 alias	gbrc='git branch --contains'
-alias	gbrD='/home/yinghuang/myproject/git/linux/bashrc/gbrD.sh'
+alias	gbrD='/root/myproject/git/linux/bashrc/gbrD.sh'
 alias	gci='git commit -am'
-alias	gcb='/home/yinghuang/myproject/git/linux/bashrc/gcb.sh'
-alias	gcl='git clone'
-alias	gctb='/home/yinghuang/myproject/git/linux/bashrc/gctb.sh'
-alias	g='git commit -am "n" && git push --all && git push --tags'
+alias	gcb='/root/myproject/git/linux/bashrc/gcb.sh'
+alias	gcl='/root/myproject/git/linux/bashrc/gcl.sh'
+alias	gctb='/root/myproject/git/linux/bashrc/gctb.sh'
 alias	gco='git checkout'
 alias	gcob='git checkout -b'
 alias	gch='git cherry'
 alias	gchp='git cherry-pick'
 alias	gdi='git diff'
 alias	gfe='git fetch'
-alias	gfix='/home/yinghuang/myproject/git/linux/bashrc/gfix.sh'
-alias	gi='/home/yinghuang/myproject/git/linux/bashrc/gi.sh'
-alias	gib='/home/yinghuang/myproject/git/linux/bashrc/gib.sh'
+alias	gfix='/root/myproject/git/linux/bashrc/gfix.sh'
+alias	gi='/root/myproject/git/linux/bashrc/gi.sh'
+alias	gib='/root/myproject/git/linux/bashrc/gib.sh'
+alias	gicb='/root/myproject/git/linux/bashrc/gicb.sh'
 alias	glf='git ls-files'
 alias	glg='git log --pretty=oneline'
 alias	glga='git log --all'
@@ -177,7 +214,7 @@ alias	gps='git push --all && git push --tags'
 alias	grc='git rm --cached'
 alias	grcr='git rm --cached -r'
 alias	grs='git reset'
-alias	grsh='git reset --hard'
+alias	grsh='/root/myproject/git/linux/bashrc/grsh.sh'
 alias	grsm='git reset --mixed'
 alias	grss='git reset --soft'
 alias	grt='git remote'
@@ -190,9 +227,17 @@ alias	gsh='git show'
 alias	gsm='git submodule'
 alias gs='git status'
 alias gsta='git stash'
-alias gtag='/home/yinghuang/myproject/git/linux/bashrc/gtag.sh'
+
+/root/check_raid.sh
+alias gtag='/root/myproject/git/linux/bashrc/gtag.sh'
 alias gtg='git tag -l -n1'
 alias gvd='git difftool'
+
+HERITRIX_HOME=/root/myproject/git/java/heritrix-1.14.4/
+JAVA_OPTS=-Xmx1024M
+JAVA_HOME=/usr/lib/jvm/java-6-openjdk/jre/bin/java
+CLASSPATH=/media/volgrp/myproject/git/java/lucene/lucene-3.0.1/lucene-core-3.0.1.jar:/media/volgrp/myproject/git/java/lucene/lucene-3.0.1/lucene-demos-3.0.1.jar:/media/volgrp/myproject/git/webapps/luceneweb/WEB-INF/lib/lucene-core-3.0.1.jar:/media/volgrp/myproject/git/webapps/luceneweb/WEB-INF/lib/lucene-demos-3.0.1.jar
+export CLASSPATH
 
 export GREP_OPTIONS='--color=auto'
 export GREP_COLOR='1;31'
