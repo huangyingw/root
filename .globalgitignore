@@ -8,3 +8,6 @@ error
 .svn
 *.swo
 *.swp
+*.swm
+*.swn
+*.loT
