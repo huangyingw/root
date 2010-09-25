@@ -12,3 +12,14 @@
 error
 run
 ~$*
+*.o
+run
+error
+~$*
+.svn
+*.swo
+*.swp
+*.swm
+*.swn
+*.loT
+*.swl

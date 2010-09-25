@@ -1,8 +1,8 @@
 "2.3.1 (created: 2010/04/07 18:25:13)
 
 set guioptions=mT
-set runtimepath=/home/yinghuang/.vimperator
-source! /home/yinghuang/.vimperatorrc.local
+set runtimepath=~/.vimperator
+source! ~/.vimperatorrc.local
 
 " vim: set ft=vimperator:
 javascript. <<EOF
@@ -15,7 +15,5 @@ javascript. <<EOF
     }
 EOF
 map ,s <Esc>:js set_gui(); <CR>
-
-
 
 
