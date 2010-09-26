@@ -177,3 +177,5 @@ si/
 task.sh
 index.sh
 qrsync.sh
+work/
+.openoffice.org/

@@ -24,3 +24,6 @@ error
 *.loT
 *.swl
 *.swk
+*.swj
+*.swi
+*.orig
