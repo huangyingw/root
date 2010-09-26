@@ -181,3 +181,15 @@ work/
 .openoffice.org/
 .xine/
 .stardict/
+.Xauthority
+.gnupg/
+.nx/
+.qt/
+.update-manager-core/
+.vmware/
+.xscreensaver-getimage.cache
+Desktop/
+core
+examples.desktop
+photos-20100910-0.db
+vmware/
