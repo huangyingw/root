@@ -13,8 +13,6 @@ map H gT
 map L gt
 map J <C-f>
 map K <C-b>
-map ] ]]
-map [ [[
 map M :set go=mT
 set guioptions=mT
 set runtimepath=/home/yinghuang/.vimperator
@@ -52,3 +50,5 @@ EOF
 
 map <silent> <F2> :js toggle_bar() <CR>
 map <C-w> :js wiki_selected_text() <CR> 
+map ] ]]
+map [ [[
