@@ -3,6 +3,8 @@
 map ,s <Esc>:js<Space>set_gui();<Space><Return>
 map H gT
 map L gt
+map J <C-d>
+map K <C-u>
 set guioptions=mT
 set runtimepath=/home/yinghuang/.vimperator
 source! /home/yinghuang/.vimperatorrc.local
