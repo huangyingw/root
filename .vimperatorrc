@@ -15,8 +15,8 @@ map J <C-f>
 map K <C-b>
 map M :set go=mT
 set guioptions=mT
-set runtimepath=/home/yinghuang/.vimperator
-source! /home/yinghuang/.vimperatorrc.local
+set runtimepath=~/.vimperator
+source! ~/.vimperatorrc.local
 
 " vim: set ft=vimperator:
 "Next Page and Previous Page超级的下一页,基本上是够用了.快捷键是[[和]]
