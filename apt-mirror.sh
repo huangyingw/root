@@ -6,6 +6,12 @@ RSYNCSOURCE=rsync://mirrors.sohu.com/ubuntu/
 
 BASEDIR=/media/volgrp/UbuntuMirror/
 
-rsync -ahHv --log-file=/root/rlog --delete-after \
-      --exclude "dapper*" --exclude "hardy*" --exclude "intrepid*" --exclude "jaunty*" --exclude "maverick*"\
-      ${RSYNCSOURCE} ${BASEDIR}
+
+if  ['ps ax | grep -q rsync']
+then   
+	echo rsync is running
+else
+	rsync -ahHv --log-file=/root/rlog --delete-after \
+	--exclude "dapper*" --exclude "hardy*" --exclude "intrepid*" --exclude "jaunty*" --exclude "maverick*"\
+	${RSYNCSOURCE} ${BASEDIR}
+fi
