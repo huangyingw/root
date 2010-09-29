@@ -12,7 +12,6 @@ if [ "$(ps -p `cat /tmp/program.lock` | wc -l)" -gt 1 ]; then
           echo "$0: quit at start: lingering process `cat /tmp/program.lock`"
           exit 0
 else
-      	  # process not running, but lock file not deleted?
       	  echo " $0: orphan lock file warning. Lock file deleted."
       	  echo $$ > /tmp/program.lock
     rsync -ahHv --log-file=/root/rlog --delete-after \
