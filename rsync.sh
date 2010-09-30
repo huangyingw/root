@@ -8,5 +8,6 @@ then
 fi
 
 rsync -aH --delete-after \
-	"${SOURCE}" "${TARGET}"
+		--exclude .svn \
+		"${SOURCE}" "${TARGET}"
 

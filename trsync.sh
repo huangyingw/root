@@ -9,5 +9,6 @@ then
 fi
 
 rsync -aHinv --delete-after \
-"${SOURCE}" "${TARGET}"
+		--exclude .svn \
+		"${SOURCE}" "${TARGET}"
 
