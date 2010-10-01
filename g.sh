@@ -1,4 +1,3 @@
 #!/bin/bash
 git commit -am "n"
-git push --all
-git push --tags
+~/myproject/git/linux/bashrc/gps.sh
