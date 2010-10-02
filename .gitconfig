@@ -47,6 +47,6 @@
 	remote = origin
 	merge = refs/heads/fix
 [core]
-	excludesfile = /root/.globalgitignore
+	excludesfile = "~/.globalgitignore"
 [color]
 	ui = auto
