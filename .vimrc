@@ -1,8 +1,5 @@
 set tags+=~/tags
-
 set path+=~/code/yr
-set path+=~/code/yr/.ymake-out/dbg/thrift-out
-set path+=~/code/yr/.ymake-out/dbg/proto-out
 
 "set nocp
 set hlsearch
@@ -34,14 +31,14 @@ filetype indent on
 "colorscheme torte
 
 function! CHANGE_CURR_DIR()
-	let _dir = expand("%:p:h")
-	exec "cd " . _dir
-	unlet _dir
-	if filereadable(".vimdc")
-	source .vimdc
-	endif
-	endfunction
+let _dir = expand("%:p:h")
+exec "cd " . _dir
+unlet _dir
+if filereadable(".vimdc")
+source .vimdc
+endif
+endfunction
 
-	autocmd BufEnter * call CHANGE_CURR_DIR()
+autocmd BufEnter * call CHANGE_CURR_DIR()
 
-	autocmd BufReadPost * if line("'\"") > 0 && line ("'\"") <= line("$") | exe "normal! g'\"" | endif
+autocmd BufReadPost * if line("'\"") > 0 && line ("'\"") <= line("$") | exe "normal! g'\"" | endif
