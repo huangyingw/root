@@ -7,16 +7,28 @@ RSYNCSOURCE=rsync://mirrors.sohu.com/ubuntu/
 
 BASEDIR=/media/volgrp/UbuntuMirror/
 
-if [ "$(ps -p `cat /tmp/program.lock` | wc -l)" -gt 1 ]; then
-          # process is still running
-          echo "$0: quit at start: lingering process `cat /tmp/program.lock`"
-          exit 0
-else
-      	  echo " $0: orphan lock file warning. Lock file deleted."
-      	  echo $$ > /tmp/program.lock
-    rsync -ahHv --log-file=/root/rlog --delete-after \
+# check to see if script is already running
+PDIR=${0%`basename $0`}
+LCK_FILE=`basename $0`.lck
+
+if [ -f "${LCK_FILE}" ]; then
+  MYPID=`head -n 1 "${LCK_FILE}"`
+        
+  TEST_RUNNING=`ps -p ${MYPID} | grep ${MYPID}`
+          
+  if [ -z "${TEST_RUNNING}" ]; then
+    # The process is not running
+    # Echo current PID into lock file
+  echo $$ > "${LCK_FILE}"
+  rsync -ahHv --log-file=/root/rlog --delete-after \
       --exclude "*dapper*" --exclude "*hardy*" --exclude "*intrepid*" --exclude "*jaunty*" \
       --exclude "*powerpc*" --exclude "*sparc*" \
     ${RSYNCSOURCE} ${BASEDIR}
+  else
+      # the process IS running
+      # handle it
+      exit 0
+  fi
+else
+  echo $$ > "${LCK_FILE}"
 fi
-
