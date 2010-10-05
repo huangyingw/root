@@ -174,6 +174,7 @@ alias dof='$HOME/myproject/git/linux/bashrc/dof.sh'
 alias fc='$HOME/myproject/git/linux/bashrc/fc.sh'
 alias fd='$HOME/myproject/git/linux/bashrc/fd.sh'
 alias ff='$HOME/myproject/git/linux/bashrc/ff.sh'
+alias fr='$HOME/myproject/git/linux/bashrc/fr.sh'
 alias fw='$HOME/myproject/git/linux/bashrc/fw.sh'
 
 #alias for git
