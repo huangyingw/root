@@ -243,3 +243,5 @@ work/
 workspace/
 diff.txt
 apt-mirror.sh.lck
+.swp
+*.swp
