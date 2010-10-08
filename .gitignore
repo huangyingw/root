@@ -152,3 +152,4 @@ smb.sh
 software.sh
 apt-mirror.sh.lck
 .swp
+*.swp
