@@ -27,3 +27,7 @@ error
 *.swj
 *.swi
 *.orig
+*.swg
+*.swf
+*.swh
+tags
