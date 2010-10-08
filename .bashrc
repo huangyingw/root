@@ -60,7 +60,6 @@ unset color_prompt force_color_prompt
 # If this is an xterm set the title to user@host:dir
 case "$TERM" in
 xterm*|rxvt*)
-    PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME}: ${PWD/$HOME/~}\007"'
     PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"
     ;;
 *)
@@ -152,6 +151,7 @@ alias dof='$HOME/myproject/git/linux/bashrc/dof.sh'
 alias fc='$HOME/myproject/git/linux/bashrc/fc.sh'
 alias fd='$HOME/myproject/git/linux/bashrc/fd.sh'
 alias ff='$HOME/myproject/git/linux/bashrc/ff.sh'
+alias fr='$HOME/myproject/git/linux/bashrc/fr.sh'
 alias fw='$HOME/myproject/git/linux/bashrc/fw.sh'
 
 #alias for git
@@ -160,6 +160,7 @@ alias l='ls -CF'
 alias r='make && ./run'
 alias m='make'
 alias mov='$HOME/myproject/git/linux/bashrc/move.sh'
+alias tmov='$HOME/myproject/git/linux/bashrc/tmov.sh'
 alias qrsc='$HOME/myproject/git/linux/bashrc/qrsync.sh'
 alias rsc='$HOME/myproject/git/linux/bashrc/rsync.sh'
 alias trsc='$HOME/myproject/git/linux/bashrc/trsync.sh'
