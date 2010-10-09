@@ -245,3 +245,6 @@ diff.txt
 apt-mirror.sh.lck
 .swp
 *.swp
+.printer-groups.xml
+.xinput.d/
+yr/
