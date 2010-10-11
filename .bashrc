@@ -185,8 +185,8 @@ alias m='make'
 alias mov='$HOME/myproject/git/linux/bashrc/move.sh'
 alias tmov='$HOME/myproject/git/linux/bashrc/tmove.sh'
 alias qrsc='$HOME/myproject/git/linux/bashrc/qrsync.sh'
-alias rsc='$HOME/myproject/git/linux/bashrc/rsync.sh'
-alias trsc='$HOME/myproject/git/linux/bashrc/trsync.sh'
+alias mirror='$HOME/myproject/git/linux/bashrc/mirror.sh'
+alias tmirror='$HOME/myproject/git/linux/bashrc/tmirror.sh'
 
 #alias for git
 alias	g='$HOME/myproject/git/linux/bashrc/g.sh'
