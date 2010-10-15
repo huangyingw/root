@@ -1,6 +1,7 @@
 set tags+=~/tags
 set path+=~/code/yr
 set path+=/media/volgrp/yr
+set path+=/media/volgrp/myproject_copy/git/work/yr
 
 "set nocp
 set hlsearch
