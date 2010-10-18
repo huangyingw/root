@@ -8,6 +8,8 @@ function set_gui( ){
 	}
 }
 EOF
+
+command! -nargs=* dict tabopen http://dict.cn/<args>
 map ,s <Esc>:js<Space>set_gui();<Space><Return>
 map H gT
 map L gt
@@ -52,3 +54,12 @@ map <silent> <F2> :js toggle_bar() <CR>
 map <C-w> :js wiki_selected_text() <CR> 
 map ] ]]
 map [ [[
+set guioptions=mT
+set maxitems=6
+set "nextpattern=s*下一页|下一张|下一篇|下页|后页s*,^bnextb,\\bnext\\b,^>$,^(>>|»)$,^(>|»),(>|»)$,\\bmore\\b"
+set "previouspattern=s*上一页|上一张|上一篇|上页|前页s*,^bprev|previousb,\\bprev|previous\\b,^<$,^(<<|«)$,^(<|«),(<|«)$"
+set runtimepath=/home/yinghuang/.vimperator
+set wildoptions=auto
+source! /home/yinghuang/.vimperatorrc.local
+
+" vim: set ft=vimperator:
