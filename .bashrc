@@ -129,28 +129,6 @@ fi
 #    . /etc/bash_completion
 #fi
 
-SSH_ENV="$HOME/.ssh/environment"
-
-function start_agent {
-  echo "Initializing new SSH agent..."
-  /usr/bin/ssh-agent | sed 's/^echo/#echo/' > "${SSH_ENV}"
-  echo succeeded
-  chmod 600 "${SSH_ENV}"
-  . "${SSH_ENV}" > /dev/null
-  /usr/bin/ssh-add;
-}
-
-# Source SSH settings, if applicable
-if [ -f "${SSH_ENV}" ]; then
-  . "${SSH_ENV}" > /dev/null
-  #ps ${SSH_AGENT_PID} doesn't work under cygwin
-  ps -ef | grep ${SSH_AGENT_PID} | grep ssh-agent$ > /dev/null || {
-    start_agent;
-  }
-else
-  start_agent;
-fi
-
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
@@ -185,10 +163,12 @@ alias r='make && ./run'
 alias m='make'
 alias mov='$HOME/myproject/git/linux/bashrc/move.sh'
 alias tmov='$HOME/myproject/git/linux/bashrc/tmove.sh'
-alias copy='$HOME/myproject/git/linux/bashrc/copy.sh'
-alias tcopy='$HOME/myproject/git/linux/bashrc/tcopy.sh'
 alias mirror='$HOME/myproject/git/linux/bashrc/mirror.sh'
 alias tmirror='$HOME/myproject/git/linux/bashrc/tmirror.sh'
+alias copy='$HOME/myproject/git/linux/bashrc/copy.sh'
+alias tcopy='$HOME/myproject/git/linux/bashrc/tcopy.sh'
+alias rsync_svn='$HOME/myproject/git/linux/bashrc/rsync_svn.sh'
+alias trsync_svn='$HOME/myproject/git/linux/bashrc/trsync_svn.sh'
 
 #alias for git
 alias	g='$HOME/myproject/git/linux/bashrc/g.sh'
@@ -239,6 +219,7 @@ alias	gsh='git show'
 alias	gsm='git submodule'
 alias gs='git status'
 alias gst='git stash'
+alias gsta='git stash apply'
 alias gstl='git stash list'
 alias gstp='git stash pop'
 alias gtag='$HOME/myproject/git/linux/bashrc/gtag.sh'

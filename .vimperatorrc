@@ -8,6 +8,8 @@ function set_gui( ){
 	}
 }
 EOF
+
+command! -nargs=* dict tabopen http://dict.cn/<args>
 map ,s <Esc>:js<Space>set_gui();<Space><Return>
 map H gT
 map L gt

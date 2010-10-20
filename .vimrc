@@ -1,5 +1,7 @@
 set tags+=~/tags
 set path+=~/code/yr
+set path+=/media/volgrp/yr
+set path+=/media/volgrp/myproject_copy/git/work/yr
 
 "set nocp
 set hlsearch
@@ -42,3 +44,4 @@ endfunction
 autocmd BufEnter * call CHANGE_CURR_DIR()
 
 autocmd BufReadPost * if line("'\"") > 0 && line ("'\"") <= line("$") | exe "normal! g'\"" | endif
+
