@@ -3,7 +3,7 @@ set path+=~/code/yr
 
 "set nocp
 set hlsearch
-set mouse=a
+"set mouse=a
 "设置帮助文件显示语言
 set helplang=cn
 "encoding

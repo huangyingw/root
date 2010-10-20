@@ -153,3 +153,8 @@ software.sh
 apt-mirror.sh.lck
 .swp
 *.swp
+.xinput.d/
+awk
+bookmarks.html
+libunwind-0.99-beta
+libunwind-0.99-beta.tar.gz
