@@ -166,6 +166,8 @@ alias mirror='$HOME/myproject/git/linux/bashrc/mirror.sh'
 alias tmirror='$HOME/myproject/git/linux/bashrc/tmirror.sh'
 alias copy='$HOME/myproject/git/linux/bashrc/copy.sh'
 alias tcopy='$HOME/myproject/git/linux/bashrc/tcopy.sh'
+alias rsync_svn='$HOME/myproject/git/linux/bashrc/rsync_svn.sh'
+alias trsync_svn='$HOME/myproject/git/linux/bashrc/trsync_svn.sh'
 
 #alias for git
 alias	g='$HOME/myproject/git/linux/bashrc/g.sh'
