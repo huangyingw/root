@@ -28,3 +28,4 @@ error
 *.swi
 *.orig
 *.swp
+*.gch
