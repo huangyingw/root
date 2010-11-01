@@ -154,6 +154,7 @@ alias fd='$HOME/myproject/git/linux/bashrc/fd.sh'
 alias ff='$HOME/myproject/git/linux/bashrc/ff.sh'
 alias fr='$HOME/myproject/git/linux/bashrc/fr.sh'
 alias fw='$HOME/myproject/git/linux/bashrc/fw.sh'
+alias vitag='$HOME/myproject/git/linux/bashrc/vitag.sh'
 
 #alias for git
 alias la='ls -A'
