@@ -29,3 +29,4 @@ error
 *.orig
 *.swp
 *.gch
+tags
