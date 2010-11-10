@@ -32,16 +32,21 @@ map <silent> <F8> :TlistToggle<CR>
 filetype indent on
 "colorscheme torte
 
-function! CHANGE_CURR_DIR()
-let _dir = expand("%:p:h")
-exec "cd " . _dir
-unlet _dir
-if filereadable(".vimdc")
-source .vimdc
-endif
+function CHANGE_CURR_DIR()
+  let _dir = expand("%:p:h")
+  exec "cd " . _dir
+  unlet _dir
+  if filereadable(".vimdc")
+    source .vimdc
+  endif
 endfunction
 
 autocmd BufEnter * call CHANGE_CURR_DIR()
 
 autocmd BufReadPost * if line("'\"") > 0 && line ("'\"") <= line("$") | exe "normal! g'\"" | endif
 
+source ~/.vim/plugin/cscope_maps.vim
+if filereadable("cscope.out")
+  cs reset
+  cs add cscope.out
+endif

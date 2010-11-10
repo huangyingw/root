@@ -158,9 +158,11 @@ alias vitag='$HOME/myproject/git/linux/bashrc/vitag.sh'
 
 #alias for git
 alias la='ls -A'
-alias l='ls -CF'
+alias l='ls -aclt'
 alias r='$HOME/myproject/git/linux/bashrc/run.sh'
-alias m='make clean ; make'
+alias rb='$HOME/myproject/git/linux/bashrc/runb.sh'
+alias m='make'
+alias mb='make -B'
 alias mov='$HOME/myproject/git/linux/bashrc/move.sh'
 alias tmov='$HOME/myproject/git/linux/bashrc/tmove.sh'
 alias mirror='$HOME/myproject/git/linux/bashrc/mirror.sh'
@@ -172,7 +174,7 @@ alias trsync_svn='$HOME/myproject/git/linux/bashrc/trsync_svn.sh'
 
 #alias for git
 alias	g='$HOME/myproject/git/linux/bashrc/g.sh'
-alias	ga='git add'
+alias	ga='$HOME/myproject/git/linux/bashrc/ga.sh'
 alias	gbi='git bisect'
 alias	gbib='git bisect bad'
 alias	gbig='git bisect good'
