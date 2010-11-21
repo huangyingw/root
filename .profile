@@ -22,3 +22,5 @@ if [ -d "$HOME/bin" ] ; then
 fi
 
 
+export LANG="zh_CN.utf8"
+export LANGUAGE="en"
