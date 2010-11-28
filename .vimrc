@@ -1,5 +1,7 @@
 set tags+=~/tags
 set path+=~/code/yr
+set path+=/media/volgrp/yr
+set path+=/media/volgrp/myproject_copy/git/work/yr
 
 "set nocp
 set hlsearch
@@ -31,14 +33,43 @@ filetype indent on
 "colorscheme torte
 
 function! CHANGE_CURR_DIR()
-let _dir = expand("%:p:h")
-exec "cd " . _dir
-unlet _dir
-if filereadable(".vimdc")
-source .vimdc
-endif
+  let _dir = expand("%:p:h")
+  exec "cd " . _dir
+  unlet _dir
+  if filereadable(".vimdc")
+    source .vimdc
+  endif
 endfunction
 
 autocmd BufEnter * call CHANGE_CURR_DIR()
 
 autocmd BufReadPost * if line("'\"") > 0 && line ("'\"") <= line("$") | exe "normal! g'\"" | endif
+
+source ~/.vim/plugin/cscope_maps.vim
+"if filereadable("cscope.out")
+"  cs reset
+"  cs add cscope.out
+"endif
+"auto load cscope.out
+"if has("cscope")
+"  set csprg=/usr/bin/cscope
+"  set csto=0
+"  set cst
+"  set nocsverb
+"  let n = 1
+"  let s1 = "cscope.out"
+"  let csout = "cscope add "
+"  while n < 4
+"    if filereadable(s1)
+"      let csout = csout . s1
+"      execute csout
+"      unlet csout
+"      unlet n
+"      unlet s1
+"      break
+"    endif
+"    let s1 = "../" .  s1
+"    let n = n + 1
+"  endw
+"  set csverb
+"endif
