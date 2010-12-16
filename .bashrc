@@ -158,6 +158,7 @@ alias fr='$HOME/myproject/git/linux/bashrc/fr.sh'
 alias fw='$HOME/myproject/git/linux/bashrc/fw.sh'
 alias vitag='$HOME/myproject/git/linux/bashrc/vitag.sh'
 alias ntp='$HOME/myproject/git/linux/bashrc/ntp.sh'
+alias tk='$HOME/myproject/git/linux/bashrc/task.sh'
 
 #alias for git
 alias la='ls -A'
