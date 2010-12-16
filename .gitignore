@@ -1,5 +1,4 @@
 rlog
-check_disk.log
 check_running.sh.lck
 *.bak
 .aptitude/
@@ -84,8 +83,6 @@ gcc-defaults_1.82ubuntu2.dsc
 gcc-defaults_1.82ubuntu2.tar.gz
 lucene/
 lv.txt
-disk_list.txt
-check_disk.log
 rlog
 .usbcreator.log
 df.txt
@@ -107,7 +104,6 @@ android.csv
 .repoconfig/
 .repopickle_.gitconfig
 bin/
-task.sh
 interfaces
 resolv.conf
 setup.sh
@@ -195,7 +191,6 @@ android.csv
 atunes/
 bin/
 bookmarks.HTML
-check_disk.log
 core
 coreutils_7.4-2ubuntu1.diff.gz
 coreutils_7.4-2ubuntu1.dsc
@@ -203,7 +198,6 @@ coreutils_7.4.orig.tar.gz
 data/
 demo
 df.txt
-disk_list.txt
 dmidecode.txt
 eglibc_2.10.1-0ubuntu15.diff.gz
 eglibc_2.10.1-0ubuntu15.dsc
@@ -257,4 +251,4 @@ tags
 .mozilla
 .bashrc.swh
 .bashrc.swg
-check_disk.sh
+check_disk.log
