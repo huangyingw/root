@@ -143,7 +143,9 @@ fi
 alias apf='apt-get update && aptitude full-upgrade'
 alias api='apt-get install'
 alias apu='apt-get update'
+alias b='bochs'
 alias ca='$HOME/myproject/git/linux/bashrc/ca.sh'
+alias csr='cscope -R'
 alias cr='$HOME/myproject/git/linux/bashrc/check_raid.sh'
 alias d='make && $HOME/myproject/git/linux/bashrc/debug.sh'
 alias ll='ls -alF'
@@ -155,6 +157,7 @@ alias ff='$HOME/myproject/git/linux/bashrc/ff.sh'
 alias fr='$HOME/myproject/git/linux/bashrc/fr.sh'
 alias fw='$HOME/myproject/git/linux/bashrc/fw.sh'
 alias vitag='$HOME/myproject/git/linux/bashrc/vitag.sh'
+alias ntp='$HOME/myproject/git/linux/bashrc/ntp.sh'
 
 #alias for git
 alias la='ls -A'
