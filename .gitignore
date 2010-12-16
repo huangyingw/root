@@ -1,6 +1,7 @@
 rlog
 check_running.sh.lck
 *.bak
+*.orig
 .aptitude/
 .bash_history
 .cache/
@@ -252,3 +253,18 @@ tags
 .bashrc.swh
 .bashrc.swg
 check_disk.log
+.android/
+.easytag/
+.eclim/
+Documents/
+.sancho/
+.wireshark/
+a.img
+android-sdk-linux_x86/
+android-sdk_r07-linux_x86.tgz
+eclipse-jee-helios-SR1-linux-gtk-x86_64.tar.gz
+eclipse
+hs_err_pid24585.log
+id3_0.15-2.diff.gz
+id3_0.15*
+sancho*
