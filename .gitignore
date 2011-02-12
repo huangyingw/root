@@ -275,6 +275,7 @@ sancho*
 bashrc/
 .Skype/
 .kodos/
+.kodos/
 .VirtualBox/
 license.dat
 *.lck
