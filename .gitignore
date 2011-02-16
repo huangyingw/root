@@ -279,3 +279,6 @@ bashrc/
 .VirtualBox/
 license.dat
 *.lck
+.amsn/
+.tsclient/
+.virt-manager/
