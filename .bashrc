@@ -241,3 +241,4 @@ export CLASSPATH
 
 export GREP_OPTIONS='--color=auto'
 export GREP_COLOR='1;31'
+export  CVSROOT=:pserver:yhuang@cvssrv:/cvs/CVS

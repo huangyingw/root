@@ -272,6 +272,16 @@ hs_err_pid24585.log
 id3_0.15-2.diff.gz
 id3_0.15*
 sancho*
-bashrc
+bashrc/
+.Skype/
 .kodos/
 *.orig
+.kodos/
+.VirtualBox/
+license.dat
+*.lck
+.amsn/
+.tsclient/
+.virt-manager/
+.libvirt/
+.tencent/
