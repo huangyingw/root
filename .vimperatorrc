@@ -31,8 +31,13 @@ set wop=auto
 set maxitems=6
 "Look up the word you selected in dict.cn在dict.cn中查找所选词的英语
 command! dict -nargs=* tabopen http://dict.cn/<args>
-map w :dict
+map w :dict 
 map <silent> W :exe ":dict "+content.getSelection()<CR>
+
+"Look up the word you selected in verycd在verycd中查找所选词的资源
+command! verycd -nargs=* tabopen http://www.verycd.com/search/folders/<args>
+map e :verycd 
+map <silent> W :exe ":verycd "+content.getSelection()<CR>
 
 js <<EOF
 // Toggle Tool bar
