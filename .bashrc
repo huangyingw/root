@@ -145,7 +145,7 @@ alias api='apt-get install'
 alias apu='apt-get update'
 alias b='bochs'
 alias ca='$HOME/bashrc/ca.sh'
-alias csr='cscope -R'
+alias csr='$HOME/bashrc/csr.sh'
 alias cr='$HOME/bashrc/check_raid.sh'
 alias d='make && $HOME/bashrc/debug.sh'
 alias ll='ls -alF'
@@ -158,6 +158,7 @@ alias fr='$HOME/bashrc/fr.sh'
 alias fw='$HOME/bashrc/fw.sh'
 alias vitag='$HOME/bashrc/vitag.sh'
 alias ntp='$HOME/bashrc/ntp.sh'
+alias tk='$HOME/myproject/git/linux/bashrc/task.sh'
 
 #alias for git
 alias la='ls -A'
@@ -243,3 +244,4 @@ export GREP_COLOR='1;31'
 mount /media/volgrp
 mount /media/mldonkey/ 
 mount /media/usb
+export  CVSROOT=:pserver:yhuang@cvssrv:/cvs/CVS
