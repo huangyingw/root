@@ -285,3 +285,5 @@ license.dat
 .virt-manager/
 .libvirt/
 .tencent/
+.mplayer/
+jarpackage/
