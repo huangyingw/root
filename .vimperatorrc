@@ -17,6 +17,7 @@ map J <C-f>
 map K <C-b>
 map M :set go=mT
 set guioptions=mT
+set hlsearch
 set runtimepath=~/.vimperator
 source! ~/.vimperatorrc.local
 
