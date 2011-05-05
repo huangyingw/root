@@ -241,5 +241,8 @@ export CLASSPATH
 
 export GREP_OPTIONS='--color=auto'
 export GREP_COLOR='1;31'
+mount /media/volgrp
+mount /media/mldonkey/ 
+mount /media/usb
 export  CVSROOT=:pserver:yhuang@cvssrv:/cvs/CVS
 set -o vi
