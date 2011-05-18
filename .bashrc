@@ -243,3 +243,15 @@ export GREP_OPTIONS='--color=auto'
 export GREP_COLOR='1;31'
 export  CVSROOT=:pserver:yhuang@cvssrv:/cvs/CVS
 set -o vi
+
+
+#export ACE_PATH=/pcc/lsfqa-trusted/soam_ext/ACE/com_platform_ACE_544_01/lib
+#export ANT_HOME=/pcc/app/apache-ant-1.6.0
+#export DOC_PATH=/pcc/id_trusted/publish/cloud/naegling2.0
+#export DisableJUnit=true
+#export JAVA_HOME=/pcc/lsfqa-trusted/3rdparty/jdk/1.5.0_08/linux-x86
+#export PATH=$JAVA_HOME/bin:$ANT_HOME/bin:$PATH
+#export EGO_SHARED_DIR=cloud_ISF_SS_POC_DROP_4
+#export GUI_TAR_DIR=/pcc/lsfqa-trusted/VMO_ext/vmo_monte/gui
+#export RTM_ADD_ON=/pcc/lsfqa-trusted/rtm_ext/shared/2_0_SS_POC
+#export VMO_MONTE_SHARE_DIR=/pcc/lsfqa-trusted/vmo_monte_ext/shared
