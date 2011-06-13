@@ -140,6 +140,7 @@ fi
 #    . /etc/bash_completion
 #fi
 
+alias sancho=~/sancho-0.9.4-59-linux-gtk-x86_64-java/sancho 
 alias apf='apt-get update && aptitude full-upgrade'
 alias api='apt-get install'
 alias apu='apt-get update'
