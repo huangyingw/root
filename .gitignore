@@ -1,7 +1,7 @@
 rlog
-check_disk.log
 check_running.sh.lck
 *.bak
+*.orig
 .aptitude/
 .bash_history
 .cache/
@@ -84,8 +84,6 @@ gcc-defaults_1.82ubuntu2.dsc
 gcc-defaults_1.82ubuntu2.tar.gz
 lucene/
 lv.txt
-disk_list.txt
-check_disk.log
 rlog
 .usbcreator.log
 df.txt
@@ -107,7 +105,6 @@ android.csv
 .repoconfig/
 .repopickle_.gitconfig
 bin/
-task.sh
 interfaces
 resolv.conf
 setup.sh
@@ -195,7 +192,6 @@ android.csv
 atunes/
 bin/
 bookmarks.HTML
-check_disk.log
 core
 coreutils_7.4-2ubuntu1.diff.gz
 coreutils_7.4-2ubuntu1.dsc
@@ -203,7 +199,6 @@ coreutils_7.4.orig.tar.gz
 data/
 demo
 df.txt
-disk_list.txt
 dmidecode.txt
 eglibc_2.10.1-0ubuntu15.diff.gz
 eglibc_2.10.1-0ubuntu15.dsc
@@ -257,6 +252,7 @@ tags
 .mozilla
 .bashrc.swh
 .bashrc.swg
+check_disk.log
 .android/
 .easytag/
 .eclim/
@@ -272,6 +268,7 @@ hs_err_pid24585.log
 id3_0.15-2.diff.gz
 id3_0.15*
 sancho*
+bashrc
 bashrc/
 .Skype/
 .kodos/
@@ -291,3 +288,14 @@ jarpackage/
 .netx/
 Ubuntu One/
 huizhi
+.icedteaplugin/
+.vifm/
+IMG_15042011_153109.png
+disable_graph.sh
+Pictures/
+cvs
+gui
+cvs
+temp
+API_Demo
+yoga

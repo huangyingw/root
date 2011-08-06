@@ -29,9 +29,9 @@ error
 *.orig
 *.swp
 *.gch
-tags
 cscope.files
 cscope.in.out
 cscope.out
 cscope.po.out
 *.orig
+CVS
