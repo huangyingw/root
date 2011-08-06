@@ -1,0 +1,82 @@
+In house, below are the steps to make ISF work.
+
+ 
+
+1. As Oracle sysdb, create a tablespace
+
+1) create a tablespace for isf_user1 as sysdba
+
+SQL> CREATE SMALLFILE TABLESPACE "ISF_FS" DATAFILE '/isf_tablespace/isf_datafile1' SIZE 100M AUTOEXTEND ON NEXT 10K MAXSIZE UNLIMITED LOGGING EXTENT MANAGEMENT LOCAL SEGMENT SPACE MANAGEMENT AUTO
+
+ 
+
+2. As sysdba, create ISF user, e.g "isf_user1" in Oracle and use the tablespace created above as the default tablespace
+SQL> CREATE USER "isf_user1" PROFILE "DEFAULT" IDENTIFIED BY "isf" DEFAULT TABLESPACE "ISF_FS" TEMPORARY TABLESPACE "TEMP" ACCOUNT UNLOCK
+GRANT "CONNECT" TO "isf_user1"
+
+ 
+
+3. As sysdba grant privileges to the user isf_user1
+SQL> grant connect,resource to isf_user1;
+SQL> grant create view to isf_user1;
+
+ 
+
+4. Copy 3 table creation sql files (see step below.) from /opt/platform/perf/ego/2.0/DBschema/Oracle/
+
+5. As the user isf_user1, create ISF tables:
+
+sqlplus isf_user1/isf@vmoqa006.lsf.platform.com:1521/orcl.lsf.platform.com
+
+SQL> @ ./create_egobasic_rawdata_schema.sql ISF_FS ISF_FS;
+SQL> @ ./CreateConfTables.sql ISF_FS ISF_FS;
+SQL> @ ./vmodata.sql ISF_FS ISF_FS;
+
+ 
+
+ 
+
+6. Set env for ISF installation, for example:
+export MASTERHOST=`hostname`
+export CLUSTERNAME=test
+export BASEPORT=29071
+export LICENSEFILE=./license.dat.ego20
+
+ 
+
+7. Install ISF
+./isf2_2Manager_linux2.6-x86_64.bin
+
+ 
+
+Input Oracle related inforation. Make sure:
+
+1) Answer yes to the question "Do you want to use existing Oracle database? (yes/no)"
+2) Answer "no" to "do you want to create new tables in oracle DB now?(yes/no)".
+
+ 
+
+For example:
+
+Do you want to use existing Oracle database? (yes/no)yes
+Prepare parameter to connect to Oracle DB
+please input user name:isf_user1
+please input password:
+please input oracle database host name or IP address:vmoqa006.lsf.platform.com
+please input oracle port number:1521
+please input oracle service name:orcl.lsf.platform.com
+connect to oracle database with URL //vmoqa006.lsf.platform.com:1521/orcl.lsf.platform.com ...
+Test connect to Oracle database successfuly
+
+ 
+
+Test whether there is ISF table
+There is no ISF table
+make sure username you given have enough priviledges to create tables
+do you want to create new tables in oracle DB now?(yes/no)no
+
+ 
+
+8) Start up ISF.
+
+

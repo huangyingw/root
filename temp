@@ -1,0 +1,32 @@
+Tuesday, April 26, 2011
+[12:05:00 PM CST] huangyingw: Enter user-name: sys as sysdba
+Enter password: 
+ERROR:
+ORA-12545: Connect failed because target host or object does not exist
+[12:05:11 PM CST] huangyingw: 这个错误怎么回事？
+[12:08:09 PM CST] 易福华: 错误消息提示的很清楚，你在配置TNS LISTENER的时候DB主机地址有误,你是不是用的IP协议？
+这时候你可能指定的主机名没有办法被DNS解析，方法:直接在主机地址里输入SERVER的IP地址
+
+使用tnsping来测试一下，如：
+C:\>tnsping 192.168.0.2
+TNS Ping Utility for 32-bit Windows: Version 8.1.7.0.0 - Production on 04-4月 -2
+005 15:01:54
+(c) Copyright 1997 Oracle Corporation.  All rights reserved.
+TNS-03505: 未能分解名称
+
+-------------------------------------------------------------------
+看看你的ORACLE数据库是否没有起来，或者IP地址改变了！
+再看看TNSNAMES.ORA文件中host name是不是正确！
+[12:08:36 PM CST] 易福华: ORA-12545:因目标主机或对象不存在解决方法
+真麻烦,oracle经常有问题!今天碰到了ORA-12545:因目标主机或对象不存在,
+原因:机器名称改过后出现的
+网上参考的解决办法
+1.搜索你的oracle安装目录，找到这俩个文件 tnsnames.ora 和 listener.ora 记住就改这俩个文件就行了，还有一个大写的TNSNAMES.ORA不用管它。
+他们的路径如下：如 E:\oracle\ora92\network\admin 这是我的路径 你的肯定和我的不一样，但能找到这俩个文件就行了,他们在同一个目录里，编辑这俩个文件，把里面的Host= 的地方改为你的计算机名就行了。
+注意有多个，看仔细了。或者改成IP,下次改了IP注意再修改要统一。
+2.如果这时登陆的话，肯定会提示你没有监听器，那是监听的服务没有开，到计算机的服务那
+进入服务的方法：控制面板-〉管理工具-〉服务（俩个齿轮的那个图标），然后找到OracleOraHome92TNSListener这个服务，把它启动了，就好了。
+[12:08:40 PM CST] 易福华: 自己查一下吧
+[12:08:52 PM CST] 易福华: 我也是要查才知道
+[12:10:19 PM CST] huangyingw: 晕，这台机器，根本就没动过呀。。
+
