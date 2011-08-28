@@ -158,6 +158,7 @@ alias ff='$HOME/bashrc/ff.sh'
 alias fr='$HOME/bashrc/fr.sh'
 alias fw='$HOME/bashrc/fw.sh'
 alias vitag='$HOME/bashrc/vitag.sh'
+alias vlog='$HOME/bashrc/vlog.sh'
 alias ntp='$HOME/bashrc/ntp.sh'
 alias tk='$HOME/myproject/git/linux/bashrc/task.sh'
 
