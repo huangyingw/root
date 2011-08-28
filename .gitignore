@@ -288,7 +288,6 @@ jarpackage/
 .netx/
 Ubuntu One/
 huizhi
-.icedteaplugin/
 .vifm/
 IMG_15042011_153109.png
 disable_graph.sh
@@ -298,3 +297,5 @@ gui
 cvs
 temp
 yoga
+.argouml/
+.dvdcss/
