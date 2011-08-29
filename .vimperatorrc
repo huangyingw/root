@@ -11,8 +11,8 @@ EOF
 
 command! -nargs=* dict tabopen http://dict.cn/<args>
 map ,s <Esc>:js<Space>set_gui();<Space><Return>
-map h gT
-map l gt
+map H gT
+map L gt
 map J <C-f>
 map K <C-b>
 map M :set go=mT
