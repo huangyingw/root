@@ -175,6 +175,7 @@ alias mirror='$HOME/bashrc/mirror.sh'
 alias tmirror='$HOME/bashrc/tmirror.sh'
 alias copy='$HOME/bashrc/copy.sh'
 alias tcopy='$HOME/bashrc/tcopy.sh'
+alias typersync='$HOME/bashrc/type_rsync.sh'
 alias rsync_svn='$HOME/bashrc/rsync_svn.sh'
 alias trsync_svn='$HOME/bashrc/trsync_svn.sh'
 
