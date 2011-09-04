@@ -157,6 +157,7 @@ alias fd='$HOME/bashrc/fd.sh'
 alias ff='$HOME/bashrc/ff.sh'
 alias fr='$HOME/bashrc/fr.sh'
 alias fw='$HOME/bashrc/fw.sh'
+alias fjar='$HOME/bashrc/fjar.sh'
 alias vitag='$HOME/bashrc/vitag.sh'
 alias vlog='$HOME/bashrc/vlog.sh'
 alias ntp='$HOME/bashrc/ntp.sh'
@@ -246,6 +247,7 @@ export GREP_OPTIONS='--color=auto'
 export GREP_COLOR='1;31'
 export  CVSROOT=:pserver:yhuang@cvssrv:/cvs/CVS
 set -o vi
+shopt -s dotglob
 
 
 #export ACE_PATH=/pcc/lsfqa-trusted/soam_ext/ACE/com_platform_ACE_544_01/lib
