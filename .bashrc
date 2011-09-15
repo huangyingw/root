@@ -246,6 +246,7 @@ export GREP_OPTIONS='--color=auto'
 export GREP_COLOR='1;31'
 export  CVSROOT=:pserver:yhuang@cvssrv:/cvs/CVS
 set -o vi
+shopt -s dotglob
 
 
 #export ACE_PATH=/pcc/lsfqa-trusted/soam_ext/ACE/com_platform_ACE_544_01/lib
