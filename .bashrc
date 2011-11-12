@@ -143,6 +143,7 @@ fi
 alias sancho=~/sancho-0.9.4-59-linux-gtk-x86_64-java/sancho 
 alias apf='apt-get update && aptitude full-upgrade'
 alias api='apt-get install'
+alias aps='$HOME/bashrc/aps.sh'
 alias apu='apt-get update'
 alias b='bochs'
 alias ca='$HOME/bashrc/ca.sh'
