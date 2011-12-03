@@ -143,6 +143,7 @@ fi
 alias sancho=~/sancho-0.9.4-59-linux-gtk-x86_64-java/sancho 
 alias apf='apt-get update && aptitude full-upgrade'
 alias api='apt-get install'
+alias aps='$HOME/bashrc/aps.sh'
 alias apu='apt-get update'
 alias b='bochs'
 alias ca='$HOME/bashrc/ca.sh'
@@ -156,6 +157,7 @@ alias fc='$HOME/bashrc/fc.sh'
 alias fd='$HOME/bashrc/fd.sh'
 alias ff='$HOME/bashrc/ff.sh'
 alias flatest='$HOME/bashrc/flatest.sh'
+alias flargest='$HOME/bashrc/flargest.sh'
 alias fr='$HOME/bashrc/fr.sh'
 alias fw='$HOME/bashrc/fw.sh'
 alias fjar='$HOME/bashrc/fjar.sh'
@@ -262,3 +264,4 @@ shopt -s dotglob
 #export GUI_TAR_DIR=/pcc/lsfqa-trusted/VMO_ext/vmo_monte/gui
 #export RTM_ADD_ON=/pcc/lsfqa-trusted/rtm_ext/shared/2_0_SS_POC
 #export VMO_MONTE_SHARE_DIR=/pcc/lsfqa-trusted/vmo_monte_ext/shared
+export MOZILLA_FIVE_HOME=/usr/bin/mozilla
