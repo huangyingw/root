@@ -152,6 +152,7 @@ alias d='make && $HOME/bashrc/debug.sh'
 alias ll='ls -alF'
 alias rt='$HOME/reboot.sh'
 alias dof='$HOME/bashrc/dof.sh'
+alias exiso='$HOME/bashrc/exiso.sh'
 alias fc='$HOME/bashrc/fc.sh'
 alias fd='$HOME/bashrc/fd.sh'
 alias ff='$HOME/bashrc/ff.sh'
@@ -262,3 +263,4 @@ shopt -s dotglob
 #export GUI_TAR_DIR=/pcc/lsfqa-trusted/VMO_ext/vmo_monte/gui
 #export RTM_ADD_ON=/pcc/lsfqa-trusted/rtm_ext/shared/2_0_SS_POC
 #export VMO_MONTE_SHARE_DIR=/pcc/lsfqa-trusted/vmo_monte_ext/shared
+export MOZILLA_FIVE_HOME=/usr/bin/mozilla
