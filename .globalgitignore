@@ -36,3 +36,4 @@ cscope.po.out
 *.orig
 CVS
 *.#*
+.#*
