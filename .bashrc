@@ -198,6 +198,7 @@ alias	gbr='git branch'
 alias	gbra='git branch -a'
 alias	gbrc='git branch --contains'
 alias	gbrD='$HOME/bashrc/gbrD.sh'
+alias	gbrs='$HOME/bashrc/gbrs.sh'
 alias	gci='git commit -am'
 alias	gclb='$HOME/bashrc/gclb.sh'
 alias	gcl='$HOME/bashrc/gcl.sh'
@@ -234,6 +235,7 @@ alias	grv='git revert'
 alias	gsh='git show'
 alias	gsm='git submodule'
 alias gs='git status'
+alias gsf='$HOME/bashrc/gsf.sh'
 alias gst='git stash'
 alias gsta='git stash apply'
 alias gstl='git stash list'
@@ -267,3 +269,4 @@ shopt -s dotglob
 #export RTM_ADD_ON=/pcc/lsfqa-trusted/rtm_ext/shared/2_0_SS_POC
 #export VMO_MONTE_SHARE_DIR=/pcc/lsfqa-trusted/vmo_monte_ext/shared
 export MOZILLA_FIVE_HOME=/usr/bin/mozilla
+
