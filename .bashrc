@@ -171,6 +171,7 @@ alias tk='$HOME/myproject/git/linux/bashrc/task.sh'
 #alias for git
 alias la='ls -A'
 alias l='ls -aclt'
+alias linuxmirror='$HOME/bashrc/linuxmirror.sh'
 alias r='$HOME/bashrc/run.sh'
 alias rb='$HOME/bashrc/runb.sh'
 alias m='make'
