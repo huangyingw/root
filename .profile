@@ -24,3 +24,5 @@ fi
 
 export LANG="en_US.utf8"
 export LANGUAGE="en_US:en"
+TZ='America/Mexico_City';
+export TZ
