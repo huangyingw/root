@@ -141,6 +141,7 @@ fi
 #fi
 
 alias sancho=~/sancho-0.9.4-59-linux-gtk-x86_64-java/sancho 
+alias argouml=/home/huangyingw/Downloads/argouml-0.34/argouml2.sh
 alias apf='apt-get update && aptitude full-upgrade'
 alias api='apt-get install'
 alias aps='$HOME/bashrc/aps.sh'
@@ -272,4 +273,3 @@ shopt -s dotglob
 #export RTM_ADD_ON=/pcc/lsfqa-trusted/rtm_ext/shared/2_0_SS_POC
 #export VMO_MONTE_SHARE_DIR=/pcc/lsfqa-trusted/vmo_monte_ext/shared
 export MOZILLA_FIVE_HOME=/usr/bin/mozilla
-
