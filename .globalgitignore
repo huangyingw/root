@@ -37,3 +37,4 @@ cscope.po.out
 CVS
 *.#*
 .#*
+*.class
