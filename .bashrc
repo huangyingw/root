@@ -189,6 +189,7 @@ alias tcopy='$HOME/bashrc/tcopy.sh'
 alias typersync='$HOME/bashrc/type_rsync.sh'
 alias rsync_svn='$HOME/bashrc/rsync_svn.sh'
 alias trsync_svn='$HOME/bashrc/trsync_svn.sh'
+alias wol='$HOME/bashrc/wol.sh'
 
 #alias for git
 alias	g='$HOME/bashrc/g.sh'
