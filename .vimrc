@@ -81,3 +81,4 @@ inoremap } <ESC>:call RemoveNextDoubleChar('}')<CR>a
 inoremap ( ()<LEFT>
 inoremap [ []<LEFT>
 inoremap { {}<LEFT>
+"set bg=dark
