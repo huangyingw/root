@@ -169,6 +169,7 @@ alias vitag='$HOME/bashrc/vitag.sh'
 alias vlog='$HOME/bashrc/vlog.sh'
 alias ntp='$HOME/bashrc/ntp.sh'
 alias tk='$HOME/myproject/git/linux/bashrc/task.sh'
+alias ssh='ssh -X'
 
 #alias for git
 alias la='ls -A'
