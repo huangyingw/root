@@ -195,6 +195,7 @@ alias wol='$HOME/bashrc/wol.sh'
 #alias for git
 alias	g='$HOME/bashrc/g.sh'
 alias	ga='$HOME/bashrc/ga.sh'
+alias	gagh='$HOME/bashrc/gagh.sh'
 alias	gbi='git bisect'
 alias	gbib='git bisect bad'
 alias	gbig='git bisect good'
