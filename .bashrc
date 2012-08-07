@@ -171,7 +171,7 @@ alias vlog='$HOME/bashrc/vlog.sh'
 alias ntp='$HOME/bashrc/ntp.sh'
 alias tk='$HOME/myproject/git/linux/bashrc/task.sh'
 alias ssh='ssh -X'
-alias sts='/home/huangyingw/springsource/sts-2.9.2.RELEASE/STS'
+alias sts='/opt/springsource/sts-2.9.2.RELEASE/STS'
 
 #alias for git
 alias la='ls -A'
