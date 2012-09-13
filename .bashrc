@@ -172,6 +172,7 @@ alias ntp='$HOME/bashrc/ntp.sh'
 alias tk='$HOME/myproject/git/linux/bashrc/task.sh'
 alias ssh='ssh -X'
 alias sts='/opt/springsource/sts-2.9.2.RELEASE/STS'
+alias xsql='$HOME/bashrc/xsql.sh'
 
 #alias for git
 alias la='ls -A'
