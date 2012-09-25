@@ -82,3 +82,5 @@ inoremap ( ()<LEFT>
 inoremap [ []<LEFT>
 inoremap { {}<LEFT>
 "set bg=dark
+"set paste
+"set nopaste
