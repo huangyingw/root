@@ -175,6 +175,7 @@ alias ssh='ssh -X'
 alias sts='/opt/springsource/sts-2.9.2.RELEASE/STS'
 alias xsql='$HOME/bashrc/xsql.sh'
 alias ubak='$HOME/bashrc/ubak.sh'
+alias tubak='$HOME/bashrc/tubak.sh'
 
 alias la='ls -A'
 alias l='ls -aclt'
