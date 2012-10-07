@@ -179,7 +179,6 @@ alias tubak='$HOME/bashrc/tubak.sh'
 
 alias la='ls -A'
 alias l='ls -aclt'
-alias linuxmirror='$HOME/bashrc/linuxmirror.sh'
 alias r='$HOME/bashrc/run.sh'
 alias rb='$HOME/bashrc/runb.sh'
 alias m='make'
