@@ -285,3 +285,4 @@ shopt -s dotglob
 #export RTM_ADD_ON=/pcc/lsfqa-trusted/rtm_ext/shared/2_0_SS_POC
 #export VMO_MONTE_SHARE_DIR=/pcc/lsfqa-trusted/vmo_monte_ext/shared
 export MOZILLA_FIVE_HOME=/usr/bin/mozilla
+JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64/
