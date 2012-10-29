@@ -22,5 +22,7 @@ if [ -d "$HOME/bin" ] ; then
 fi
 
 
+export LANG="en_US.utf8"
 TZ='America/Phoenix';
+export LANGUAGE="en_US:en"
 export TZ

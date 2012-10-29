@@ -163,6 +163,7 @@ alias ff='$HOME/bashrc/ff.sh'
 alias fgh='$HOME/bashrc/fgh.sh'
 alias fgs='$HOME/bashrc/fgs.sh'
 alias flatest='$HOME/bashrc/flatest.sh'
+alias foldest='$HOME/bashrc/foldest.sh'
 alias flargest='$HOME/bashrc/flargest.sh'
 alias fr='$HOME/bashrc/fr.sh'
 alias fw='$HOME/bashrc/fw.sh'
@@ -284,3 +285,4 @@ shopt -s dotglob
 #export RTM_ADD_ON=/pcc/lsfqa-trusted/rtm_ext/shared/2_0_SS_POC
 #export VMO_MONTE_SHARE_DIR=/pcc/lsfqa-trusted/vmo_monte_ext/shared
 export MOZILLA_FIVE_HOME=/usr/bin/mozilla
+JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64/
