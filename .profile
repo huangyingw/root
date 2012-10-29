@@ -22,5 +22,5 @@ if [ -d "$HOME/bin" ] ; then
 fi
 
 
-TZ='America/Mexico_City';
+TZ='America/Phoenix';
 export TZ
