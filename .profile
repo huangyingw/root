@@ -22,5 +22,7 @@ if [ -d "$HOME/bin" ] ; then
 fi
 
 
-TZ='America/Mexico_City';
+export LANG="en_US.utf8"
+TZ='America/Phoenix';
+export LANGUAGE="en_US:en"
 export TZ
