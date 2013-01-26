@@ -179,6 +179,8 @@ alias ubak='$HOME/bashrc/ubak.sh'
 alias tubak='$HOME/bashrc/tubak.sh'
 alias ures='$HOME/bashrc/ures.sh'
 alias tures='$HOME/bashrc/tures.sh'
+alias whole_ures='$HOME/bashrc/whole_ures.sh'
+alias twhole_ures='$HOME/bashrc/twhole_ures.sh'
 
 alias la='ls -A'
 alias l='ls -aclt'
