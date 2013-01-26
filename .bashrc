@@ -261,7 +261,7 @@ alias gtg='git tag -l -n1'
 alias gvd='git difftool'
 
 $HOME/bashrc/check_raid.sh
-HERITRIX_HOME=$HOME/myproject/git/java/heritrix-1.14.4/
+HERITRIX_HOME=/opt/heritrix-1.14.4/
 JAVA_OPTS=-Xmx1024M
 #JAVA_HOME=/usr/lib/jvm/java-6-openjdk/jre/bin/java
 CLASSPATH=/media/volgrp/myproject/git/java/lucene/lucene-3.0.1/lucene-core-3.0.1.jar:/media/volgrp/myproject/git/java/lucene/lucene-3.0.1/lucene-demos-3.0.1.jar:/media/volgrp/myproject/git/webapps/luceneweb/WEB-INF/lib/lucene-core-3.0.1.jar:/media/volgrp/myproject/git/webapps/luceneweb/WEB-INF/lib/lucene-demos-3.0.1.jar
