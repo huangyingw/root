@@ -23,6 +23,6 @@ fi
 
 
 export LANG="en_US.utf8"
-TZ='America/Phoenix';
+TZ='America/Los_Angeles';
 export LANGUAGE="en_US:en"
 export TZ
