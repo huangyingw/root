@@ -199,6 +199,12 @@ alias rsync_svn='$HOME/bashrc/rsync_svn.sh'
 alias trsync_svn='$HOME/bashrc/trsync_svn.sh'
 alias wol='$HOME/bashrc/wol.sh'
 
+#alias for kvm
+alias vssc='virsh snapshot-create'
+alias vss='virsh start'
+alias vsl='virsh list'
+alias vssl='virsh snapshot-list' 
+
 #alias for git
 alias	g='$HOME/bashrc/g.sh'
 alias	ga='$HOME/bashrc/ga.sh'
