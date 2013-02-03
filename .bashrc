@@ -203,9 +203,13 @@ alias wol='$HOME/bashrc/wol.sh'
 
 #alias for kvm
 alias vssc='virsh snapshot-create'
+alias vse='virsh edit'
 alias vss='virsh start'
+alias vsr='virsh reset'
 alias vsl='virsh list'
 alias vssl='virsh snapshot-list' 
+alias vsd='virsh define' 
+alias vsdx='virsh dumpxml' 
 
 #alias for git
 alias	g='$HOME/bashrc/g.sh'
