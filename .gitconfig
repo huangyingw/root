@@ -50,3 +50,9 @@
 	excludesfile = "~/.globalgitignore"
 [color]
 	ui = auto
+[giggle]
+	main-window-maximized = true
+	main-window-geometry = 700x550+0+55
+	history-view-vpane-position = 403
+	main-window-view = HistoryView
+	file-view-vpane-position = 609

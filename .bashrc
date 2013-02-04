@@ -172,13 +172,15 @@ alias vitag='$HOME/bashrc/vitag.sh'
 alias vlog='$HOME/bashrc/vlog.sh'
 alias ntp='$HOME/bashrc/ntp.sh'
 alias tk='$HOME/myproject/git/linux/bashrc/task.sh'
-alias ssh='ssh -X'
+alias ssh='autossh -X'
 alias sts='/opt/springsource/sts-2.9.2.RELEASE/STS'
 alias xsql='$HOME/bashrc/xsql.sh'
 alias ubak='$HOME/bashrc/ubak.sh'
 alias tubak='$HOME/bashrc/tubak.sh'
 alias ures='$HOME/bashrc/ures.sh'
 alias tures='$HOME/bashrc/tures.sh'
+alias whole_ures='$HOME/bashrc/whole_ures.sh'
+alias twhole_ures='$HOME/bashrc/twhole_ures.sh'
 
 alias la='ls -A'
 alias l='ls -aclt'
@@ -198,6 +200,16 @@ alias rsynctype='$HOME/bashrc/rsynctype.sh'
 alias rsync_svn='$HOME/bashrc/rsync_svn.sh'
 alias trsync_svn='$HOME/bashrc/trsync_svn.sh'
 alias wol='$HOME/bashrc/wol.sh'
+
+#alias for kvm
+alias vssc='virsh snapshot-create'
+alias vse='virsh edit'
+alias vss='virsh start'
+alias vsr='virsh reset'
+alias vsl='virsh list'
+alias vssl='virsh snapshot-list' 
+alias vsd='virsh define' 
+alias vsdx='virsh dumpxml' 
 
 #alias for git
 alias	g='$HOME/bashrc/g.sh'
@@ -261,7 +273,7 @@ alias gtg='git tag -l -n1'
 alias gvd='git difftool'
 
 $HOME/bashrc/check_raid.sh
-HERITRIX_HOME=$HOME/myproject/git/java/heritrix-1.14.4/
+HERITRIX_HOME=/opt/heritrix-1.14.4/
 JAVA_OPTS=-Xmx1024M
 #JAVA_HOME=/usr/lib/jvm/java-6-openjdk/jre/bin/java
 CLASSPATH=/media/volgrp/myproject/git/java/lucene/lucene-3.0.1/lucene-core-3.0.1.jar:/media/volgrp/myproject/git/java/lucene/lucene-3.0.1/lucene-demos-3.0.1.jar:/media/volgrp/myproject/git/webapps/luceneweb/WEB-INF/lib/lucene-core-3.0.1.jar:/media/volgrp/myproject/git/webapps/luceneweb/WEB-INF/lib/lucene-demos-3.0.1.jar
