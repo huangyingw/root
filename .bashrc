@@ -140,7 +140,7 @@ fi
 #    . /etc/bash_completion
 #fi
 
-alias sancho=~/sancho-0.9.4-59-linux-gtk-x86_64-java/sancho 
+alias sancho=/opt/sancho-0.9.4-59-linux-gtk/sancho 
 alias argouml=/home/huangyingw/Downloads/argouml-0.34/argouml2.sh
 alias apf='apt-get update && aptitude full-upgrade'
 alias api='apt-get install'
