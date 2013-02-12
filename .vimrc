@@ -86,3 +86,4 @@ inoremap { {}<LEFT>
 "set nopaste
 "Paste toggle - when pasting something in, don't indent.
 set pastetoggle=<F3>
+xnoremap p pgvy
