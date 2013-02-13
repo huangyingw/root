@@ -140,7 +140,7 @@ fi
 #    . /etc/bash_completion
 #fi
 
-alias sancho=~/sancho-0.9.4-59-linux-gtk-x86_64-java/sancho 
+alias sancho=/opt/sancho-0.9.4-59-linux-gtk/sancho 
 alias argouml=/home/huangyingw/Downloads/argouml-0.34/argouml2.sh
 alias apf='apt-get update && aptitude full-upgrade'
 alias api='apt-get install'
@@ -203,9 +203,13 @@ alias wol='$HOME/bashrc/wol.sh'
 
 #alias for kvm
 alias vssc='virsh snapshot-create'
+alias vse='virsh edit'
 alias vss='virsh start'
+alias vsr='virsh reset'
 alias vsl='virsh list'
 alias vssl='virsh snapshot-list' 
+alias vsd='virsh define' 
+alias vsdx='virsh dumpxml' 
 
 #alias for git
 alias	g='$HOME/bashrc/g.sh'
