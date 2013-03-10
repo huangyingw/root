@@ -278,10 +278,10 @@ alias gvd='git difftool'
 
 $HOME/bashrc/check_raid.sh
 HERITRIX_HOME=/opt/heritrix-1.14.4/
-JAVA_OPTS=-Xmx1024M
+#JAVA_OPTS=-Xmx1024M
 #JAVA_HOME=/usr/lib/jvm/java-6-openjdk/jre/bin/java
-CLASSPATH=/media/volgrp/myproject/git/java/lucene/lucene-3.0.1/lucene-core-3.0.1.jar:/media/volgrp/myproject/git/java/lucene/lucene-3.0.1/lucene-demos-3.0.1.jar:/media/volgrp/myproject/git/webapps/luceneweb/WEB-INF/lib/lucene-core-3.0.1.jar:/media/volgrp/myproject/git/webapps/luceneweb/WEB-INF/lib/lucene-demos-3.0.1.jar
-export CLASSPATH
+#CLASSPATH=/media/volgrp/myproject/git/java/lucene/lucene-3.0.1/lucene-core-3.0.1.jar:/media/volgrp/myproject/git/java/lucene/lucene-3.0.1/lucene-demos-3.0.1.jar:/media/volgrp/myproject/git/webapps/luceneweb/WEB-INF/lib/lucene-core-3.0.1.jar:/media/volgrp/myproject/git/webapps/luceneweb/WEB-INF/lib/lucene-demos-3.0.1.jar
+#export CLASSPATH
 
 export GREP_OPTIONS='--color=auto'
 export GREP_COLOR='1;31'
@@ -300,5 +300,5 @@ shopt -s dotglob
 #export GUI_TAR_DIR=/pcc/lsfqa-trusted/VMO_ext/vmo_monte/gui
 #export RTM_ADD_ON=/pcc/lsfqa-trusted/rtm_ext/shared/2_0_SS_POC
 #export VMO_MONTE_SHARE_DIR=/pcc/lsfqa-trusted/vmo_monte_ext/shared
-export MOZILLA_FIVE_HOME=/usr/bin/mozilla
-JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64/
+#export MOZILLA_FIVE_HOME=/usr/bin/mozilla
+#JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64/
