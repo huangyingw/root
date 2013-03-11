@@ -304,3 +304,4 @@ shopt -s dotglob
 #export VMO_MONTE_SHARE_DIR=/pcc/lsfqa-trusted/vmo_monte_ext/shared
 #export MOZILLA_FIVE_HOME=/usr/bin/mozilla
 #JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64/
+. openrc.sh
