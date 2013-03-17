@@ -204,6 +204,7 @@ alias trsync_svn='$HOME/bashrc/trsync_svn.sh'
 alias wol='$HOME/bashrc/wol.sh'
 
 #alias for kvm
+alias vclone='$HOME/bashrc/vclone.sh'
 alias vse='virsh edit'
 alias vss='virsh start'
 alias vsr='virsh reset'
