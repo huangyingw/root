@@ -306,3 +306,4 @@ shopt -s dotglob
 #export MOZILLA_FIVE_HOME=/usr/bin/mozilla
 #JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64/
 . openrc.sh
+JAVA_HOME=$(readlink -f /usr/bin/javac | sed "s:bin/javac::")
