@@ -5,7 +5,6 @@ check_running.sh.lck
 .aptitude/
 .bash_history
 .cache/
-.viminfo
 .dbus/
 .esd_auth
 .gconfd/
@@ -18,7 +17,6 @@ check_running.sh.lck
 gcb.sh
 *.bak
 *.bak
-.viminfo
 coreutils_7.4-2ubuntu1.diff.gz
 coreutils_7.4-2ubuntu1.dsc
 coreutils_7.4.orig.tar.gz
@@ -40,12 +38,10 @@ coreutils_7.4.orig.tar.gz
 .pulse-cookie
 .pulse/
 .ssh/
-.viminfo
 .dbus/
 .gconfd/
 .htoprc
 .synaptic/
-.vim/
 sharutils_4.6.3-4.diff.gz
 sharutils_4.6.3-4.dsc
 sharutils_4.6.3.orig.tar.gz
@@ -60,7 +56,6 @@ myproject
 .ssh/
 .subversion/
 .synaptic/
-.viminfo
 coreutils_7.4-2ubuntu1.diff.gz
 coreutils_7.4-2ubuntu1.dsc
 coreutils_7.4.orig.tar.gz
@@ -99,7 +94,6 @@ workspace/
 .pulse-cookie
 .pulse/
 .ssh/
-.viminfo
 .selected_editor
 android.csv
 .repoconfig/
@@ -177,8 +171,6 @@ rlog
 .update-notifier/
 .usbcreator.log
 .vim/
-.viminfo
-.viminfo.tmp
 .viminfz.tmp
 .vimperator/
 .vmware/
