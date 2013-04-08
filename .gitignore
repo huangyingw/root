@@ -66,7 +66,6 @@ coreutils_7.4.orig.tar.gz
 .subversion/
 .synaptic/
 .usbcreator.log
-.vim/
 atunes/
 eglibc_2.10.1-0ubuntu15.diff.gz
 eglibc_2.10.1-0ubuntu15.dsc
@@ -170,7 +169,6 @@ rlog
 .update-manager-core/
 .update-notifier/
 .usbcreator.log
-.vim/
 .viminfz.tmp
 .vimperator/
 .vmware/
