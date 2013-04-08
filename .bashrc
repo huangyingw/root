@@ -307,3 +307,4 @@ shopt -s dotglob
 #JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64/
 . openrc.sh
 JAVA_HOME=$(readlink -f /usr/bin/javac | sed "s:bin/javac::")
+alias eclipse='/opt/eclipse/eclipse'
