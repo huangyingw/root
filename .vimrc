@@ -16,7 +16,11 @@ filetype plugin on
 set expandtab
 set shiftwidth=2
 set tabstop=2
-map <silent> <F8> :TlistToggle<CR>
+" Change the mapleader from \ to ,
+let mapleader=","
+let maplocalleader="\\"
+nnoremap <leader>l :TlistClose<CR>:TlistToggle<CR>
+nnoremap <leader>L :TlistClose<CR>
 filetype indent on
 
 function! CHANGE_CURR_DIR()
@@ -87,3 +91,12 @@ inoremap { {}<LEFT>
 "Paste toggle - when pasting something in, don't indent.
 set pastetoggle=<F3>
 xnoremap p pgvy
+au! BufRead,BufNewFile *.hta  setfiletype html
+let Tlist_Ctags_Cmd='/usr/local/bin/ctags'
+" Mapping ESC in insert mode and command mode to double i
+imap jj <C-[>
+cmap jj  <C-[]]
+" This sets the minimum window height to 0, so you can stack many more files before things get crowded. Vim will only display the filename. 
+set wmw=0
+nmap <c-h> <c-w>h<c-w><Bar>
+nmap <c-l> <c-w>l<c-w><Bar>
