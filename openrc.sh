@@ -20,3 +20,11 @@ export OS_USERNAME=admin
 
 # With Keystone you pass the keystone password.
 export OS_PASSWORD=1qaz@WSX
+export OS_AUTH_SYSTEM=rackspace
+export OS_REGION_NAME=LON
+export OS_NO_CACHE=1
+export ADMIN_PASSWORD=1qaz@WSX
+export SERVICE_PASSWORD=1qaz@WSX
+export SERVICE_TOKEN=r4th3rb3t0k3n
+export SERVICE_ENDPOINT="http://ostack:35357/v2.0"
+export SERVICE_TENANT_NAME=service

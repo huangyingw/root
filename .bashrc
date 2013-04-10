@@ -236,7 +236,7 @@ alias	gci='git commit -am'
 alias	gclb='$HOME/bashrc/gclb.sh'
 alias	gcl='$HOME/bashrc/gcl.sh'
 alias	gctb='$HOME/bashrc/gctb.sh'
-alias	gco='git checkout'
+alias	gco='$HOME/bashrc/gco.sh'
 alias	gcob='git checkout -b'
 alias	gcof='$HOME/bashrc/gcof.sh'
 alias	gch='git cherry'
@@ -306,3 +306,4 @@ shopt -s dotglob
 #export MOZILLA_FIVE_HOME=/usr/bin/mozilla
 #JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64/
 . openrc.sh
+JAVA_HOME=$(readlink -f /usr/bin/javac | sed "s:bin/javac::")
