@@ -204,18 +204,19 @@ alias trsync_svn='$HOME/bashrc/trsync_svn.sh'
 alias wol='$HOME/bashrc/wol.sh'
 
 #alias for kvm
+alias vclone='$HOME/bashrc/vclone.sh'
 alias vse='virsh edit'
 alias vss='virsh start'
 alias vsr='virsh reset'
 alias vsl='virsh list'
 alias vssc='$HOME/bashrc/vssc.sh'
 alias vsscu='$HOME/bashrc/vsscu.sh'
-alias vssd='virsh snapshot-delete' 
+alias vssd='$HOME/bashrc/vssd.sh' 
 alias vssl='virsh snapshot-list' 
 alias vssr='$HOME/bashrc/vssr.sh' 
 alias vsd='$HOME/bashrc/vsd.sh' 
 alias vsd='$HOME/bashrc/vsd.sh' 
-alias vsdx='virsh dumpxml' 
+alias vsdx='$HOME/bashrc/vsdx.sh' 
 
 #alias for git
 alias	g='$HOME/bashrc/g.sh'
