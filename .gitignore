@@ -538,3 +538,4 @@ vimrc
 .viminfo
 disable_graph.sh
 check_disk.sh
+disk_list.txt
