@@ -536,3 +536,4 @@ return.pdf
 vimrc
 .vim
 .viminfo
+disable_graph.sh
