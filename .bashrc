@@ -145,3 +145,4 @@ fi
 . gitrc
 . openrc.sh
 . .envrc
+$HOME/bashrc/check_raid.sh
