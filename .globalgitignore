@@ -39,3 +39,4 @@ CVS
 .#*
 *.class
 *.findresult
+find.cc
