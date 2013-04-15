@@ -1,0 +1,6 @@
+. $HOME/.shellrc
+. $HOME/.envrc
+. $HOME/gitrc
+. $HOME/.kvmrc
+. $HOME/openrc.sh
+. $HOME/.hgrc

@@ -60,3 +60,5 @@ map <silent> <F2> :js toggle_bar() <CR>
 map <C-w> :js wiki_selected_text() <CR> 
 map ] ]]
 map [ [[
+" Mapping ESC in insert mode and command mode to double j
+imap jj <C-[>
