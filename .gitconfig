@@ -30,6 +30,8 @@
     ad = add
     bi = bisect
     co = checkout
+    mt = mergetool
+    rs = reset --hard
     sm = submodule
     st = status
     sta = stash
