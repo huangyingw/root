@@ -5,6 +5,8 @@
 *.findresult
 *.gch
 *.hg
+*.jar
+*.keystore
 *.loT
 *.ncb
 *.o
@@ -25,6 +27,9 @@
 *.swp
 *.swp
 *.swp
+*.xls
+*.zip
+*devKeyStore
 .#*
 .svn
 .svn
@@ -37,9 +42,9 @@ error
 error
 find.cc
 ncscope.in.out
+ncscope.out
 ncscope.po.out
 run
 run
 ~$*
 ~$*
-ncscope.out
