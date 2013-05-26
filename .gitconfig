@@ -30,6 +30,7 @@
     ad = add
     bi = bisect
     co = checkout
+    me = merge
     mt = mergetool
     rs = reset --hard
     sm = submodule
