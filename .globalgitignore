@@ -25,6 +25,7 @@
 *.swp
 *.swp
 *.swp
+*.war
 .#*
 .svn
 .svn
