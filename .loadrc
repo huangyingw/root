@@ -4,3 +4,4 @@
 . $HOME/.kvmrc
 . $HOME/openrc.sh
 . $HOME/.hgrc
+. $HOME/.xsrc

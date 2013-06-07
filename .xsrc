@@ -1,0 +1,1 @@
+alias restomcat='sudo /opt/systems/bin/xetus-tomcat restart'
