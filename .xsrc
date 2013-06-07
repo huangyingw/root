@@ -1,1 +1,2 @@
+alias rebuild='sudo /opt/xetusbase/xetus/rebuild.bash'
 alias restomcat='sudo /opt/systems/bin/xetus-tomcat restart'
