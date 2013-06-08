@@ -5,4 +5,4 @@
 . $HOME/openrc.sh
 . $HOME/.hgrc
 . $HOME/.xsrc
-. $HOME/.mysqlrc
+. $HOME/.sqlrc
