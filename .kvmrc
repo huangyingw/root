@@ -1,6 +1,7 @@
 #alias for kvm
+alias kview='$HOME/bashrc/kview.sh'
 alias vclone='$HOME/bashrc/vclone.sh'
-alias vsd='$HOME/bashrc/vsd.sh' 
+alias vdisk='$HOME/bashrc/vdisk.sh' 
 alias vsd='$HOME/bashrc/vsd.sh' 
 alias vsdx='$HOME/bashrc/vsdx.sh' 
 alias vse='virsh edit'

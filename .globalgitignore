@@ -27,6 +27,7 @@
 *.swp
 *.swp
 *.swp
+*.war
 *.xls
 *.zip
 *devKeyStore
