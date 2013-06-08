@@ -1,0 +1,2 @@
+alias xsql='$HOME/mysqlrc/xsql.sh'
+alias mysqlback='$HOME/mysqlrc/mysqlback.sh'
