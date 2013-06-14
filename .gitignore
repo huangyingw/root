@@ -258,8 +258,6 @@ hs_err_pid24585.log
 id3_0.15-2.diff.gz
 id3_0.15*
 sancho*
-bashrc
-bashrc/
 .Skype/
 .kodos/
 *.orig
@@ -533,7 +531,6 @@ return.pdf
 .goutputstream-MVZ7DW
 .goutputstream-X3H4FW
 .launchpadlib/
-vimrc
 .viminfo
 disable_graph.sh
 check_disk.sh
@@ -558,7 +555,6 @@ Movies/
 Music/
 Public/
 p4h/
-nvie.vimrc/
 .avidemux/
 .byobu/
 .goutputstream-5FI5SW
