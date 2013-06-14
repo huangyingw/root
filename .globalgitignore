@@ -27,6 +27,7 @@
 *.swp
 *.swp
 *.swp
+*.war
 *.xls
 *.zip
 *devKeyStore
@@ -48,3 +49,4 @@ run
 run
 ~$*
 ~$*
+build
