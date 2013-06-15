@@ -1,6 +1,6 @@
 #alias for kvm
 alias kview='$HOME/kvmrc/kview.sh'
-alias vclone='$HOME/bashrc/vclone.sh'
+alias vclone='$HOME/kvmrc/vclone.sh'
 alias vdisk='$HOME/kvmrc/vdisk.sh' 
 alias vsd='$HOME/kvmrc/vsd.sh' 
 alias vsdx='$HOME/kvmrc/vsdx.sh' 
