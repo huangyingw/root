@@ -49,6 +49,7 @@ alias sancho=/opt/sancho-0.9.4-59-linux-gtk/sancho
 alias sleep='$HOME/bashrc/sleep.sh'
 alias ssh='autossh -X'
 alias sts='/opt/springsource/sts-2.9.2.RELEASE/STS'
+alias sudo='sudo '
 alias tcopy='$HOME/bashrc/tcopy.sh'
 alias tk='$HOME/myproject/git/linux/bashrc/task.sh'
 alias tmirror='$HOME/bashrc/tmirror.sh'
