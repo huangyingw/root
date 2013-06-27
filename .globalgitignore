@@ -2,7 +2,6 @@
 *.bak
 *.bak
 *.class
-*.findresult
 *.gch
 *.hg
 *.jar
