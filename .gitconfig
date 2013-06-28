@@ -29,6 +29,7 @@
 [alias]
     ad = add
     bi = bisect
+    ci = commit
     co = checkout
     me = merge
     mt = mergetool
