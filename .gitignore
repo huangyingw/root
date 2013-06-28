@@ -584,3 +584,18 @@ stackrc
 u64
 vimrc/
 bashrc/
+*big_pimpin*.file.findresult
+-- f.findresult
+.cups/
+.gvimrc
+.gvimrc.old
+.vim.old
+.vimrc.old
+Applications/
+example.js
+gitrc/
+note_loan_officer_flag.findresult
+nvie.vimrc/
+readlink.findresult
+vim-taglist-plus/
+xetus.pf.findresult
