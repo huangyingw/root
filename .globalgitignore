@@ -11,6 +11,7 @@
 *.o
 *.orig
 *.orig
+*.sql.result
 *.suo
 *.swi
 *.swj
@@ -34,6 +35,7 @@
 .svn
 .svn
 CVS
+build
 cscope.files
 cscope.in.out
 cscope.out
@@ -48,5 +50,3 @@ run
 run
 ~$*
 ~$*
-build
-*.sql.result
