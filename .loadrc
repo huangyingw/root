@@ -4,5 +4,6 @@
 . $HOME/.kvmrc
 . $HOME/openrc.sh
 . $HOME/.hgrc
-. $HOME/.xsrc
 . $HOME/.sqlrc
+. $HOME/.xsrc
+xtest
