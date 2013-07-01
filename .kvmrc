@@ -1,5 +1,7 @@
 #alias for kvm
-alias kview='$HOME/kvmrc/kview.sh'
+alias vresume='$HOME/kvmrc/vresume.sh' 
+alias vsuspend='$HOME/kvmrc/vsuspend.sh' 
+alias vview='$HOME/kvmrc/vview.sh'
 alias vclone='$HOME/kvmrc/vclone.sh'
 alias vdisk='$HOME/kvmrc/vdisk.sh' 
 alias vsd='$HOME/kvmrc/vsd.sh' 
