@@ -6,4 +6,3 @@
 . $HOME/.hgrc
 . $HOME/.sqlrc
 . $HOME/.xsrc
-xtest

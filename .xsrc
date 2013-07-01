@@ -1,3 +1,3 @@
 alias rebuild='sudo /opt/xetusbase/xetus/rebuild.bash'
 alias restomcat='sudo /opt/systems/bin/xetus-tomcat restart'
-alias xtest='sudo ant -f /opt/xetusbase/xetus/test/build.xml reload-db && sudo ant -f /opt/xetusbase/xetus/test/build.xml'
+alias xtest='sudo ./xetus/rebuild.bash -sv && sudo ant -f /opt/xetusbase/xetus/test/build.xml reload-db && sudo ant -f /opt/xetusbase/xetus/test/build.xml'
