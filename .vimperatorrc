@@ -13,8 +13,9 @@ command! -nargs=* dict tabopen http://dict.cn/<args>
 map ,s <Esc>:js<Space>set_gui();<Space><Return>
 map hh gT
 map ll gt
-map J <C-f>
-map K <C-b>
+imap ii <C-[>
+map jj <C-f>
+map kk <C-b>
 map M :set go=mT
 set guioptions=mT
 set hlsearch
@@ -61,4 +62,3 @@ map <C-w> :js wiki_selected_text() <CR>
 map ] ]]
 map [ [[
 " Mapping ESC in insert mode and command mode to double j
-imap jj <C-[>
