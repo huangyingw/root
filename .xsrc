@@ -1,2 +1,4 @@
-alias rebuild='sudo /opt/xetusbase/xetus/rebuild.bash'
-alias restomcat='sudo /opt/systems/bin/xetus-tomcat restart'
+alias rebuild='$HOME/xsrc/rebuild.sh'
+alias restomcat='$HOME/xsrc/restomcat.sh'
+alias xtest='$HOME/xsrc/xtest.sh'
+export ANT_OPTS="-Xmx512m -XX:MaxPermSize=256m"
