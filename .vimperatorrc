@@ -13,10 +13,9 @@ command! -nargs=* dict tabopen http://dict.cn/<args>
 map ,s <Esc>:js<Space>set_gui();<Space><Return>
 map hh gT
 map ll gt
-map J <C-f>
-map K <C-b>
 map jj <C-f>
-imap jj <C-[>
+map kk <C-b>
+imap ii <C-[>
 map M :set go=mT
 set guioptions=mT
 set hlsearch
