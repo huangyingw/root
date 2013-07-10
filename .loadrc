@@ -1,3 +1,4 @@
+#!/bin/bash
 . $HOME/.shellrc
 . $HOME/.envrc
 . $HOME/.gitrc
@@ -5,4 +6,8 @@
 . $HOME/openrc.sh
 . $HOME/.hgrc
 . $HOME/.sqlrc
-. $HOME/.xsrc
+HNAME=`hostname`
+if [ $HNAME == "huangyingw-uuid.local" ]
+then
+  . $HOME/.xsrc
+fi
