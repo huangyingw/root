@@ -55,6 +55,7 @@
   merge = refs/heads/fix
 [core]
   excludesfile = "~/.globalgitignore"
+	mergeoptions = --no-edit
 [color]
   ui = auto
 [giggle]
