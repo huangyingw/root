@@ -1,8 +1,7 @@
+alias fwwb='$HOME/bashrc/fwwb.sh'
+alias fwws='$HOME/bashrc/fwws.sh'
 alias rebuild='$HOME/xsrc/rebuild.sh'
 alias restomcat='$HOME/xsrc/restomcat.sh'
 alias xtest='$HOME/xsrc/xtest.sh'
-alias fwwb='$HOME/bashrc/fwwb.sh'
-alias fwws='$HOME/bashrc/fwws.sh'
 export ANT_OPTS="-Xmx512m -XX:MaxPermSize=256m"
-
 export PATH="$PATH:/usr/local/mysql/bin"
