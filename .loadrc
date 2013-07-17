@@ -6,6 +6,7 @@
 . $HOME/openrc.sh
 . $HOME/.hgrc
 . $HOME/.sqlrc
+. $HOME/.p4rc
 HNAME=`hostname`
 if [ $HNAME == "huangyingw-uuid.local" ]
 then
