@@ -1,5 +1,6 @@
 #alias for kvm
 alias vclone='$HOME/kvmrc/vclone.sh'
+alias vdestroy='$HOME/kvmrc/vdestroy.sh'
 alias vdisk='$HOME/kvmrc/vdisk.sh' 
 alias vreset='$HOME/kvmrc/vreset.sh' 
 alias vresume='$HOME/kvmrc/vresume.sh' 
