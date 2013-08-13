@@ -4,5 +4,6 @@ alias rebuild='$HOME/xsrc/rebuild.sh'
 alias restomcat='$HOME/xsrc/restomcat.sh'
 alias xinit='$HOME/xsrc/xinit.sh'
 alias xtest='$HOME/xsrc/xtest.sh'
+alias xlog='$HOME/xsrc/xlog.sh'
 export ANT_OPTS="-Xmx512m -XX:MaxPermSize=256m"
 export PATH="$PATH:/usr/local/mysql/bin"
