@@ -33,6 +33,8 @@
 .aliedit/
 .amsn/
 .android/
+.anyconnect
+.appdata/
 .appletviewer
 .aptitude/
 .aptitude/
@@ -57,6 +59,7 @@
 .cache/
 .cache/
 .cairo-clockrc
+.cisco
 .codeblocks/
 .codeblocks/
 .cola
@@ -203,6 +206,8 @@
 .icedteaplugin/
 .icons/
 .idlerc/
+.indexer_files
+.indexer_files_tags/
 .install4j
 .java/
 .jdeveloper
@@ -306,6 +311,7 @@
 .thunderbird/
 .tor/
 .tsclient/
+.umlet/
 .update-manager-core/
 .update-notifier/
 .usbcreator.log
@@ -313,16 +319,20 @@
 .usbcreator.log
 .vidalia/
 .vifm/
+.vim-fuf-data/
 .vim.old
 .viminfo
 .viminfo.tmp
 .viminfy.tmp
 .viminfz.tmp
 .vimperator/
+.vimrc
 .vimrc.html
 .vimrc.old
 .virt-manager/
+.vmail/
 .vmware/
+.wakeup/
 .wine/
 .wireshark/
 .xine/
@@ -380,6 +390,7 @@ Q/
 QtADB_0.8.1_linux64/
 SCI Point.doc
 Ubuntu One/
+VirtualBox VMs
 a.img
 added
 addon_update_checker-1.12-sm+tb+fx.xpi
@@ -453,6 +464,7 @@ doctorjs/
 dropbox_1.4.0_amd64.deb
 eclipse
 eclipse-jee-helios-SR1-linux-gtk-x86_64.tar.gz
+eclipse_plugins.ffp.findresult
 eglibc_2.10.1-0ubuntu15.diff.gz
 eglibc_2.10.1-0ubuntu15.diff.gz
 eglibc_2.10.1-0ubuntu15.dsc
@@ -462,6 +474,7 @@ example.js
 examples.desktop
 fdisk.txt
 fdisk.txt
+file_only_huangyingw
 find.cc
 flac-1.2.1/
 flac-1.2.1/
@@ -487,6 +500,7 @@ hadoop-1.0.3/
 hadoop_1.0.3-1_i386.deb
 hadoop_1.0.3-1_x86_64.deb
 heritrix.sh
+hs_err_pid11702.log
 hs_err_pid24585.log
 hs_err_pid3284.log
 hs_err_pid3299.log
@@ -515,6 +529,8 @@ interfaces
 ipad
 jarpackage/
 kernel-3.10_rc5
+ks.cfg
+ks.cfg.1
 kvm
 kvmrc
 kvmrc/
@@ -548,6 +564,7 @@ note_loan_officer_flag.findresult
 nvie.vimrc/
 oracle_other_usersapce.txt
 p4h/
+p4rc
 pay.pdf
 pdf/
 photos-20100910-0.db
@@ -624,7 +641,3 @@ yoga
 yoga.xptv
 yoga~.xptv
 yr/
-.vimrc
-p4rc
-.anyconnect
-.cisco
