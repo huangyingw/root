@@ -17,6 +17,7 @@
 *.tar.gz
 *.xlsx
 *big_pimpin*.file.findresult
+*eclipse_plugins_*.ffp.findresult
 -- f.findresult
 .CFUserTextEncoding
 .DS_Store
@@ -33,6 +34,8 @@
 .aliedit/
 .amsn/
 .android/
+.anyconnect
+.appdata/
 .appletviewer
 .aptitude/
 .aptitude/
@@ -57,6 +60,7 @@
 .cache/
 .cache/
 .cairo-clockrc
+.cisco
 .codeblocks/
 .codeblocks/
 .cola
@@ -73,6 +77,7 @@
 .dbus/
 .dbus/
 .dbus/
+.dia/
 .dmrc
 .dropbox-dist/
 .dropbox/
@@ -97,6 +102,7 @@
 .gconfd/
 .gconfd/
 .gdesklets/
+.gem/
 .gitk
 .gksu.lock
 .gnome-color-chooser/
@@ -306,6 +312,7 @@
 .thunderbird/
 .tor/
 .tsclient/
+.umlet/
 .update-manager-core/
 .update-notifier/
 .usbcreator.log
@@ -313,15 +320,18 @@
 .usbcreator.log
 .vidalia/
 .vifm/
+.vim-fuf-data/
 .vim.old
 .viminfo
 .viminfo.tmp
 .viminfy.tmp
 .viminfz.tmp
 .vimperator/
+.vimrc
 .vimrc.html
 .vimrc.old
 .virt-manager/
+.virtinst/
 .vmware/
 .wine/
 .wireshark/
@@ -342,6 +352,7 @@
 8Some_good_python_interview_questions_\302\253_techMyway.txt
 8aca15ww.exe
 API_Demo
+AdobeAIRInstaller.bin
 AjaxVMListAction.class
 Applications/
 BT5R3-GNOME-64.torrent
@@ -453,6 +464,7 @@ doctorjs/
 dropbox_1.4.0_amd64.deb
 eclipse
 eclipse-jee-helios-SR1-linux-gtk-x86_64.tar.gz
+eclipse_plugins.ffp.findresult
 eglibc_2.10.1-0ubuntu15.diff.gz
 eglibc_2.10.1-0ubuntu15.diff.gz
 eglibc_2.10.1-0ubuntu15.dsc
@@ -479,6 +491,7 @@ gcc-defaults_1.82ubuntu2.dsc
 gcc-defaults_1.82ubuntu2.dsc
 gcc-defaults_1.82ubuntu2.tar.gz
 gcc-defaults_1.82ubuntu2.tar.gz
+getlibs-all.deb
 gitrc
 gitrc/
 group264194@msnzone.cn.html
@@ -548,6 +561,7 @@ note_loan_officer_flag.findresult
 nvie.vimrc/
 oracle_other_usersapce.txt
 p4h/
+p4rc
 pay.pdf
 pdf/
 photos-20100910-0.db
@@ -624,7 +638,3 @@ yoga
 yoga.xptv
 yoga~.xptv
 yr/
-.vimrc
-p4rc
-.anyconnect
-.cisco
