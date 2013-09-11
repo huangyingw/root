@@ -178,6 +178,7 @@
 .indexer_files
 .indexer_files_tags/
 .install4j
+.ivy2/
 .java/
 .jdeveloper
 .jindent/
@@ -211,6 +212,7 @@
 .openshot/
 .org.eclipse.epp.usagedata.recording.userId
 .pam_environment
+.passwd
 .pdfedit/
 .pdfstudio7/
 .pip/
@@ -323,6 +325,7 @@ Q.rar
 Q/
 QtADB_0.8.1_linux64/
 SCI Point.doc
+UMLet/
 Ubuntu One/
 VirtualBox VMs
 a.img
@@ -469,6 +472,7 @@ note_loan_officer_flag.findresult
 nvie.vimrc/
 oracle_other_usersapce.txt
 p4h/
+p4log
 p4rc
 pay.pdf
 pdf/
@@ -526,4 +530,3 @@ yoga
 yoga.xptv
 yoga~.xptv
 yr/
-.passwd
