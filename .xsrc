@@ -8,5 +8,10 @@ alias xlog='$HOME/xsrc/xlog.sh'
 alias xtest='$HOME/xsrc/xtest.sh'
 export PATH="$PATH:/usr/local/mysql/bin"
 export ANT_OPTS="-Xmx512m -XX:MaxPermSize=256m"
-export xetus_dev_root=/opt
+
+# General xetus development settings
+export xetus_dev_root=${HOME}/code/xetus
 export XETUS_IVY_SETTINGS=${xetus_dev_root}/config/ivy2/ivysettings.xml
+
+# xetusone specific env variables
+export XETUSONE_CONFIG_DIR="${xetus_dev_root}/config/xetusone/core"
