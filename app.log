@@ -1,0 +1,265 @@
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Package 'network-manager-gnome' is not installed, so not removed
+Package 'nvidia-settings-304' is not installed, so not removed
+Package 'dia-shapes' is not installed, so not removed
+Package 'libboost1.53-dev' is not installed, so not removed
+Package 'libcheese-gtk23' is not installed, so not removed
+Package 'libcheese7' is not installed, so not removed
+Package 'osspd' is not installed, so not removed
+Package 'stardict-gnome' is not installed, so not removed
+Package 'unity-scope-manpages' is not installed, so not removed
+Package 'libpam-systemd' is not installed, so not removed
+Package 'activity-log-manager' is not installed, so not removed
+Package 'python3-uno' is not installed, so not removed
+The following packages were automatically installed and are no longer required:
+  antlr3 avidemux-common avidemux-plugins-common bluez-alsa:i386
+  calligra-l10n-zhcn codeblocks-common cvsservice duplicity
+  eclipse-platform-data enblend enfuse erlang-corba erlang-diameter
+  erlang-edoc erlang-eldap erlang-erl-docgen erlang-ic erlang-odbc
+  erlang-parsetools erlang-percept erlang-ssh freeglut3 glib-networking:i386
+  gstreamer0.10-plugins-good:i386 gstreamer1.0-doc gstreamer1.0-nice
+  gthumb-data gtkpod-data hugin-data intel-gpu-tools ipython3 kapptemplate
+  kdesdk-kio-plugins kdesdk-misc kdesdk-strigi-plugins kipi-plugins-common
+  kmtrace kompozer-data kpartloader krosspython kuiviewer lame libaa1:i386
+  libaften0 libantlr-java libao-common libao4 libao4:i386 libaudiofile1:i386
+  libavc1394-0:i386 libavidemux0 libbcmail-java libbcprov-java libbctsp-java
+  libbindex-java libcaca0:i386 libcairo-gobject2:i386 libcanberra0:i386
+  libcdr-0.0-0 libchm1 libclutter-1.0-doc libclutter-gtk-1.0-doc libcogl-dev
+  libcogl-doc libcupsfilters1:i386 libcupsimage2:i386 libcurl3:i386
+  libdbus-glib-1-2:i386 libdiscid0 libdv4:i386 libegl1-mesa-dev libesd0:i386
+  libexo-common libexo-helpers libfarstream-0.2-2 libfelix-framework-java
+  libfelix-main-java libgail-3-doc libgconf-2-4:i386 libgconfmm-2.6-1c2
+  libgdbm3:i386 libgdk-pixbuf2.0-doc libgettextpo0:i386 libgexiv2-2
+  libgles2-mesa-dev libgmlib1 libgmtk1-data libgstreamer1.0-dev
+  libgtksourceview-3.0-doc libgudev-1.0-0:i386 libgvnc-1.0-0
+  libibus-1.0-0:i386 libicu4j-4.4-java libiec61883-0:i386 libitext-java
+  libjlibeps-java libjsyntaxpane-java libkdcraw22 libkgeomap-data libkgeomap1
+  libkipi10 libkrossui4 libksane-data libksane0 libkvkontakte1
+  liblavfile-2.0-0 liblavjpeg-2.0-0 liblavplay-2.0-0 libmad0:i386
+  libmarblewidget15 libmikmod2:i386 libmlt-data libmono-csharp4.0-cil
+  libmspub-0.0-0 libmusicbrainz3-6 libnspr4:i386 libnss3:i386 libodbc1:i386
+  liboobs-1-5 libopencc1 libopencv-calib3d2.4 libopencv-core2.4
+  libopencv-features2d2.4 libopencv-flann2.4 libopencv-imgproc2.4
+  libopencv-ml2.4 libopencv-video2.4 libpano13-2 libpano13-bin libplot2c2
+  libproxy1:i386 libpulse-mainloop-glib0:i386 libpulsedsp:i386
+  libqextserialport1 libqt4-qt3support:i386 libqt4-scripttools:i386
+  libqtassistantclient4 libqtglib-2.0-0 libqtgstreamer-0.10-0
+  libqtgstreamerui-0.10-0 libqtgstreamerutils-0.10-0 libraw1394-11:i386
+  librsync1 librtmp0:i386 libsdl-image1.2:i386 libsdl-mixer1.2:i386
+  libsdl-net1.2:i386 libsdl-ttf2.0-0:i386 libsdl1.2debian:i386 libshout3:i386
+  libsoup-gnome2.4-1:i386 libsoup2.4-1:i386 libsox-fmt-alsa libsox-fmt-base
+  libsox2 libspeex1:i386 libssl0.9.8:i386 libstdc++5:i386
+  libstringtemplate-java libtag1-vanilla:i386 libtag1c2a:i386 libtdb1:i386
+  libtelepathy-farstream3 libtinyxml2.6.2 libunistring0:i386 libvisio-0.0-0
+  libvorbisfile3:i386 libwavpack1:i386 libwebp4:i386 libxaw7:i386
+  libxfconf-0-2 libxine1 libxine1-ffmpeg libxine1-misc-plugins
+  libxine1-plugins libxmu6:i386 libxp6:i386 libxtst6:i386 libzip2
+  libzthread-2.3-2 lokalize marble-data marble-plugins mjpegtools
+  mysql-workbench-data odbcinst1debian2:i386 okteta oneconf-common
+  openshot-doc python-dnspython python-elib.intl python-kde4
+  python-mysql.connector python-oneconf python-pywapi python-qt4
+  python-urlgrabber python-wicd python-zope.component python-zope.event
+  python-zope.hookable python3-decorator python3-oneconf
+  python3-piston-mini-client python3-simplegeneric python3-xdg shell-fm
+  telepathy-logger twolame umbrello virtinst vorbis-tools wicd-daemon
+  wireshark-common xaw3dg:i386 xfce-keyboard-shortcuts xfconf
+Use 'apt-get autoremove' to remove them.
+The following extra packages will be installed:
+  php5-cgi php5-cli polkit-kde-1
+Suggested packages:
+  php-pear
+The following packages will be REMOVED:
+  accerciser account-plugin-aim account-plugin-facebook account-plugin-flickr
+  account-plugin-generic-oauth account-plugin-google account-plugin-icons
+  account-plugin-identica account-plugin-jabber account-plugin-salut
+  account-plugin-twitter account-plugin-windows-live account-plugin-yahoo
+  acroread acroread-bin:i386 activity-log-manager-control-center
+  adobe-flash-properties-gtk adobe-flashplugin adobeair aisleriot alacarte
+  anjuta apache2 apache2-mpm-prefork apache2.2-bin apache2.2-common
+  appmenu-gtk appmenu-gtk3 apport-gtk apturl apvlv avidemux
+  avidemux-plugins-gtk bamfdaemon banshee banshee-extension-soundmenu baobab
+  blueman bluez-cups bochs-wx brasero brasero-cdrkit cairo-clock caribou
+  cervisia checkbox-gtk chmsee codeblocks compiz compiz-fusion-plugins-main
+  compiz-gnome compiz-plugins compiz-plugins-main compizconfig-backend-gconf
+  cups cups-browsed cups-driver-gutenprint cups-filters dconf-tools
+  default-jdk default-jre deja-dup deja-dup-backend-gvfs
+  deja-dup-backend-ubuntuone desktop-base desktopcouch devhelp dia dia-common
+  dia-libs doxygen-latex eclipse eclipse-jdt eclipse-pde eclipse-platform
+  eclipse-rcp emesene empathy eog epiphany-browser erlang-inviso erlang-nox
+  evince evolution-data-server evolution-webcal fcitx-module-x11 file-roller
+  firefox firefox-4.0 firefox-4.0-core firefox-4.0-gnome-support
+  firefox-gnome-support friends friends-dispatcher friends-facebook
+  friends-identica friends-twitter gaphor gbrainy gcalctool gconf-editor gcr
+  gdebi gdm geany gedit gedit-latex-plugin ginn gir1.2-appindicator3-0.1
+  gir1.2-caribou-1.0 gir1.2-clutter-1.0 gir1.2-coglpango-1.0 gir1.2-ebook-1.2
+  gir1.2-edataserver-1.2 gir1.2-gcr-3 gir1.2-gdata-0.0 gir1.2-gkbd-3.0
+  gir1.2-gnomebluetooth-1.0 gir1.2-gnomedesktop-3.0 gir1.2-goa-1.0
+  gir1.2-gtk-2.0 gir1.2-gtk-3.0 gir1.2-gtkclutter-1.0 gir1.2-gtksource-3.0
+  gir1.2-gucharmap-2.90 gir1.2-mutter-3.0 gir1.2-nmgtk-1.0
+  gir1.2-panelapplet-4.0 gir1.2-pango-1.0 gir1.2-peas-1.0 gir1.2-rb-3.0
+  gir1.2-timezonemap-1.0 gir1.2-totem-1.0 gir1.2-ubuntuoneui-3.0
+  gir1.2-unity-5.0 gir1.2-vte-2.90 gir1.2-webkit-3.0 gir1.2-wnck-3.0
+  gkbd-capplet gksu glade gmail-notify gnome-api-docs gnome-applets
+  gnome-bluetooth gnome-calculator gnome-color-chooser gnome-contacts
+  gnome-control-center gnome-control-center-signon gnome-control-center-unity
+  gnome-devel-docs gnome-dictionary gnome-disk-utility gnome-font-viewer
+  gnome-games-data gnome-gmail gnome-icon-theme gnome-icon-theme-full
+  gnome-icon-theme-symbolic gnome-keyring gnome-mag gnome-mahjongg gnome-media
+  gnome-media-player gnome-mines gnome-mplayer gnome-nettool gnome-orca
+  gnome-panel gnome-power-manager gnome-screensaver gnome-screenshot
+  gnome-search-tool gnome-session gnome-session-bin gnome-session-canberra
+  gnome-session-fallback gnome-settings-daemon gnome-shell gnome-sudoku
+  gnome-system-log gnome-system-monitor gnome-system-tools gnome-terminal
+  gnome-themes gnome-themes-selected gnome-themes-standard gnome-themes-ubuntu
+  gnome-user-guide gnome-user-share gnome-utils gnomine google-chrome-stable
+  google-talkplugin gparted graphviz gstreamer0.10-x gstreamer0.10-x:i386
+  gstreamer1.0-clutter gstreamer1.0-plugins-bad gstreamer1.0-x gthumb
+  gtk2-engines gtk2-engines:i386 gtk2-engines-murrine
+  gtk2-engines-murrine:i386 gtk2-engines-oxygen:i386 gtk2-engines-pixbuf
+  gtk2-engines-pixbuf:i386 gtk3-engines-unico gtkpod gtkvncviewer gtranslator
+  gucharmap gvfs-backends gwibber-service gwibber-service-facebook
+  gwibber-service-identica gwibber-service-twitter hplip hplip-cups hud hugin
+  hugin-tools humanity-icon-theme ia32-libs ia32-libs-multiarch:i386 ibus
+  ibus-gtk ibus-gtk:i386 ibus-gtk3 ibus-pinyin ibus-table ibus-table-wubi
+  icedtea-6-plugin icedtea-7-plugin icedtea-netx icedtea-plugin
+  icedtea6-plugin indicator-applet-complete indicator-application
+  indicator-appmenu indicator-bluetooth indicator-datetime indicator-messages
+  indicator-power indicator-printers indicator-session indicator-sound
+  indicator-sync javahelp2 jockey-gtk kamoso kasumi kde-l10n-zhcn kdesdk kino
+  kipi-plugins kompozer landscape-client-ui-install language-pack-kde-zh-hans
+  language-selector language-selector-gnome latex-beamer latex-xcolor
+  lib32asound2 libaccount-plugin-1.0-0 libanjuta-3-0 libapache2-mod-php5filter
+  libapache2-mod-wsgi libappframework-java libappindicator0
+  libappindicator0.1-cil libappindicator1 libappindicator3-1
+  libatk-wrapper-java libatk-wrapper-java-jni libatomicparsley0
+  libavahi-ui-gtk3-0 libavahi-ui0 libbamf3-1 libbonoboui2-0 libboost-dev
+  libbrasero-media3-1 libcanberra-gtk-module libcanberra-gtk-module:i386
+  libcanberra-gtk0 libcanberra-gtk0:i386 libcanberra-gtk3-0
+  libcanberra-gtk3-module libcaribou0 libclutter-1.0-0 libclutter-1.0-dev
+  libclutter-gst-1.0-0 libclutter-gst-2.0-0 libclutter-gtk-1.0-0
+  libclutter-gtk-1.0-dev libcodeblocks0 libcogl-pango-dev libcogl-pango12
+  libcvaux2.1 libdbusmenu-gtk1 libdbusmenu-gtk3-4 libdbusmenu-gtk4
+  libdevhelp-3-1 libdevhelp-3-2 libebackend-1.2-5 libebook-1.2-14
+  libecal-1.2-15 libedata-book-1.2-15 libedata-cal-1.2-18
+  libedataserver-1.2-17 libedataserverui-3.0-4 libevdocument2 libevdocument3-4
+  libevview2 libevview3-3 libexchange-storage1.2-3 libexo-1-0 libfolks-eds25
+  libfriends0 libgail-3-0 libgail-3-dev libgail-common libgail-common:i386
+  libgail18 libgail18:i386 libgcr-3-1 libgdata13 libgdict-1.0-6 libgdl-3-5
+  libgdu-gtk0 libgksu2-0 libglade2-0 libglade2.0-cil libglademm-2.4-1c2a
+  libgladeui-1-11 libgladeui-2-4 libgmtk0 libgmtk1 libgnome-bluetooth11
+  libgnome-bluetooth7 libgnome-control-center1 libgnome-desktop-2-17
+  libgnome-desktop-3-4 libgnome-desktop-3-7 libgnome-media-profiles-3.0-0
+  libgnome2-canvas-perl libgnome2-perl libgnome2.24-cil libgnomecanvas2-0
+  libgnomekbd8 libgnomeprint2.2-0 libgnomeprintui2.2-0 libgnomeui-0
+  libgoa-1.0-0 libgoocanvas3 libgrip0 libgtk-3-0 libgtk-3-bin libgtk-3-dev
+  libgtk-sharp-beans-cil libgtk-vnc-1.0-0 libgtk-vnc-2.0-0 libgtk2-perl
+  libgtk2.0-0 libgtk2.0-0:i386 libgtk2.0-bin libgtk2.0-cil libgtk2.0-dev
+  libgtkhtml-editor-dev libgtkhtml-editor0 libgtkhtml3.14-19 libgtkmm-2.4-1c2a
+  libgtkmm-3.0-1 libgtkpod1 libgtksourceview-3.0-0 libgtksourceview-3.0-dev
+  libgtksourceview2.0-0 libgtkspell-3-0 libgtkspell0 libgtkspell3-0
+  libgucharmap-2-90-7 libgucharmap7 libgvc5 libgweather-3-1 libgwibber-gtk3
+  libgwibber3 libharfbuzz-dev libhighgui2.1 libido-0.1-0 libido3-0.1-0
+  libindicator0 libindicator3-6 libindicator3-7 libindicator6 libindicator7
+  libkeybinder0 liblaunchpad-integration-3.0-1 liblaunchpad-integration1
+  liblaunchpad-integration1.0-cil libmagickcore4-extra libmagickcore5-extra
+  libmetacity-private0a libmlt++3 libmlt5 libmono-addins-gui0.2-cil
+  libmutter0a libmx-1.0-2 libnautilus-extension1 libnautilus-extension1a
+  libnb-platform-devel-java libnb-platform11-java libnb-platform12-java
+  libnb-platform13-java libnm-gtk0 libnotify0.4-cil libnotify1 libnux-1.0-0
+  libnux-2.0-0 libnux-3.0-0 libnux-4.0-0 libopencv-calib3d2.3
+  libopencv-features2d2.3 libopencv-highgui2.3 libopencv-highgui2.4
+  libopencv-legacy2.4 libopencv-objdetect2.3 libopencv-objdetect2.4
+  libpanel-applet-4-0 libpango-perl libpango1.0-0 libpango1.0-0:i386
+  libpango1.0-dev libpangomm-1.4-1 libpeas-1.0-0 libpolkit-gtk-1-0
+  libpolkit-gtk-1-dev libpoppler-glib4 libreoffice-base-core libreoffice-calc
+  libreoffice-core libreoffice-draw libreoffice-gnome libreoffice-gtk
+  libreoffice-help-en-gb libreoffice-help-en-us libreoffice-help-zh-cn
+  libreoffice-help-zh-tw libreoffice-impress libreoffice-math
+  libreoffice-ogltrans libreoffice-pdfimport
+  libreoffice-presentation-minimizer libreoffice-writer librhythmbox-core4
+  librhythmbox-core5 librhythmbox-core6 librhythmbox-core7 librsvg2-2
+  librsvg2-2:i386 librsvg2-common librsvg2-common:i386 libswingworker-java
+  libswt-cairo-gtk-3-jni libswt-glx-gtk-3-jni libswt-gnome-gtk-3-jni
+  libswt-gtk-3-java libswt-gtk-3-jni libswt-webkit-gtk-3-jni
+  libsyncdaemon-1.0-1 libtimezonemap1 libtotem0 libubuntuoneui-3.0-1
+  libufe-xidgetter0 libunique-1.0-0 libunity-core-6.0-5 libunity-misc4
+  libunity-webapps0 libunity9 libvte-2.90-9 libvte9 libwebkitgtk-1.0-0
+  libwebkitgtk-3.0-0 libwnck-3-0 libwnck22 libwxgtk2.8-0 libxfce4ui-1-0
+  libyelp0 lifeograph light-themes lightdm-remote-session-freerdp
+  lightdm-remote-session-uccsconfigure linuxqq:i386 lybniz mahjongg mame
+  mcp-account-manager-uoa meld melt metacity mjpegtools-gtk mldonkey-gui
+  mousetweaks mutter mysql-workbench nautilus nautilus-dropbox nautilus-sendto
+  nautilus-sendto-empathy nautilus-share ndisgtk network-manager-pptp-gnome
+  notification-daemon notify-osd nspluginviewer:i386 nspluginwrapper
+  nvidia-settings onboard oneconf openjdk-6-jdk openjdk-6-jre openjdk-7-jdk
+  openjdk-7-jre openoffice.org-calc openoffice.org-draw openoffice.org-gnome
+  openoffice.org-gtk openoffice.org-help-en-gb openoffice.org-help-en-us
+  openoffice.org-help-zh-cn openoffice.org-help-zh-tw openoffice.org-impress
+  openoffice.org-math openoffice.org-writer openshot overlay-scrollbar
+  overlay-scrollbar-gtk2 overlay-scrollbar-gtk3 pdfstudio7demo pgf pitivi
+  plymouth-label plymouth-theme-ubuntu-logo policykit-1-gnome
+  printer-driver-gutenprint printer-driver-hpcups printer-driver-postscript-hp
+  prosper python-appindicator python-aptdaemon-gtk
+  python-aptdaemon.gtk3widgets python-aptdaemon.gtkwidgets python-bugbuddy
+  python-desktopcouch python-desktopcouch-application python-eggtrayicon
+  python-gaphas python-glade2 python-gmenu python-gnome2 python-gnomedesktop
+  python-gnomekeyring python-gtk-vnc python-gtk2 python-gtk2-doc
+  python-gtksourceview2 python-gtkspell python-gtop python-ibus
+  python-keybinder python-launchpad-integration python-mlt5 python-notify
+  python-poppler python-pyatspi python-pyatspi2 python-pygoocanvas python-rsvg
+  python-totem-plparser python-ubuntu-sso-client
+  python-ubuntuone-control-panel python-uno python-virtkey python-vte
+  python-webkit python-wnck python-wxgtk2.8 python-xklavier
+  python3-aptdaemon.gtk3widgets python3-aptdaemon.pkcompat python3-pyatspi
+  python3-pyatspi2 python3-virtkey qemu-kvm qemu-system qemu-system-arm
+  qemu-system-mips qemu-system-misc qemu-system-ppc qemu-system-sparc
+  qemu-system-x86 quadrapassel rabbitmq-server rednotebook regexxer remmina
+  remmina-plugin-rdp remmina-plugin-vnc rhythmbox rhythmbox-mozilla
+  rhythmbox-plugin-cdrecorder rhythmbox-plugin-magnatune
+  rhythmbox-plugin-zeitgeist rhythmbox-plugins rhythmbox-ubuntuone ristretto
+  rubber sat4j screen-resolution-extra seahorse seamonkey seamonkey-browser
+  sessioninstaller shotwell simple-scan software-center
+  software-properties-gtk ssh-askpass-gnome stardict stardict-gtk
+  stardict-plugin stardict-plugin-espeak stardict-plugin-festival synaptic
+  system-config-kickstart system-config-printer-gnome telepathy-indicator
+  terminator texlive texlive-base texlive-extra-utils texlive-font-utils
+  texlive-fonts-extra texlive-fonts-recommended texlive-generic-recommended
+  texlive-latex-base texlive-latex-extra texlive-latex-recommended
+  texlive-luatex texlive-pictures texlive-pstricks texlive-xetex texpower
+  thunderbird thunderbird-gnome-support tipa tomboy totem totem-mozilla
+  totem-plugins transmission-gtk ubiquity-frontend-gtk ubuntu-artwork
+  ubuntu-desktop ubuntu-docs ubuntu-mono ubuntu-release-upgrader-gtk
+  ubuntu-sso-client ubuntu-sso-client-qt ubuntuone-client
+  ubuntuone-client-gnome ubuntuone-control-panel ubuntuone-control-panel-qt
+  umlet unetbootin unity unity-2d unity-2d-common unity-2d-launcher
+  unity-2d-places unity-2d-shell unity-asset-pool unity-greeter
+  unity-lens-applications unity-lens-files unity-lens-friends
+  unity-lens-gwibber unity-lens-music unity-lens-photos unity-lens-shopping
+  unity-lens-video unity-place-applications unity-place-files
+  unity-scope-gdocs unity-scope-gdrive unity-scope-musicstores
+  unity-scope-video-remote unity-services unity-webapps-common
+  unity-webapps-gmail unity-webapps-linkedin unity-webapps-service
+  unity-webapps-youtube update-manager update-notifier usb-creator-gtk
+  vim-gnome vinagre vino virt-manager vlc-plugin-notify wakeup
+  webaccounts-extension-common wicd wicd-gtk wifi-radar wireshark
+  xdg-user-dirs-gtk xdiagnose xmame-x xmamegames xul-ext-unity
+  xul-ext-webaccounts xul-ext-websites-integration yacy yelp zeitgeist
+  zeitgeist-datahub zeitgeist-extension-fts zenity
+The following NEW packages will be installed:
+  php5-cgi php5-cli polkit-kde-1
+0 upgraded, 3 newly installed, 732 to remove and 0 not upgraded.
+Need to get 0 B/7,917 kB of archives.
+After this operation, 3,221 MB disk space will be freed.
+Do you want to continue [Y/n]? (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 747653 files and directories currently installed.)
+Removing accerciser ...
+Removing account-plugin-aim ...
+Removing gwibber-service-facebook ...
+Removing friends-facebook ...
+Removing account-plugin-facebook ...
+Removing account-plugin-flickr ...
+Removing account-plugin-windows-live ...
+Removing gwibber-service-twitter ...
+Removing friends-twitter ...
+Removing account-plugin-twitter ...
