@@ -362,6 +362,7 @@ chap13a.pdf
 check_disk.log
 check_disk.sh
 check_running.sh.lck
+code
 comcast-12.pdf
 command-t/
 command_lab.zargo
@@ -471,6 +472,7 @@ mgroup20067@hotmail.com.html
 mgroup68285@hotmail.com.html
 mozilla.pdf
 myproject
+mysqlrc/
 note_loan_officer_flag.findresult
 nvie.vimrc/
 oracle_other_usersapce.txt
@@ -501,6 +503,7 @@ sharutils_4.6.3-4.dsc
 sharutils_4.6.3.orig.tar.gz
 si/
 skype-ubuntu_4.0.0.7-1_amd64.deb
+slink
 smb.conf
 smbusers
 snapshot
@@ -533,5 +536,3 @@ yoga
 yoga.xptv
 yoga~.xptv
 yr/
-code
-slink
