@@ -9,6 +9,9 @@ alias xtest='$HOME/xsrc/xtest.sh'
 export PATH="$PATH:/usr/local/mysql/bin"
 export ANT_OPTS="-Xmx512m -XX:MaxPermSize=256m"
 
+# Gradle related opts
+GRADLE_OPTS="-Dorg.gradle.daemon=true"
+
 # General xetus development settings
 export xetus_dev_root=${HOME}/code/xetus
 export XETUS_IVY_SETTINGS=${xetus_dev_root}/config/ivy2/ivysettings.xml

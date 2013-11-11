@@ -1,6 +1,6 @@
 #!/bin/bash
-. $HOME/.shellrc
 . $HOME/.envrc
+. $HOME/.shellrc
 . $HOME/.gitrc
 . $HOME/.kvmrc
 . $HOME/openrc.sh
