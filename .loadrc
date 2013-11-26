@@ -1,4 +1,5 @@
 #!/bin/bash
+. $HOME/.vimrc
 . $HOME/.envrc
 . $HOME/.shellrc
 . $HOME/.gitrc
