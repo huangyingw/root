@@ -1,6 +1,5 @@
 *.#*
 *.bak
-*.bak
 *.class
 *.gch
 *.hg
@@ -10,7 +9,7 @@
 *.ncb
 *.o
 *.orig
-*.orig
+*.pyc
 *.sql.result
 *.suo
 *.swi
@@ -18,10 +17,7 @@
 *.swk
 *.swl
 *.swm
-*.swm
 *.swn
-*.swn
-*.swo
 *.swo
 *.swp
 *.war
@@ -30,7 +26,6 @@
 *devKeyStore
 .#*
 .svn
-.svn
 CVS
 build
 cscope.files
@@ -38,12 +33,9 @@ cscope.in.out
 cscope.out
 cscope.po.out
 error
-error
 find.cc
 ncscope.in.out
 ncscope.out
 ncscope.po.out
 run
-run
-~$*
 ~$*
