@@ -1,5 +1,6 @@
 *.#*
 *.bak
+*.bin
 *.class
 *.gch
 *.hg
