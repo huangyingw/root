@@ -17,5 +17,5 @@ export xetus_dev_root=${HOME}/code/xetus
 export XETUS_IVY_SETTINGS=${xetus_dev_root}/config/ivy2/ivysettings.xml
 
 # xetusone specific env variables
-export XETUS_ONE_ENV_CONFIG="${xetus_dev_root}/config/xetusone/core"
+export XETUS_ONE_ENV_CONFIG="${xetus_dev_root}/config/one/"
 export JAVA_OPTS="-Xms512m -Xmx1024m -XX:PermSize=256m -XX:MaxPermSize=512m -Dlog4j.debug=true"
