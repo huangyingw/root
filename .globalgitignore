@@ -40,3 +40,6 @@ ncscope.out
 ncscope.po.out
 run
 ~$*
+*.swg
+*.swf
+*.swh
