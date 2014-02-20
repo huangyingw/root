@@ -41,7 +41,6 @@ ncscope.po.out
 run
 ~$*
 *.swg
-*.swf
 *.swh
 doc/tags
 doc/tags-ja
