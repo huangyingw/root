@@ -13,6 +13,8 @@
 *.pyc
 *.sql.result
 *.suo
+*.swg
+*.swh
 *.swi
 *.swj
 *.swk
@@ -33,14 +35,13 @@ cscope.files
 cscope.in.out
 cscope.out
 cscope.po.out
+doc/tags
+doc/tags-ja
 error
 find.cc
+gfvd.already
 ncscope.in.out
 ncscope.out
 ncscope.po.out
 run
 ~$*
-*.swg
-*.swh
-doc/tags
-doc/tags-ja
