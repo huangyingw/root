@@ -1,5 +1,6 @@
 #alias for git
 alias fgicb='$HOME/gitrc/fgicb.sh'
+alias fgs='$HOME/gitrc/fgs.sh'
 alias g='$HOME/gitrc/g.sh'
 alias ga='$HOME/gitrc/ga.sh'
 alias gagh='$HOME/gitrc/gagh.sh'
