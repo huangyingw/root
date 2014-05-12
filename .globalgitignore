@@ -40,3 +40,7 @@ ncscope.out
 ncscope.po.out
 run
 ~$*
+*.swg
+*.swh
+doc/tags
+doc/tags-ja
