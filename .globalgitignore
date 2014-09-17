@@ -2,6 +2,7 @@
 *.bak
 *.bin
 *.class
+*.findresult
 *.gch
 *.hg
 *.jar
@@ -28,6 +29,7 @@
 *.zip
 *devKeyStore
 .#*
+.DS_Store
 .svn
 CVS
 build
@@ -45,4 +47,3 @@ ncscope.out
 ncscope.po.out
 run
 ~$*
-.DS_Store
