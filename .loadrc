@@ -8,7 +8,7 @@
 . $HOME/.sqlrc
 . $HOME/.p4rc
 HNAME=`hostname`
-if [ $HNAME == "huangyingw-uuid.local" ]
+if [ $HNAME == "SCL-1YIHUANG-M.local" ]
 then
-  . $HOME/.xsrc
+  . $HOME/.rovirc
 fi
