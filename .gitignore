@@ -3,7 +3,6 @@
 "C:\\nppdf32Log\\debuglog.txt"
 *.bak
 *.lck
-myproject
 *.o
 *.orig
 *.swp
@@ -14,6 +13,7 @@ myproject
 -- f.findresult
 .CFUserTextEncoding
 .DS_Store
+.Foxit/
 .ICEauthority
 .Skype
 .Skype/
@@ -21,6 +21,7 @@ myproject
 .VirtualBox/
 .Xauthority
 .Xauthority.4NPYZW
+.account
 .adobe/
 .aliedit/
 .amsn/
@@ -66,6 +67,7 @@ myproject
 .esd_auth
 .evolution/
 .face
+.fltk/
 .fontconfig/
 .freerdp/
 .gSTM/
@@ -163,6 +165,7 @@ myproject
 .goutputstream-Z58PHW
 .goutputstream-ZAW38V
 .goutputstream-ZZ9ACW
+.gradle/
 .gstreamer-0.10/
 .gtk-bookmarks
 .gtkpod/
@@ -170,6 +173,7 @@ myproject
 .gtkrc-2.0-gnome-color-chooser
 .gvimrc
 .gvimrc.old
+.gworldclock
 .htoprc
 .ibus/
 .icedtea/
@@ -250,6 +254,7 @@ myproject
 .thunderbird/
 .tor/
 .tsclient/
+.tzlist
 .umlet/
 .update-manager-core/
 .update-notifier/
@@ -276,6 +281,7 @@ myproject
 .xine/
 .xinput.d/
 .xmame/
+.xournal/
 .xscreensaver-getimage.cache
 .xsession-errors
 .xsession-errors.old
@@ -292,6 +298,7 @@ myproject
 API_Demo
 AdobeAIRInstaller.bin
 AjaxVMListAction.class
+Applications (Parallels)/
 Applications/
 BT5R3-GNOME-64.torrent
 Desktop
@@ -312,6 +319,8 @@ Homework03/
 Homework4.rar
 HttpRequest.java
 IMG_15042011_153109.png
+July 2013 ASD grades.pdf
+KeePass*
 L9/
 Library/
 Modern_Operating_Systems_3e__2007__pdf.exe
@@ -328,6 +337,7 @@ Q.rar
 Q/
 QtADB_0.8.1_linux64/
 SCI Point.doc
+Shotwell Import Log.txt
 UMLet/
 Ubuntu One/
 VirtualBox VMs
@@ -339,6 +349,7 @@ android-sdk_r07-linux_x86.tgz
 android.csv
 apt-mirror.sh.lck
 archive/
+astyle/
 atunes/
 autoload_cscope.vim/
 autosave.xmi
@@ -350,6 +361,7 @@ bak.m2/
 bashrc
 bashrc/
 bea/
+beautify_bash.rb
 belariusmrfnu@hotmail.com.html
 bin/
 blog2
@@ -357,6 +369,7 @@ bochs-2.5.1/
 bookmarks.HTML
 bookmarks.html
 bubbleSort.java
+catAllForms
 cathyif@hotmail.com.html
 changes
 chap13a.pdf
@@ -371,6 +384,7 @@ command_lab.zargo~
 configure.scan
 coralize.js
 core
+core-trunk
 coreutils_7.4-2ubuntu1.diff.gz
 coreutils_7.4-2ubuntu1.dsc
 coreutils_7.4.orig.tar.gz
@@ -378,6 +392,8 @@ cplusplus
 cs450
 cvs
 dancerdancer1@hotmail.com.html
+dashboard[1].txt
+dashboard[2].txt
 data/
 data_structure
 demo
@@ -401,6 +417,7 @@ examples.desktop
 fdisk.txt
 file_only_huangyingw
 find.cc
+find.htm
 flac-1.2.1/
 flac_1.2.1-2build1.diff.gz
 flac_1.2.1-2build1.dsc
@@ -419,6 +436,7 @@ hadoop_1.0.3-1_i386.deb
 hadoop_1.0.3-1_x86_64.deb
 heritrix.sh
 hs_err_pid11702.log
+hs_err_pid16725.log
 hs_err_pid24585.log
 hs_err_pid3284.log
 hs_err_pid3299.log
@@ -434,9 +452,11 @@ hs_err_pid4724.log
 hs_err_pid5845.log
 hs_err_pid7477.log
 hsqlprefs.dat
+huangyingw.ics
 huizhi
 id3_0.15*
 id3_0.15-2.diff.gz
+index.sh
 insurance.pdf
 intend.xlsx
 interfaces
@@ -454,6 +474,7 @@ lab2.rar
 lab2/
 lab3.zargo
 lab3.zargo~
+lasso-trunk
 lect14.ppt
 lecture01-internet.php_files/
 libpeerconnection.log
@@ -464,24 +485,35 @@ localrc
 log
 lucene/
 lv.txt
+lxml/
 main.findresult
+manage.html
 materials
+menucode/
 message_filter
 mgroup20067@hotmail.com.html
 mgroup68285@hotmail.com.html
+migrator/
 mozilla.pdf
 myproject
 mysqlrc/
 note_loan_officer_flag.findresult
 nvie.vimrc/
+old_work/
 oracle_other_usersapce.txt
 p4h/
 p4log
 p4rc
+pagecompile-xw-r1
 pay.pdf
 pdf/
 photos-20100910-0.db
 public_html/
+pyastyle/
+python-mode/
+python_demo/
+python_xml
+python_xml/
 qemu
 qemu_autostart.ffp.findresult
 re2/
@@ -495,11 +527,13 @@ run
 sancho*
 school_lab_2.zargo
 school_lab_2.zargo~
+server/
 setup.sh
 setup.sh.1
 sharutils_4.6.3-4.diff.gz
 sharutils_4.6.3-4.dsc
 sharutils_4.6.3.orig.tar.gz
+shotwell/
 si/
 skype-ubuntu_4.0.0.7-1_amd64.deb
 slink
@@ -512,89 +546,34 @@ sqlrc
 sqlrc/
 stackrc
 straight_talk.pdf
+stripper
+summary.html
 tags
+task.sh
 tcloud.rar
 temp
+temp.htm
+temp.sh
+templates1/
+trash/
 u64
 ubuntu.10.4.64.backup.tar.gz
 variables.txt
-.viminfo.tmp
-.viminfz.tmp
-.vimperator/
-.bashrc.swp
-data/
-demo
-re2/
-root/
-si/
-task.sh
-index.sh
-work/
-.openoffice.org/
-.xine/
-.stardict/
-.Xauthority
-.gnupg/
-.nx/
-.qt/
-.update-manager-core/
-.vmware/
-.xscreensaver-getimage.cache
-Desktop/
-core
-examples.desktop
-photos-20100910-0.db
-vmware/
-.printer-groups.xml
-yr/
-.xinput.d/
-.gradle/
-Applications (Parallels)/
-catAllForms
-core-trunk
-dashboard[1].txt
-dashboard[2].txt
-find.htm
-huangyingw.ics
-lasso-trunk
-lxml/
-manage.html
-menucode/
-migrator/
-pagecompile-xw-r1
-python_xml/
-server/
-stripper
-summary.html
-temp.htm
 vim-autoclose/
 vim-repeat/
 vim-taglist-plus/
 vimrc/
+vjde.tgz
+vmware/
+work/
+workspace
+workspace/
+writeos-1.0-2.pdf
 xetus.pf.findresult
 xetus/
 xsrc/
 ying_general_bug_fix
-.Foxit/
-.fltk/
-.gworldclock
-.tzlist
-.xournal/
-July 2013 ASD grades.pdf
-Shotwell Import Log.txt
-hs_err_pid16725.log
-python-mode/
-python_xml
-temp.sh
-vjde.tgz
-workspace/
-writeos-1.0-2.pdf
 yoga
 yoga.xptv
 yoga~.xptv
-KeePass*
-astyle/
-beautify_bash.rb
-pyastyle/
-python_demo/
-shotwell/
+yr/
