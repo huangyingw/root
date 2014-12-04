@@ -41,6 +41,7 @@
 .bashrc.swg
 .bashrc.swh
 .bashrc.swp
+.boot2docker/
 .byobu/
 .cache
 .cache/
@@ -225,6 +226,7 @@
 .pps/
 .printer-groups.xml
 .profile
+.profile.macports-saved_2014-11-23_at_20:53:55
 .pulse-cookie
 .pulse/
 .qt/
