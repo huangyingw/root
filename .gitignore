@@ -41,6 +41,7 @@
 .bashrc.swg
 .bashrc.swh
 .bashrc.swp
+.berkshelf/
 .boot2docker/
 .byobu/
 .cache
@@ -229,6 +230,7 @@
 .profile.macports-saved_2014-11-23_at_20:53:55
 .pulse-cookie
 .pulse/
+.python_history
 .qt/
 .recently-used.xbel
 .recoll/
@@ -261,6 +263,7 @@
 .update-manager-core/
 .update-notifier/
 .usbcreator.log
+.vagrant.d/
 .vidalia/
 .vifm/
 .vim-fuf-data/
@@ -300,7 +303,7 @@
 API_Demo
 AdobeAIRInstaller.bin
 AjaxVMListAction.class
-Applications (Parallels)/
+Android/
 Applications/
 BT5R3-GNOME-64.torrent
 Desktop
@@ -343,12 +346,14 @@ Shotwell Import Log.txt
 UMLet/
 Ubuntu One/
 VirtualBox VMs
+WORKING_DIRECTORY/
 a.img
 added
 addon_update_checker-1.12-sm+tb+fx.xpi
 android-sdk-linux_x86/
 android-sdk_r07-linux_x86.tgz
 android.csv
+api-umbrella
 apt-mirror.sh.lck
 archive/
 astyle/
@@ -436,6 +441,7 @@ gui
 hadoop-1.0.3/
 hadoop_1.0.3-1_i386.deb
 hadoop_1.0.3-1_x86_64.deb
+help.txt
 heritrix.sh
 hs_err_pid11702.log
 hs_err_pid16725.log
@@ -458,6 +464,7 @@ huangyingw.ics
 huizhi
 id3_0.15*
 id3_0.15-2.diff.gz
+ide/
 index.sh
 insurance.pdf
 intend.xlsx
@@ -485,6 +492,7 @@ libunwind-0.99-beta.tar.gz
 license.dat
 localrc
 log
+logs/
 lucene/
 lv.txt
 lxml/
@@ -509,6 +517,7 @@ p4rc
 pagecompile-xw-r1
 pay.pdf
 pdf/
+perlrc
 photos-20100910-0.db
 public_html/
 pyastyle/
@@ -529,6 +538,7 @@ run
 sancho*
 school_lab_2.zargo
 school_lab_2.zargo~
+sed.txt
 server/
 setup.sh
 setup.sh.1
@@ -550,25 +560,32 @@ stackrc
 straight_talk.pdf
 stripper
 summary.html
+svnrc/
 tags
 task.sh
 tcloud.rar
 temp
 temp.htm
+temp.json
 temp.sh
 templates1/
 trash/
+trunk/
 u64
 ubuntu.10.4.64.backup.tar.gz
 variables.txt
 vim-autoclose/
+vim-indexed-search/
 vim-repeat/
 vim-taglist-plus/
+vimrc
 vimrc/
+vishrc
 vjde.tgz
 vmware/
 work/
 workspace
+workspace-sts-3.6.1.RELEASE
 workspace/
 writeos-1.0-2.pdf
 xetus.pf.findresult
