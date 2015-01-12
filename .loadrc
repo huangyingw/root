@@ -7,8 +7,11 @@
 . $HOME/.hgrc
 . $HOME/.sqlrc
 . $HOME/.p4rc
+. $HOME/.svnrc
+. $HOME/.androidrc
+
 HNAME=`hostname`
-if [ $HNAME == "huangyingw-uuid.local" ]
+if [ $HNAME == "scl-1yihuang-m.corporate.local" ]
 then
-  . $HOME/.xsrc
+  . $HOME/.rovirc
 fi
