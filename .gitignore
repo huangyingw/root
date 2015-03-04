@@ -243,6 +243,8 @@
 .screen-profiles/
 .screenrc
 .selected_editor
+.serverauth.25145
+.serverauth.4386
 .shotwell/
 .sn/
 .ssh/
@@ -397,6 +399,7 @@ coreutils_7.4-2ubuntu1.dsc
 coreutils_7.4.orig.tar.gz
 cplusplus
 cs450
+cscope_result
 cvs
 dancerdancer1@hotmail.com.html
 dashboard[1].txt
@@ -411,6 +414,7 @@ dillbeck.pdf
 disable_graph.sh
 disk_list.txt
 dmidecode.txt
+dockerrc/
 doctorjs/
 dropbox_1.4.0_amd64.deb
 eclipse
@@ -490,6 +494,7 @@ libpeerconnection.log
 libunwind-0.99-beta
 libunwind-0.99-beta.tar.gz
 license.dat
+loadrc/
 localrc
 log
 logs/
@@ -535,6 +540,7 @@ return.pdf
 rlog
 root/
 run
+samba/
 sancho*
 school_lab_2.zargo
 school_lab_2.zargo~
@@ -545,6 +551,7 @@ setup.sh.1
 sharutils_4.6.3-4.diff.gz
 sharutils_4.6.3-4.dsc
 sharutils_4.6.3.orig.tar.gz
+shotwell
 shotwell/
 si/
 skype-ubuntu_4.0.0.7-1_amd64.deb
@@ -580,6 +587,7 @@ vim-repeat/
 vim-taglist-plus/
 vimrc
 vimrc/
+vishrc
 vishrc/
 vjde.tgz
 vmware/
@@ -596,8 +604,3 @@ yoga
 yoga.xptv
 yoga~.xptv
 yr/
-shotwell
-cscope_result
-dockerrc/
-vishrc
-samba/
