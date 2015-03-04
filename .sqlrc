@@ -1,3 +1,0 @@
-alias fsql='$HOME/sqlrc/fsql.sh'
-alias mysqlback='$HOME/sqlrc/mysqlback.sh'
-alias xsql='$HOME/sqlrc/xsql.sh'
