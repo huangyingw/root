@@ -1,1 +1,1 @@
-vimrc/.vim
+loadrc/vimrc/.vim

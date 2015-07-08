@@ -190,7 +190,6 @@
 .jdeveloper
 .jindent/
 .kde/
-.kdiff3rc
 .keepassx/
 .kinorc
 .kodos/
@@ -605,3 +604,11 @@ yoga.xptv
 yoga~.xptv
 yr/
 loadrc
+.p2/
+.serverauth.2564
+id_rsa.pub.txt
+leetcode
+result.txt
+test.xml
+test/
+.xinputrc
