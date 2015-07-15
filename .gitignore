@@ -217,7 +217,9 @@
 .openoffice.org/
 .openshot/
 .org.eclipse.epp.usagedata.recording.userId
+.p2/
 .pam_environment
+.parallels/
 .passwd
 .pdfedit/
 .pdfstudio7/
@@ -242,7 +244,9 @@
 .screen-profiles/
 .screenrc
 .selected_editor
+.serverauth.*
 .serverauth.25145
+.serverauth.2564
 .serverauth.4386
 .shotwell/
 .sn/
@@ -286,6 +290,7 @@
 .wireshark/
 .xine/
 .xinput.d/
+.xinputrc
 .xmame/
 .xournal/
 .xscreensaver-getimage.cache
@@ -305,6 +310,7 @@ API_Demo
 AdobeAIRInstaller.bin
 AjaxVMListAction.class
 Android/
+Applications (Parallels)/
 Applications/
 BT5R3-GNOME-64.torrent
 Desktop
@@ -467,6 +473,7 @@ huangyingw.ics
 huizhi
 id3_0.15*
 id3_0.15-2.diff.gz
+id_rsa.pub.txt
 ide/
 index.sh
 insurance.pdf
@@ -489,10 +496,12 @@ lab3.zargo~
 lasso-trunk
 lect14.ppt
 lecture01-internet.php_files/
+leetcode
 libpeerconnection.log
 libunwind-0.99-beta
 libunwind-0.99-beta.tar.gz
 license.dat
+loadrc
 loadrc/
 localrc
 log
@@ -535,6 +544,7 @@ re2/
 readlink.findresult
 res.db
 resolv.conf
+result.txt
 return.pdf
 rlog
 root/
@@ -575,6 +585,8 @@ temp.htm
 temp.json
 temp.sh
 templates1/
+test.xml
+test/
 trash/
 trunk/
 u64
@@ -603,13 +615,3 @@ yoga
 yoga.xptv
 yoga~.xptv
 yr/
-loadrc
-.p2/
-.serverauth.2564
-id_rsa.pub.txt
-leetcode
-result.txt
-test.xml
-test/
-.xinputrc
-.parallels/
