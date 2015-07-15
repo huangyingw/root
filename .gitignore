@@ -538,7 +538,6 @@ python-mode/
 python_demo/
 python_xml
 python_xml/
-qemu
 qemu_autostart.ffp.findresult
 re2/
 readlink.findresult
