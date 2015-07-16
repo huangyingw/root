@@ -1,0 +1,4 @@
+<network>
+  <name>default</name>
+  <bridge name="br0" />
+</network>
