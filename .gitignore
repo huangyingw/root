@@ -24,11 +24,13 @@
 .account
 .adobe/
 .aliedit/
+.amb
 .amsn/
 .android/
 .anyconnect
 .appdata/
 .appletviewer
+.apport-ignore.xml
 .aptitude/
 .apvlvinfo
 .argouml/
@@ -237,6 +239,7 @@
 .recoll/
 .rednotebook/
 .remmina/
+.repo_.gitconfig.json
 .repoconfig/
 .repopickle_.gitconfig
 .rnd
@@ -275,6 +278,7 @@
 .vim.old
 .viminfo
 .viminfo.tmp
+.viminfw.tmp
 .viminfy.tmp
 .viminfz.tmp
 .vimperator/
@@ -411,6 +415,7 @@ dashboard[1].txt
 dashboard[2].txt
 data/
 data_structure
+ddwrt
 demo
 df.txt
 diff.cc
@@ -420,6 +425,7 @@ disable_graph.sh
 disk_list.txt
 dmidecode.txt
 dockerrc/
+dockers
 doctorjs/
 dropbox_1.4.0_amd64.deb
 eclipse
@@ -482,6 +488,7 @@ interfaces
 ipad
 jarpackage/
 kernel-3.10_rc5
+keyfile
 ks.cfg
 ks.cfg.1
 kvm
@@ -497,6 +504,7 @@ lasso-trunk
 lect14.ppt
 lecture01-internet.php_files/
 leetcode
+libgtk-3-dev_3.14.8-0ubuntu1_i386.deb
 libpeerconnection.log
 libunwind-0.99-beta
 libunwind-0.99-beta.tar.gz
@@ -538,7 +546,6 @@ python-mode/
 python_demo/
 python_xml
 python_xml/
-qemu
 qemu_autostart.ffp.findresult
 re2/
 readlink.findresult
