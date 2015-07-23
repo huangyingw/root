@@ -1,10 +1,5 @@
-[MainWindow]
-Height 1057=1058
-State=AAAA/wAAAAD9AAAAAAAAB4AAAAOvAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
-ToolBarsMovable=Disabled
-Width 1920=1921
 [KDiff3 Options]
-AutoAdvance=false
+AutoAdvance=true
 AutoAdvanceDelay=500
 AutoCopySelection=false
 AutoDetectUnicodeA=true
@@ -96,3 +91,11 @@ WhiteSpace3FileMergeDefault=0
 WhiteSpaceEqual=true
 WindowStateMaximised=true
 WordWrap=true
+
+[MainWindow]
+Height 1057=1058
+Height 768=769
+State=AAAA/wAAAAD9AAAAAAAABVYAAAJnAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1366=1367
+Width 1920=1921
