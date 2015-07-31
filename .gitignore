@@ -24,11 +24,13 @@
 .account
 .adobe/
 .aliedit/
+.amb
 .amsn/
 .android/
 .anyconnect
 .appdata/
 .appletviewer
+.apport-ignore.xml
 .aptitude/
 .apvlvinfo
 .argouml/
@@ -217,7 +219,9 @@
 .openoffice.org/
 .openshot/
 .org.eclipse.epp.usagedata.recording.userId
+.p2/
 .pam_environment
+.parallels/
 .passwd
 .pdfedit/
 .pdfstudio7/
@@ -235,6 +239,7 @@
 .recoll/
 .rednotebook/
 .remmina/
+.repo_.gitconfig.json
 .repoconfig/
 .repopickle_.gitconfig
 .rnd
@@ -242,7 +247,9 @@
 .screen-profiles/
 .screenrc
 .selected_editor
+.serverauth.*
 .serverauth.25145
+.serverauth.2564
 .serverauth.4386
 .shotwell/
 .sn/
@@ -271,6 +278,7 @@
 .vim.old
 .viminfo
 .viminfo.tmp
+.viminfw.tmp
 .viminfy.tmp
 .viminfz.tmp
 .vimperator/
@@ -286,6 +294,7 @@
 .wireshark/
 .xine/
 .xinput.d/
+.xinputrc
 .xmame/
 .xournal/
 .xscreensaver-getimage.cache
@@ -305,6 +314,7 @@ API_Demo
 AdobeAIRInstaller.bin
 AjaxVMListAction.class
 Android/
+Applications (Parallels)/
 Applications/
 BT5R3-GNOME-64.torrent
 Desktop
@@ -405,6 +415,7 @@ dashboard[1].txt
 dashboard[2].txt
 data/
 data_structure
+ddwrt
 demo
 df.txt
 diff.cc
@@ -414,6 +425,7 @@ disable_graph.sh
 disk_list.txt
 dmidecode.txt
 dockerrc/
+dockers
 doctorjs/
 dropbox_1.4.0_amd64.deb
 eclipse
@@ -467,6 +479,7 @@ huangyingw.ics
 huizhi
 id3_0.15*
 id3_0.15-2.diff.gz
+id_rsa.pub.txt
 ide/
 index.sh
 insurance.pdf
@@ -475,6 +488,7 @@ interfaces
 ipad
 jarpackage/
 kernel-3.10_rc5
+keyfile
 ks.cfg
 ks.cfg.1
 kvm
@@ -489,10 +503,13 @@ lab3.zargo~
 lasso-trunk
 lect14.ppt
 lecture01-internet.php_files/
+leetcode
+libgtk-3-dev_3.14.8-0ubuntu1_i386.deb
 libpeerconnection.log
 libunwind-0.99-beta
 libunwind-0.99-beta.tar.gz
 license.dat
+loadrc
 loadrc/
 localrc
 log
@@ -529,12 +546,12 @@ python-mode/
 python_demo/
 python_xml
 python_xml/
-qemu
 qemu_autostart.ffp.findresult
 re2/
 readlink.findresult
 res.db
 resolv.conf
+result.txt
 return.pdf
 rlog
 root/
@@ -575,6 +592,8 @@ temp.htm
 temp.json
 temp.sh
 templates1/
+test.xml
+test/
 trash/
 trunk/
 u64
@@ -603,13 +622,3 @@ yoga
 yoga.xptv
 yoga~.xptv
 yr/
-loadrc
-.p2/
-.serverauth.2564
-id_rsa.pub.txt
-leetcode
-result.txt
-test.xml
-test/
-.xinputrc
-.parallels/
