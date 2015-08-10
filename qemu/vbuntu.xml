@@ -47,7 +47,7 @@ or other application using the libvirt API.
     </controller>
     <controller type='pci' index='0' model='pci-root'/>
     <interface type='bridge'>
-      <mac address='b2:a4:00:5c:d2:19'/>
+      <mac address='a2:a4:10:5c:d2:19'/>
       <source bridge='br0'/>
       <model type='virtio'/>
       <address type='pci' domain='0x0000' bus='0x00' slot='0x03' function='0x0'/>
