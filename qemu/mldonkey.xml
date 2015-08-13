@@ -30,13 +30,13 @@ or other application using the libvirt API.
     <emulator>/usr/bin/kvm</emulator>
     <disk type='file' device='disk'>
       <driver name='qemu' type='qcow2'/>
-      <source file='/media/vmware/kvm/mldonkey/mldonkey.qcow2'/>
+      <source file='/media/volgrp/kvm/mldonkey/mldonkey.qcow2'/>
       <target dev='vda' bus='virtio'/>
       <address type='pci' domain='0x0000' bus='0x00' slot='0x04' function='0x0'/>
     </disk>
     <disk type='file' device='cdrom'>
       <driver name='qemu' type='raw'/>
-      <source file='/media/volgrp/software/system_tools/clonezilla/clonezilla-live-1.2.12-37-amd64.iso'/>
+      <source file='/media/volgrp/software/os/ubuntu/14.10/ubuntu-14.10-desktop-amd64.iso'/>
       <target dev='hdc' bus='ide'/>
       <readonly/>
       <address type='drive' controller='0' bus='1' target='0' unit='0'/>
@@ -68,12 +68,6 @@ or other application using the libvirt API.
       <model type='cirrus' vram='9216' heads='1'/>
       <address type='pci' domain='0x0000' bus='0x00' slot='0x02' function='0x0'/>
     </video>
-    <hostdev mode='subsystem' type='usb' managed='yes'>
-      <source>
-        <vendor id='0x11b0'/>
-        <product id='0x6298'/>
-      </source>
-    </hostdev>
     <memballoon model='virtio'>
       <address type='pci' domain='0x0000' bus='0x00' slot='0x05' function='0x0'/>
     </memballoon>
