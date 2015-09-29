@@ -7,7 +7,7 @@ or other application using the libvirt API.
 
 <domain type='kvm'>
   <name>av</name>
-  <uuid>21057906-4d62-13ab-130c-1be0467e7109</uuid>
+  <uuid>f1051906-4d62-13ab-b30c-1be0467e7109</uuid>
   <memory unit='KiB'>6096000</memory>
   <currentMemory unit='KiB'>4096000</currentMemory>
   <vcpu placement='static'>4</vcpu>
