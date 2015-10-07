@@ -83,6 +83,7 @@
 .gitk
 .gksu.lock
 .gnome-color-chooser/
+.gnome/
 .gnome2/
 .gnupg/
 .goutputstream-131PGW
@@ -196,6 +197,7 @@
 .kinorc
 .kodos/
 .kompozer.net/
+.lastpass/
 .launchpadlib/
 .lesshst
 .libreoffice/
@@ -218,6 +220,7 @@
 .nx/
 .openoffice.org/
 .openshot/
+.opera/
 .org.eclipse.epp.usagedata.recording.userId
 .p2/
 .pam_environment
@@ -228,6 +231,7 @@
 .pip/
 .pki/
 .pps/
+.presage/
 .printer-groups.xml
 .profile
 .profile.macports-saved_2014-11-23_at_20:53:55
@@ -436,6 +440,7 @@ eglibc_2.10.1-0ubuntu15.dsc
 en-cn@hotmail.com.html
 example.js
 examples.desktop
+fav
 fdisk.txt
 file_only_huangyingw
 find.cc
@@ -622,5 +627,3 @@ yoga
 yoga.xptv
 yoga~.xptv
 yr/
-fav
-.lastpass/
