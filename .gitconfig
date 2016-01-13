@@ -69,4 +69,4 @@
 	smudge = git media smudge %f
 	required = true
 [push]
-	default = matching
+	default = current
