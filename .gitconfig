@@ -1,6 +1,6 @@
 [user]
-  name = huangyingw@linux_programming
-  email = huangyingw@gmail.com
+  name = Ying Huang
+  email = yinghuang@tutor-group.com
 [merge]
   tool = kdiff3
 [color]
@@ -69,4 +69,4 @@
 	smudge = git media smudge %f
 	required = true
 [push]
-	default = matching
+	default = current
