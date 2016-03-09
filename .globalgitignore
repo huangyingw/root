@@ -5,7 +5,6 @@
 *.findresult
 *.gch
 *.hg
-*.jar
 *.keystore
 *.loT
 *.ncb
