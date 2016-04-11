@@ -1,6 +1,6 @@
 [user]
   name = Ying Huang
-  email = yinghuang@tutor-group.com
+  email = yinghuang@itutorgroup.com
 [merge]
   tool = kdiff3
 [color]
@@ -43,7 +43,7 @@
   prompt = true
 [core]
   excludesfile = "~/.globalgitignore"
-	mergeoptions = --no-edit
+  mergeoptions = --no-edit
 [color]
   ui = auto
 [giggle]
@@ -53,8 +53,8 @@
   main-window-view = HistoryView
   file-view-vpane-position = 609
 [filter "media"]
-	clean = git media clean %f
-	smudge = git media smudge %f
-	required = true
+  clean = git media clean %f
+  smudge = git media smudge %f
+  required = true
 [push]
-	default = current
+  default = current
