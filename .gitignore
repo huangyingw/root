@@ -61,6 +61,7 @@
 .dbus/
 .dia/
 .dmrc
+.docker/machine/
 .dropbox-dist/
 .dropbox/
 .dvdcss/
@@ -179,6 +180,7 @@
 .gvimrc
 .gvimrc.old
 .gworldclock
+.hgignore_global
 .htoprc
 .ibus/
 .icedtea/
@@ -217,6 +219,7 @@
 .netbeans-derby/
 .netbeans/
 .netx/
+.npm/
 .nx/
 .openoffice.org/
 .openshot/
@@ -561,6 +564,8 @@ return.pdf
 rlog
 root/
 run
+run.json
+run.sh
 samba/
 sancho*
 school_lab_2.zargo
