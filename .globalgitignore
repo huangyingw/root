@@ -1,7 +1,6 @@
 *.#*
 *.bak
 *.bin
-*.class
 *.findresult
 *.gch
 *.hg
@@ -23,7 +22,6 @@
 *.swn
 *.swo
 *.swp
-*.war
 *.xls
 *.zip
 *devKeyStore
