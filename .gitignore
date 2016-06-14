@@ -219,11 +219,13 @@
 .netbeans-derby/
 .netbeans/
 .netx/
+.node-gyp/
 .npm/
 .nx/
 .openoffice.org/
 .openshot/
 .opera/
+.oracle_jre_usage/
 .org.eclipse.epp.usagedata.recording.userId
 .p2/
 .pam_environment
@@ -324,6 +326,7 @@ Android/
 Applications (Parallels)/
 Applications/
 BT5R3-GNOME-64.torrent
+BareReps
 Desktop
 Desktop/
 Documents/
@@ -631,4 +634,3 @@ ying_general_bug_fix
 yoga
 yoga.xptv
 yoga~.xptv
-yr/
