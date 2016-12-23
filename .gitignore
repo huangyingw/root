@@ -61,6 +61,7 @@
 .dbus/
 .dia/
 .dmrc
+.docker/machine/
 .dropbox-dist/
 .dropbox/
 .dvdcss/
@@ -179,6 +180,7 @@
 .gvimrc
 .gvimrc.old
 .gworldclock
+.hgignore_global
 .htoprc
 .ibus/
 .icedtea/
@@ -217,10 +219,13 @@
 .netbeans-derby/
 .netbeans/
 .netx/
+.node-gyp/
+.npm/
 .nx/
 .openoffice.org/
 .openshot/
 .opera/
+.oracle_jre_usage/
 .org.eclipse.epp.usagedata.recording.userId
 .p2/
 .pam_environment
@@ -321,6 +326,7 @@ Android/
 Applications (Parallels)/
 Applications/
 BT5R3-GNOME-64.torrent
+BareReps
 Desktop
 Desktop/
 Documents/
@@ -561,6 +567,8 @@ return.pdf
 rlog
 root/
 run
+run.json
+run.sh
 samba/
 sancho*
 school_lab_2.zargo
@@ -626,4 +634,3 @@ ying_general_bug_fix
 yoga
 yoga.xptv
 yoga~.xptv
-yr/
