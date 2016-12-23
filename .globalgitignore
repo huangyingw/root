@@ -13,6 +13,8 @@
 *.pyc
 *.sql.result
 *.suo
+*.swe
+*.swf
 *.swg
 *.swh
 *.swi
