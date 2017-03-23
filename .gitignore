@@ -1,6 +1,26 @@
-".~lock.yx\351\237\263\347\256\261.xlsx#"
-"8Some_good_python_interview_questions_\302\253_techMyway.txt"
-"C:\\nppdf32Log\\debuglog.txt"
+.config/Trolltech.conf
+.config/compiz-1/
+.config/dconf/
+.config/evolution/
+.config/gnome-mplayer/
+.config/gtk-3.0/
+.config/ibus/
+.config/libaccounts-glib/
+.config/mimeapps.list
+.config/monitors.xml
+.config/nautilus/
+.config/pulse/
+.config/smplayer/favorites.m3u8
+.config/smplayer/player_info.ini
+.config/smplayer/radio.m3u8
+.config/smplayer/smplayer.ini
+.config/smplayer/styles.ass
+.config/smplayer/tv.m3u8
+.config/totem/
+.config/unity/
+.config/user-dirs.dirs
+.config/user-dirs.locale
+.config/yarpen.cz/
 *.bak
 *.lck
 *.o
@@ -54,8 +74,6 @@
 .cola
 .compiz-1/
 .compiz/
-.config
-.config/
 .cups/
 .cvspass
 .dbus/
@@ -327,6 +345,7 @@ Applications (Parallels)/
 Applications/
 BT5R3-GNOME-64.torrent
 BareReps
+Changes not staged for commit:
 Desktop
 Desktop/
 Documents/
@@ -355,6 +374,7 @@ Movies/
 Music/
 Music/114336.mp3
 NetBeansProjects
+On branch dev.fix
 Oracle
 PPStream.deb
 Pictures/
@@ -366,6 +386,7 @@ SCI Point.doc
 Shotwell Import Log.txt
 UMLet/
 Ubuntu One/
+Untracked files:
 VirtualBox VMs
 WORKING_DIRECTORY/
 a.img
@@ -539,6 +560,7 @@ migrator/
 mozilla.pdf
 myproject
 mysqlrc/
+no changes added to commit (use "git add" and/or "git commit -a")
 note_loan_officer_flag.findresult
 nvie.vimrc/
 old_work/
