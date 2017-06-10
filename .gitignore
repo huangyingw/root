@@ -656,3 +656,9 @@ ying_general_bug_fix
 yoga
 yoga.xptv
 yoga~.xptv
+.bash_sessions/
+.config/.mono/
+.config/configstore/
+.config/filezilla/
+.config/sqlitestudio/
+files.proj
