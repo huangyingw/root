@@ -60,4 +60,3 @@ set geometry(pwsash1) "1671 1"
 set geometry(botwidth) 1450
 set geometry(botheight) 628
 set permviews {}
-set ignorespace 1
