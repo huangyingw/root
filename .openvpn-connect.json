@@ -1,0 +1,17 @@
+{
+  "black_and_white_icons": false, 
+  "hide_toolbar_duration": false, 
+  "http_proxy": "", 
+  "last_connect": {
+    "host": "vpn.dmz.imvu.com", 
+    "user": "yhuang"
+  }, 
+  "preferred_hosts": {
+    "vpn.dmz.imvu.com": "vpn.dmz.imvu.com"
+  }, 
+  "recent": {
+    "vpn.dmz.imvu.com": "yhuang"
+  }, 
+  "verbose_tooltip": false, 
+  "vpn_proto": "adaptive"
+}
