@@ -20,6 +20,15 @@
                 "vendor_id": 1118
             },
             "ignore": false
+        }, {
+            "disable_built_in_keyboard_if_exists": false,
+            "identifiers": {
+                "is_keyboard": true,
+                "is_pointing_device": false,
+                "product_id": 50475,
+                "vendor_id": 1133
+            },
+            "ignore": true
         }],
         "fn_function_keys": {
             "f1": "display_brightness_decrement",
@@ -27,17 +36,19 @@
             "f11": "volume_decrement",
             "f12": "volume_increment",
             "f2": "display_brightness_increment",
-            "f3": "mission_control",
-            "f4": "launchpad",
-            "f5": "illumination_decrement",
+            "f3": "f3",
+            "f4": "f4",
+            "f5": "f5",
             "f6": "illumination_increment",
-            "f7": "rewind",
-            "f8": "play_or_pause",
+            "f7": "volume_decrement",
+            "f8": "f8",
             "f9": "fastforward"
         },
         "name": "Default profile",
         "selected": true,
         "simple_modifications": {
+            "f7": "volume_decrement",
+            "f8": "volume_increment",
             "left_command": "left_option",
             "left_option": "left_command",
             "right_command": "right_option",
